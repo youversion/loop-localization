@@ -10,6 +10,9 @@ msgstr ""
 "X-Crowdin-SourceKey: msgstr\n"
 "X-Generator: Babel 2.0\n"
 
+msgid "hackathon"
+msgstr "Hackathon"
+
 msgid "about"
 msgstr "About"
 
@@ -132,4 +135,3 @@ msgstr "Videos"
 
 msgid "weeksAgo"
 msgstr "%1$sw"
-
