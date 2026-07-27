@@ -60,19 +60,18 @@ have:
 
 Ported from youversion-flutter-loop/scripts/crowdin_sync.py, trimmed to just
 the `.po` pull/push pipeline (no Dart/babel generation, since this repo is
-platform-agnostic).
+platform-agnostic). The pull step itself lives in scripts/update_strings.py
+(same split as loop-ios's update_strings.py / crowdin_sync.py) so it can be
+run and tested standalone.
 """
 
 import argparse
 import os
-import shutil
 import subprocess
 import sys
 from pathlib import Path
 
 CROWDIN_DIR = Path("crowdin")
-BUNDLE_DIR = CROWDIN_DIR / "bundle"
-EN_STRINGS_DIR = Path("strings/en")
 
 # Rolling branch + PR settings (override via env in CI if needed).
 BRANCH = os.environ.get("CROWDIN_SYNC_BRANCH", "chore/crowdin-sync")
@@ -217,37 +216,11 @@ def push_new_strings(dry_run=False):
 
 
 def download_sources():
-    """Re-download English .po files as currently stored on Crowdin.
-
-    This is what self-heals strings/en/ after a Crowdin-UI-side edit or
-    deletion. There is no `download sources`/`file download` shortcut for
-    this in crowdin-cli 4.12.0 (see module docstring NOTE) -- bundle download
-    is the only verified mechanism (same approach loop-ios and
-    youversion-flutter-loop use for their own pulls), so this requires a
-    Crowdin bundle already scoped to these files, identified by
-    `CROWDIN_BUNDLE_ID`.
-    """
-    bundle_id = require_env("CROWDIN_BUNDLE_ID")
-
-    if BUNDLE_DIR.exists():
-        shutil.rmtree(BUNDLE_DIR)
-    BUNDLE_DIR.mkdir(parents=True)
-
-    run(["crowdin", "bundle", "download", bundle_id, "--base-path", "bundle"], cwd=str(CROWDIN_DIR))
-
-    en_dirs = [
-        d for d in BUNDLE_DIR.rglob("*")
-        if d.is_dir() and d.name in ("en", "en-US")
-    ]
-    if not en_dirs:
-        sys.exit(
-            f"ERROR: no en/en-US directory found in bundle {bundle_id} under {BUNDLE_DIR}. "
-            "Confirm CROWDIN_BUNDLE_ID points to a bundle that exports strings/en/*.po."
-        )
-
-    EN_STRINGS_DIR.mkdir(parents=True, exist_ok=True)
-    for po_file in en_dirs[0].glob("*.po"):
-        shutil.copy2(po_file, EN_STRINGS_DIR / po_file.name)
+    # Re-download strings/en/*.po as currently stored on Crowdin -- self-heals
+    # the repo after a Crowdin-UI-side edit or deletion. See
+    # scripts/update_strings.py for why this needs a bundle (CROWDIN_BUNDLE_ID)
+    # rather than a plain `crowdin download`.
+    run([sys.executable, "scripts/update_strings.py"])
 
 
 def preview_output_changes():

@@ -1,0 +1,4 @@
+.idea/
+crowdin/bundle/
+__pycache__/
+*.pyc
