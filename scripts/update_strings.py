@@ -9,27 +9,44 @@ This re-downloads strings/en/*.po as currently stored on Crowdin -- what
 self-heals the repo after a Crowdin-UI-side edit or deletion. There is no
 `download sources`/`file download` shortcut for a source-only pull in
 crowdin-cli 4.12.0 -- `crowdin download`/`file download` only export
-*translations*. Bundle download is the only verified mechanism (same
-approach loop-ios's scripts/update_strings.py and
-youversion-flutter-loop's packages/localization/crowdin/update-strings use
-for their own pulls), so this requires a Crowdin bundle already scoped to
-these files and configured with "include source language", identified by
-env var CROWDIN_BUNDLE_ID.
+*translations*.
+
+Uses Crowdin bundle 13 (the same bundle youversion-flutter-loop's own pull
+pipeline uses) -- confirmed via a live download that it's scoped to exactly
+"Bible Loop (Master)/*.po" (all 30 files, matching this repo's strings/en/,
+minus licenses.po which isn't Crowdin-sourced) and includes the en-US
+(source language) XLIFF export alongside translations. Unlike
+youversion-flutter-loop, this script parses the XLIFF directly with the
+stdlib (no vendored `babel` binary) since this repo is platform-agnostic and
+only needs the source language back out, not generated Dart.
+
+XLIFF plural entries are wrapped in <group restype="x-gettext-plurals"> with
+one <trans-unit id="NNNN[i]" resname="key"> per plural form, indexed by the
+bracketed suffix on `id` (0 = "one", 1 = "other" for English). Regular
+entries are plain <trans-unit resname="key"><source>...</source></trans-unit>
+outside any group.
 
 Requires ``crowdin`` CLI and ``CROWDIN_API_TOKEN`` (see crowdin/crowdin.yml).
+Override the bundle via env var CROWDIN_BUNDLE_ID if 13 ever changes.
 """
 
 from __future__ import annotations
 
 import os
+import re
 import shutil
 import subprocess
 import sys
+import xml.etree.ElementTree as ET
 from pathlib import Path
 
 CROWDIN_DIR = Path("crowdin")
 BUNDLE_DIR = CROWDIN_DIR / "bundle"
 EN_STRINGS_DIR = Path("strings/en")
+DEFAULT_BUNDLE_ID = "13"
+
+XLIFF_NS = "{urn:oasis:names:tc:xliff:document:1.2}"
+_PLURAL_INDEX_RE = re.compile(r"\[(\d+)\]$")
 
 
 def repo_root() -> Path:
@@ -41,13 +58,6 @@ def repo_root() -> Path:
             text=True,
         ).stdout.strip()
     )
-
-
-def require_env(name: str) -> str:
-    value = os.environ.get(name)
-    if not value:
-        sys.exit(f"ERROR: required environment variable {name} is unset or empty")
-    return value
 
 
 def run(cmd: list[str], *, cwd: Path | None = None) -> None:
@@ -69,29 +79,103 @@ def download_bundle(root: Path, bundle_id: str) -> Path:
     return bundle_dir
 
 
-def find_en_dir(bundle_dir: Path) -> Path:
-    en_dirs = [d for d in bundle_dir.rglob("*") if d.is_dir() and d.name in ("en", "en-US")]
-    if not en_dirs:
+def find_source_xliff(bundle_dir: Path) -> Path:
+    candidates = sorted(bundle_dir.glob("en-US.xliff")) or sorted(bundle_dir.glob("en.xliff"))
+    if not candidates:
         raise FileNotFoundError(
-            f"No en/en-US directory found under {bundle_dir}. "
-            "Confirm CROWDIN_BUNDLE_ID points to a bundle that exports "
-            "strings/en/*.po with source language included."
+            f"No en-US.xliff/en.xliff found under {bundle_dir}. "
+            "Confirm the bundle includes the source language."
         )
-    return en_dirs[0]
+    return candidates[0]
+
+
+def po_escape(value: str) -> str:
+    return (
+        value.replace("\\", "\\\\")
+        .replace('"', '\\"')
+        .replace("\n", "\\n")
+        .replace("\t", "\\t")
+    )
+
+
+def element_text(el: ET.Element | None) -> str:
+    return el.text or "" if el is not None else ""
+
+
+def parse_xliff_files(xliff_path: Path) -> dict[str, list[tuple[str, list[str]]]]:
+    """Return {po_filename: [(key, [form values...]), ...]}, order preserved."""
+    root = ET.parse(xliff_path).getroot()
+    files: dict[str, list[tuple[str, list[str]]]] = {}
+
+    for file_el in root.findall(f"{XLIFF_NS}file"):
+        filename = Path(file_el.get("original", "")).name
+        body = file_el.find(f"{XLIFF_NS}body")
+        if not filename or body is None:
+            continue
+
+        entries: list[tuple[str, list[str]]] = []
+        for child in body:
+            tag = child.tag.removeprefix(XLIFF_NS)
+            if tag == "trans-unit":
+                key = child.get("resname", "")
+                value = element_text(child.find(f"{XLIFF_NS}source"))
+                entries.append((key, [value]))
+            elif tag == "group" and child.get("restype") == "x-gettext-plurals":
+                key = ""
+                forms: dict[int, str] = {}
+                for i, tu in enumerate(child.findall(f"{XLIFF_NS}trans-unit")):
+                    key = tu.get("resname", "")
+                    match = _PLURAL_INDEX_RE.search(tu.get("id", ""))
+                    idx = int(match.group(1)) if match else i
+                    forms[idx] = element_text(tu.find(f"{XLIFF_NS}source"))
+                entries.append((key, [forms[i] for i in sorted(forms)]))
+
+        files[filename] = entries
+
+    return files
+
+
+def render_entries(entries: list[tuple[str, list[str]]]) -> str:
+    blocks = []
+    for key, values in entries:
+        if not key:
+            continue
+        if len(values) == 1:
+            blocks.append(f'msgid "{po_escape(key)}"\nmsgstr "{po_escape(values[0])}"')
+        else:
+            lines = [f'msgid "{po_escape(key)}"', f'msgid_plural "{po_escape(key)}"']
+            lines += [f'msgstr[{i}] "{po_escape(v)}"' for i, v in enumerate(values)]
+            blocks.append("\n".join(lines))
+    return "\n\n".join(blocks) + "\n"
+
+
+def existing_header(path: Path) -> str:
+    """Preserve the current file's po header (metadata block) if present."""
+    if not path.exists():
+        return 'msgid ""\nmsgstr ""\n"Language: en-US\\n"\n'
+    text = path.read_text(encoding="utf-8")
+    header, _, _ = text.partition("\n\n")
+    return header + "\n"
+
+
+def write_po_file(destination: Path, entries: list[tuple[str, list[str]]]) -> None:
+    header = existing_header(destination)
+    destination.write_text(f"{header}\n{render_entries(entries)}\n", encoding="utf-8")
+    print(f"Wrote {destination}")
 
 
 def update_strings() -> None:
-    bundle_id = require_env("CROWDIN_BUNDLE_ID")
+    bundle_id = os.environ.get("CROWDIN_BUNDLE_ID", DEFAULT_BUNDLE_ID)
     root = repo_root()
 
     bundle_dir = download_bundle(root, bundle_id)
-    en_dir = find_en_dir(bundle_dir)
+    xliff_path = find_source_xliff(bundle_dir)
+    files = parse_xliff_files(xliff_path)
 
-    destination = root / EN_STRINGS_DIR
-    destination.mkdir(parents=True, exist_ok=True)
-    for po_file in en_dir.glob("*.po"):
-        shutil.copy2(po_file, destination / po_file.name)
-        print(f"Wrote {destination / po_file.name}")
+    destination_dir = root / EN_STRINGS_DIR
+    destination_dir.mkdir(parents=True, exist_ok=True)
+    for filename, entries in files.items():
+        write_po_file(destination_dir / filename, entries)
 
 
 def main() -> int:

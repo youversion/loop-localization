@@ -5,13 +5,14 @@ CI entrypoint for both directions of the Crowdin <-> repo flow. Three modes,
 each a separate Bitrise workflow/trigger since they have different purposes:
 
   (no flags)
-      Pulls source strings: downloads a Crowdin bundle (env var
-      `CROWDIN_BUNDLE_ID`, required -- see NOTE below) and copies its English
-      `.po` files into `strings/en/` (this also self-heals any file from a
-      Crowdin-UI-side edit or deletion, since it overwrites with Crowdin's
+      Pulls source strings: downloads Crowdin bundle 13 (env var
+      `CROWDIN_BUNDLE_ID` to override) and parses its English (en-US) XLIFF
+      export back into `strings/en/*.po` (this also self-heals any file from
+      a Crowdin-UI-side edit or deletion, since it overwrites with Crowdin's
       current state). If that changed any committed file, commits the result
       to a rolling branch and opens (or updates) a GitHub pull request.
-      Requires `GH_TOKEN`.
+      Requires `GH_TOKEN`. See scripts/update_strings.py for the XLIFF
+      parsing details.
 
   --push
       Pushes any new source strings added locally (a contributor hand-edits
@@ -31,32 +32,25 @@ hand-edited here. New strings are added by hand-editing the target `.po`
 file directly and are gated on PRs by `scripts/crowdin_validator.py`, but
 only this script ever writes to Crowdin.
 
-NOTE (unresolved as of writing): unlike `crowdin upload`/`download`, which
-only transfer *translations*, `crowdin download` has no source-only mode --
-the CLI 4.12.0 has no `download sources` subcommand. loop-ios and
-youversion-flutter-loop both work around this by downloading a *bundle*
-(bundle 26, bundle 13) whose export includes the English/source locale.
-There is not yet a Crowdin bundle scoped to this repo's `strings/en/*.po`
-files -- one needs to be created in the Crowdin UI for project 257 (or an
-existing bundle reused, if one already covers these exact files) before this
-script's default mode can run for real. Until `CROWDIN_BUNDLE_ID` is set to a
-valid bundle, this mode will fail loudly rather than silently do nothing.
+Bundle 13 -- the same bundle youversion-flutter-loop's own pull uses -- was
+confirmed via a live download to be scoped to exactly "Bible Loop
+(Master)/*.po" (all 30 files this repo tracks, minus licenses.po which isn't
+Crowdin-sourced) and to include the en-US source-language export. Unlike
+`crowdin upload`/`download`, which only transfer *translations*, there is no
+source-only download subcommand in crowdin-cli 4.12.0 -- bundle download is
+the verified workaround (see scripts/update_strings.py for the XLIFF-to-po
+conversion, done with the stdlib, no vendored `babel` binary needed).
 
-Separately, this repo's `crowdin/crowdin.yml` uploads under the Crowdin path
-implied by `strings/en/*.po` (relative to `base_path`). This is a *different*
-Crowdin-side path than youversion-flutter-loop's existing
-`assets/strings/en/*.po` upload -- pushing from here will very likely create
-duplicate strings in project 257 rather than updating the same ones, unless
-`crowdin/crowdin.yml` is given an explicit destination that matches Flutter's
-existing Crowdin path. Confirm the intended Crowdin-side layout before
-running `--push` for real.
+Separately, `crowdin/crowdin.yml`'s `dest`/`translation` are pinned to
+"Bible Loop (Master)/*.po" -- confirmed via `crowdin file list` to be the
+real live source directory in project 257, not youversion-flutter-loop's own
+`assets/strings/en/*.po` entry, which does not exist in the live project.
 
 Intended to run on Bitrise (scheduled/triggered). The runner must already
 have:
   - `crowdin` CLI
   - `gh` CLI authenticated via `GH_TOKEN` (not required for `--push`/`--dry-run`)
   - env var `CROWDIN_API_TOKEN` (read by the crowdin CLI via crowdin/crowdin.yml)
-  - env var `CROWDIN_BUNDLE_ID` (required for the default/pull mode; see NOTE)
 
 Ported from youversion-flutter-loop/scripts/crowdin_sync.py, trimmed to just
 the `.po` pull/push pipeline (no Dart/babel generation, since this repo is
