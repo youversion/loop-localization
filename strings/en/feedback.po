@@ -1,0 +1,87 @@
+# This file is auto-generated
+msgid ""
+msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en-US\n"
+"MIME-Version: 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: YouVersion Feedback 1.0\n"
+"X-Crowdin-SourceKey: msgstr\n"
+"X-Generator: Babel 2.0\n"
+
+msgid "attachAScreenshot"
+msgstr "Attach a Screenshot"
+
+msgid "becauseOfYou"
+msgstr "It's Because of You"
+
+msgid "becauseOfYouThankYou"
+msgstr "Because of you, God's Word is reaching millions around the world. Thank you!"
+
+msgid "betaTesterThanks"
+msgstr "Thanks for being a YouVersion beta tester! By continuing, you’re allowing us to occasionally collect information about your device, your account, and your Bible App usage."
+
+msgid "continueEditing"
+msgstr "Continue editing"
+
+msgid "discard"
+msgstr "Discard"
+
+msgid "done"
+msgstr "Done"
+
+msgid "howCanWeHelp"
+msgstr "How can we help?"
+
+msgid "listenToBible"
+msgstr "You can listen to the Bible too! Tap the Audio icon to try it."
+
+msgid "loveBibleApp"
+msgstr "Do you love the Bible App?"
+
+msgid "ok"
+msgstr "OK"
+
+msgid "productSupport"
+msgstr "Product Support"
+
+msgid "rate"
+msgstr "Rate"
+
+msgid "rateBible"
+msgstr "Rate Bible"
+
+msgid "saveVersesOffline"
+msgstr "Save verses, read offline, watch teaching clips, and more!"
+
+msgid "screenshot"
+msgstr "Screenshot"
+
+msgid "screenshotDescription"
+msgstr "Navigate anywhere in the app and then tap the “Screenshot” button."
+
+msgid "screenshotDrawDescription"
+msgstr "Draw on your screenshot to show us where the problem is."
+
+msgid "submit"
+msgstr "Submit"
+
+msgid "suggestionsAndIdeas"
+msgstr "Suggestions and ideas"
+
+msgid "supportWillContactYou"
+msgstr "Our support team will email you a response as soon as we can."
+
+msgid "thankYou"
+msgstr "Thank You"
+
+msgid "thanksForFeedback"
+msgstr "Thanks for your feedback."
+
+msgid "visitSupportWebsite"
+msgstr "Visit support website"
+
+msgid "wantToDiscardSupportRequest"
+msgstr "Are you sure you want to discard your support request?"
+

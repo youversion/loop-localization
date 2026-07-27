@@ -1,0 +1,19 @@
+#
+# Crowdin credentials for loop-localization source string CRUD.
+#
+# Same Crowdin project as loop-ios/Flutter (257). This repo owns pushing new
+# source strings; loop-ios and youversion-flutter-loop only pull translations.
+#
+"project_id": "257"
+"base_path": ".."
+"base_url": "https://youversion.crowdin.com"
+"preserve_hierarchy": true
+
+"files": [
+    {
+        "source": "strings/en/*.po",
+        "translation": "strings/%two_letters_code%/%file_name%.po",
+    },
+]
+
+"api_token_env": "CROWDIN_API_TOKEN"

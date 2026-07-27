@@ -1,0 +1,489 @@
+# This file is auto-generated
+msgid ""
+msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en-US\n"
+"MIME-Version: 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: YouVersion MemoryVerse 1.0\n"
+"X-Crowdin-SourceKey: msgstr\n"
+"X-Generator: Babel 2.0\n"
+
+msgid "almostHadIt"
+msgstr "ALMOST HAD IT!"
+
+msgid "almostThere"
+msgstr "ALMOST THERE!"
+
+msgid "areYouReady"
+msgstr "ARE YOU READY?"
+
+msgid "areYouReadyToMixIt"
+msgstr "ARE YOU READY TO MIX IT?"
+
+msgid "areYouSure"
+msgstr "ARE YOU SURE?"
+
+msgid "back"
+msgstr "Back"
+
+msgid "challengeYourself"
+msgstr "Challenge yourself!"
+
+msgid "check"
+msgstr "Check"
+
+msgid "checkItOut"
+msgstr "Check It Out"
+
+msgid "checkeredFlagGo"
+msgstr "🏁 GO!"
+
+msgid "closeButNotYet"
+msgstr "CLOSE, BUT NOT YET."
+
+msgid "completeAll4ToMaster"
+msgstr "Complete all 4 levels in a verse to master it and earn a crown."
+
+msgid "continuePhrase"
+msgstr "Continue"
+
+msgid "dontGiveUp"
+msgstr "DON’T GIVE UP!"
+
+msgid "dontQuit"
+msgstr "DON’T QUIT!"
+
+msgid "enterTheNextWordInTheVerse"
+msgstr "Enter the next word in the verse"
+
+msgid "enterTheWholeVerse"
+msgstr "Enter the whole verse"
+
+msgid "fillInTheBlanks"
+msgstr "Fill in the Blanks"
+
+msgid "fillInTheBlanksInstructions"
+msgstr "Fill in the blanks by selecting words from the bottom half of the screen."
+
+msgid "fillInTheBlanksUpper"
+msgstr "FILL IN THE BLANKS"
+
+msgid "finishStrong"
+msgstr "Finish strong 💪"
+
+msgid "firstLetter"
+msgstr "First Letter"
+
+msgid "firstLetterInstructions"
+msgstr "You’ll see the first letter of each word. Write in each word of the verse."
+
+msgid "firstLetterUpper"
+msgstr "FIRST LETTER"
+
+msgid "getAScoreOf80"
+msgstr "Get a score of <b>80%</b> to complete this level and unlock the next one."
+
+msgid "giveItAnotherGo"
+msgstr "GIVE IT ANOTHER GO!"
+
+msgid "giveItAnotherShot"
+msgstr "GIVE IT ANOTHER SHOT!"
+
+msgid "giveYourselfAHighFive"
+msgstr "GIVE YOURSELF A HIGH-FIVE!"
+
+msgid "goldStarForYou"
+msgstr "GOLD STAR FOR YOU!"
+
+msgid "halfwayThere"
+msgstr "Halfway there!"
+
+msgid "highFiveForYou"
+msgstr "HIGH-FIVE FOR YOU!"
+
+msgid "iMasteredThisVerseOn"
+msgstr "I mastered this verse on"
+
+msgid "ifYouWantToMemorize"
+msgstr "If you want to memorize this verse again, you’ll begin at level 1."
+
+msgid "itsTimeToShine"
+msgstr "It’s time to shine!"
+
+msgid "itsTimeToTakeTheChallenge"
+msgstr "It’s time to take the challenge!"
+
+msgid "keepAtIt"
+msgstr "KEEP AT IT!"
+
+msgid "keepGoing"
+msgstr "KEEP GOING!"
+
+msgid "keepGoingLower"
+msgstr "Keep going!"
+
+msgid "keepGoingYouveGotThis"
+msgstr "KEEP GOING—YOU’VE GOT THIS!"
+
+msgid "keepPlaying"
+msgstr "Keep Playing"
+
+msgid "keepThisVerse"
+msgstr "Keep This Verse"
+
+msgid "keepTrying"
+msgstr "KEEP TRYING!"
+
+msgid "lastLevel"
+msgstr "Last level!"
+
+msgid "letsGetStarted"
+msgstr "LET’S GET STARTED!"
+
+msgid "letsGo"
+msgstr "Let’s Go"
+
+msgid "letsGoUpper"
+msgstr "LET’S GO!"
+
+msgid "letsMixIt"
+msgstr "LET’S MIX IT!"
+
+msgid "letsSeeWhatYouGot"
+msgstr "Let’s see what you got!"
+
+msgid "letsTryAgain"
+msgstr "LET’S TRY AGAIN!"
+
+msgid "level1"
+msgstr "Level 1"
+
+msgid "level1Complete"
+msgstr "LEVEL 1 COMPLETE!"
+
+msgid "level2"
+msgstr "Level 2"
+
+msgid "level2Complete"
+msgstr "LEVEL 2 COMPLETE!"
+
+msgid "level3"
+msgstr "Level 3"
+
+msgid "level3Complete"
+msgstr "LEVEL 3 COMPLETE!"
+
+msgid "level4"
+msgstr "Level 4"
+
+msgid "levelOneThatWasSoTwoLevelsAgo"
+msgstr "Level 1? That was so two levels ago."
+
+msgid "levelUp"
+msgstr "Level Up"
+
+msgid "levelUpUpper"
+msgstr "LEVEL UP"
+
+msgid "masteredVerses"
+msgstr "Mastered Verses"
+
+msgid "masteredVersesUpper"
+msgstr "MASTERED VERSES"
+
+msgid "matchItMixItLoopIt"
+msgstr "MATCH IT. MIX IT. LOOP IT. ♾️"
+
+msgid "matchItMixItSayThatSuperFast"
+msgstr "MATCH AND MIX IT! (Say that super fast.)"
+
+msgid "memorize"
+msgstr "Memorize"
+
+msgid "memorizeANewVerse"
+msgstr "Memorize a new verse"
+
+msgid "memorizeScripture"
+msgstr "Memorize scripture"
+
+msgid "memoryVerse2IsHere"
+msgstr "MEMORY VERSE 2.0 IS HERE!"
+
+msgid "memoryVerseAnnouncementDescription"
+msgstr "We’ve made some big changes to Memory Verse, including new levels of difficulty and the ability to memorize any verse you want!"
+
+msgid "memoryVerseUpper"
+msgstr "MEMORY VERSE"
+
+msgid "mixItAgain"
+msgstr "MIX IT AGAIN!"
+
+msgid "moreVersesWillBeAdded"
+msgstr "More verses will be added soon. In the meantime, you can still replay mastered verses and memorize the Verse of the Day."
+
+msgid "myVerses"
+msgstr "My Verses"
+
+msgid "myVersesUpper"
+msgstr "MY VERSES"
+
+msgid "notQuite"
+msgstr "NOT QUITE!"
+
+msgid "notRightNow"
+msgstr "Not Right Now"
+
+msgid "pickAnotherVerse"
+msgstr "Pick Another Verse"
+
+msgid "play"
+msgstr "Play"
+
+msgid "playADifferentVerse"
+msgstr "Play a Different Verse"
+
+msgid "pleaseCheckYourConnectionMessage"
+msgstr "Looks like the level didn’t load correctly. Please check your connection and try again."
+
+msgid "practice"
+msgstr "PRACTICE"
+
+msgid "quit"
+msgstr "Quit"
+
+msgid "quitConfirmationMsg"
+msgstr "If you quit now, you will lose your progress on this level."
+
+msgid "readtheVerseOutLoud"
+msgstr "Read the verse out loud, then hide the verse and say it from memory."
+
+msgid "readySetGo"
+msgstr "READY, SET, GO!"
+
+msgid "readyToGo"
+msgstr "READY TO GO?"
+
+msgid "readyToTakeTheChallenge"
+msgstr "Ready to take the challenge?"
+
+msgid "rebuildIt"
+msgstr "Rebuild It"
+
+msgid "rebuildItInstructions"
+msgstr "Fill in the entire verse by selecting words from the bottom half of the screen."
+
+msgid "rebuildItUpper"
+msgstr "REBUILD IT"
+
+msgid "remove"
+msgstr "Remove"
+
+msgid "replay"
+msgstr "Replay"
+
+msgid "review"
+msgstr "Review"
+
+msgid "score"
+msgstr "Score"
+
+msgid "scoreUpper"
+msgstr "SCORE"
+
+msgid "selectAVerse"
+msgstr "Select a Verse"
+
+msgid "selectTheNextWordInTheVerse"
+msgstr "Select the next word in the verse"
+
+msgid "share"
+msgstr "Share"
+
+msgid "showUsWhatYouGotInMemoryVerse"
+msgstr "Show us what you got in Memory Verse!"
+
+msgid "showVerse"
+msgstr "Show verse"
+
+msgid "soCloseLetsTryItAgain"
+msgstr "SO CLOSE! LET’S TRY IT AGAIN."
+
+msgid "somethingWentWrong"
+msgstr "Something Went Wrong"
+
+msgid "start"
+msgstr "Start"
+
+msgid "startANewVerse"
+msgstr "Start a New Verse"
+
+msgid "startANewVerseUpper"
+msgstr "START A NEW VERSE"
+
+msgid "startStrong"
+msgstr "Start strong!"
+
+msgid "surpriseMe"
+msgstr "Surprise Me"
+
+msgid "tapWordsToFillInTheBlanks"
+msgstr "Tap words to fill in the blanks"
+
+msgid "thatsNotTheRightWord"
+msgstr "That’s not the right word. Try again!"
+
+msgid "theJourneyBeginsNow"
+msgstr "The journey begins now..."
+
+msgid "thinkYouCanMemorizeAVerse"
+msgstr "Think you can memorize a verse?"
+
+msgid "thinkYouCanRememberThisVerse"
+msgstr "Think you can remember this verse?"
+
+msgid "thisIsWhereItAllStarts"
+msgstr "This is where it all starts..."
+
+msgid "thisIsntEasyKeepTrying"
+msgstr "THIS ISN’T EASY—KEEP TRYING!"
+
+msgid "thisWordStartsWith"
+msgstr "This word starts with %1$s"
+
+msgid "timeToMixIt"
+msgstr "TIME TO MIX IT!"
+
+msgid "toPlayWifiOrCellular"
+msgstr "To play this level, connect to wifi or a cellular network."
+
+msgid "tryAgain"
+msgstr "Try again"
+
+msgid "typeOrSpeakTheEntireVerseFromMemory"
+msgstr "Type or speak the entire verse from memory."
+
+msgid "upNext"
+msgstr "Up Next"
+
+msgid "upNextUpper"
+msgstr "UP NEXT"
+
+msgid "verseOfTheDay"
+msgstr "Verse of the Day"
+
+msgid "versesMastered"
+msgstr "Verses Mastered"
+
+msgid "versesMasteredUpper"
+msgstr "VERSES MASTERED"
+
+msgid "wayToGo"
+msgstr "Way to go! You’ve earned a crown for mastering this level."
+
+msgid "weBelieveInYou"
+msgstr "We believe in you!"
+
+msgid "weDareYouToMemorizeAVerse"
+msgstr "We dare you to memorize a verse."
+
+msgid "welcomeToMemoryVerse"
+msgstr "Welcome to Memory Verse!"
+
+msgid "welcomeToMemoryVerseUpper"
+msgstr "WELCOME TO MEMORY VERSE!"
+
+msgid "whatWouldYouLikeToMemorizeFirst"
+msgstr "What would you like to memorize first?"
+
+msgid "whatWouldYouLikeToMemorizeNext"
+msgstr "What would you like to memorize next?"
+
+msgid "whenYouMasterAVerse"
+msgstr "When you master a verse, it will show up here!"
+
+msgid "wordAppearsMultipleTimes"
+msgstr "'{word}' appears {count} times in positions: {positions}"
+
+msgid "wordNotInVerse"
+msgstr "'{word}' is not in the verse"
+
+msgid "wordShouldBeAtPosition"
+msgstr "'{word}' should be at position {position}"
+
+msgid "wowLookAtYou"
+msgstr "WOW, LOOK AT YOU!"
+
+msgid "writeItOut"
+msgstr "Write It Out"
+
+msgid "writeItOutUpper"
+msgstr "WRITE IT OUT"
+
+msgid "youCanDoIt"
+msgstr "YOU CAN DO IT!"
+
+msgid "youCanDoThis"
+msgstr "You can do this."
+
+msgid "youDidIt"
+msgstr "YOU DID IT!"
+
+msgid "youGotThis"
+msgstr "You got this."
+
+msgid "youHaventMasteredAnyVersesYet"
+msgstr "You haven’t mastered any verses yet"
+
+msgid "youKnowWhosAwesome"
+msgstr "YOU KNOW WHO’S AWESOME? YOU ARE."
+
+msgid "youMemorizedAllSurpriseMe"
+msgstr "You memorized all the Surprise Me verses!"
+
+msgid "youllGetItNextTime"
+msgstr "YOU’LL GET IT NEXT TIME!"
+
+msgid "yourMindIsAmazing"
+msgstr "YOUR MIND IS AMAZING."
+
+msgid "yourMindIsAmazingEmoji"
+msgstr "Your mind is amazing! 🧠"
+
+msgid "youreAlmostThere"
+msgstr "YOU’RE ALMOST THERE!"
+
+msgid "youreAlmostThereLower"
+msgstr "You’re almost there!"
+
+msgid "youreAmazing"
+msgstr "YOU’RE AMAZING!"
+
+msgid "youreGreat"
+msgstr "YOU’RE GREAT!"
+
+msgid "youreOffline"
+msgstr "You’re Offline"
+
+msgid "youreSoCloseCompleteTheChallenge"
+msgstr "You’re so close! Complete the challenge."
+
+msgid "youreSoCloseContinueTheChallenge"
+msgstr "You’re so close! Continue the challenge."
+
+msgid "youreSoCloseToEarningACrown"
+msgstr "You’re so close to earning a crown..."
+
+msgid "youreTryingThatsAwesome"
+msgstr "YOU’RE TRYING—THAT’S AWESOME!"
+
+msgid "youveGotThis"
+msgstr "YOU’VE GOT THIS!"
+
+msgid "youveMasteredThisVerse"
+msgstr "YOU’VE MASTERED THIS VERSE!"
+
+msgid "youveUnlockedTheNextLevel"
+msgstr "You’ve unlocked the next level!"
+

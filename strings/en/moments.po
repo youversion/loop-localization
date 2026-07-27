@@ -1,0 +1,48 @@
+# This file is auto-generated
+msgid ""
+msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en-US\n"
+"MIME-Version: 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: YouVersion Moments 1.0\n"
+"X-Crowdin-SourceKey: msgstr\n"
+"X-Generator: Babel 2.0\n"
+
+msgid "createANote"
+msgstr "Create a Note"
+
+msgid "createHighlight"
+msgstr "Create a Highlight"
+
+msgid "daysAgo"
+msgstr "%1$sd"
+
+msgid "highlightVerses "
+msgstr "Highlight verses as you read using a variety of colors."
+
+msgid "hoursAgo"
+msgstr "%1$sh"
+
+msgid "minutesAgo"
+msgstr "%1$sm"
+
+msgid "noHighlightsYet"
+msgstr "No Highlights Yet"
+
+msgid "noNotesYet"
+msgstr "No Notes Yet"
+
+msgid "now"
+msgstr "Now"
+
+msgid "save"
+msgstr "Save"
+
+msgid "tapBibleTabWriteYourThoughts"
+msgstr "Tap a verse in the Bible tab to write your thoughts."
+
+msgid "weeksAgo"
+msgstr "%1$sw"
+

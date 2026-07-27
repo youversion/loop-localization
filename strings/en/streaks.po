@@ -1,0 +1,234 @@
+# This file is auto-generated
+msgid ""
+msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en-US\n"
+"MIME-Version: 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: YouVersion Streaks 1.0\n"
+"X-Crowdin-SourceKey: msgstr\n"
+"X-Generator: Babel 2.0\n"
+
+msgid "anyAvailableStreakFreezes"
+msgstr "Any available Streak Freezes will be used, and then your Streak will reset. You can turn it back on at any time and complete a Bible activity to keep it going!"
+
+msgid "appStreak"
+msgstr "App Streak"
+
+msgid "areYouSure"
+msgstr "ARE YOU SURE?"
+
+msgid "availableFreezes"
+msgstr "%1$s/%2$s Available"
+
+msgid "back"
+msgstr "Back"
+
+msgid "backToFirst"
+msgstr "Back to first"
+
+msgid "best"
+msgstr "Best"
+
+msgid "bestStreak"
+msgstr "Best Streak"
+
+msgid "bibleChapter"
+msgstr "Bible Chapter"
+
+msgid "bibleHabit"
+msgstr "Streaks help you build your Bible habit to encounter God's Word daily."
+
+msgid "calendarLoadingError"
+msgstr "Oops! We couldn’t load your streak calendar. Don’t worry, your progress is safe!"
+
+msgid "cancel"
+msgstr "Cancel"
+
+msgid "chooseAnActivityTheNextDay"
+msgstr "Choose an activity the next day to keep your Streak going."
+
+msgid "close"
+msgstr "Close"
+
+msgid "continue_"
+msgstr "Continue"
+
+msgid "currentStreak"
+msgstr "Current Streak"
+
+msgid "dailyRefreshStreak"
+msgstr "Daily Refresh Streak"
+
+msgid "dayStreak"
+msgstr "Day Streak"
+
+msgid "dayStreakExclamation"
+msgstr "Day Streak!"
+
+msgid "daysLong"
+msgid_plural "daysLong"
+msgstr[0] "day long!"
+msgstr[1] "days long!"
+
+msgid "doAnActivityEveryDay"
+msgstr "Do an Activity Every Day"
+
+msgid "doingAtLeastOneActivityBeforeMidnight"
+msgstr "Doing at least one activity before midnight extends your Streak."
+
+msgid "done"
+msgstr "Done"
+
+msgid "freezeRemaining"
+msgid_plural "freezeRemaining"
+msgstr[0] "%1$s freeze remaining"
+msgstr[1] "%1$s freezes remaining"
+
+msgid "freezes"
+msgstr "Freezes"
+
+msgid "freezesRemaining"
+msgid_plural "freezesRemaining"
+msgstr[0] "%1$s freeze remaining"
+msgstr[1] "%1$s freezes remaining"
+
+msgid "go"
+msgstr "Go"
+
+msgid "goldStarForYou"
+msgstr "Gold star for you!"
+
+msgid "imOnA"
+msgstr "I’m on a"
+
+msgid "jumpToMonth"
+msgstr "Jump to Month"
+
+msgid "keepStreaksOn"
+msgstr "Keep Streaks On"
+
+msgid "keepYourStreakGoing"
+msgstr "Keep your Streak going! Choose a Bible activity before midnight."
+
+msgid "learnMore"
+msgstr "Learn More"
+
+msgid "letsGoYoureBuildingAnAwesomeBibleHabit"
+msgstr "Let’s go! You’re building an awesome Bible habit."
+
+msgid "longestStreakCount"
+msgstr "Longest: %1$s"
+
+msgid "lookAtYouBuildingAGreatBibleHabit"
+msgstr "Look at you, building a great Bible habit!"
+
+msgid "memoryVerse"
+msgstr "Memory Verse"
+
+msgid "myStreakIs"
+msgstr "My Streak is"
+
+msgid "nCurrentStreak"
+msgid_plural "nCurrentStreak"
+msgstr[0] "%1$s day streak"
+msgstr[1] "%1$s day streak"
+
+msgid "nDaysInApp"
+msgid_plural "nDaysInApp"
+msgstr[0] "1 day in the app this year"
+msgstr[1] "%1$s days in the app this year"
+
+msgid "nLifetimeDays"
+msgid_plural "nLifetimeDays"
+msgstr[0] "%1$s Day"
+msgstr[1] "%1$s Days"
+
+msgid "nPerfectWeeks"
+msgid_plural "nPerfectWeeks"
+msgstr[0] "1 Perfect Week"
+msgstr[1] "%1$s Perfect Weeks"
+
+msgid "nPerfectWeeksThisYear"
+msgid_plural "nPerfectWeeksThisYear"
+msgstr[0] "%1$s Perfect Week This Year"
+msgstr[1] "%1$s Perfect Weeks This Year"
+
+msgid "next"
+msgstr "Next"
+
+msgid "nextMonth"
+msgstr "Next Month"
+
+msgid "nobodysPerfect"
+msgstr "Nobody’s perfect! You’ll get three Streak Freezes each week. If you miss a day, we’ll save your Streak."
+
+msgid "notRightNow"
+msgstr "Not Right Now"
+
+msgid "perfectWeeks"
+msgstr "Perfect Weeks"
+
+msgid "prayer"
+msgstr "Prayer"
+
+msgid "previousMonth"
+msgstr "Previous Month"
+
+msgid "refillsInDays"
+msgid_plural "refillsInDays"
+msgstr[0] "Refills in %1$s day"
+msgstr[1] "Refills in %1$s days"
+
+msgid "refillsWeekly"
+msgstr "Refills Weekly"
+
+msgid "share"
+msgstr "Share"
+
+msgid "shareYourProgress"
+msgstr "Share Your Progress"
+
+msgid "startYourStreak"
+msgstr "Start Your Streak"
+
+msgid "startYourStreakWithOneOfTheseActivities"
+msgstr "Start your Streak with one of these activities!"
+
+msgid "streakCalendar"
+msgstr "Streak Calendar"
+
+msgid "streakFreezes"
+msgstr "Streak Freezes"
+
+msgid "streakFreezesUpper"
+msgstr "STREAK FREEZES"
+
+msgid "streaksAreOff"
+msgstr "Streaks Are Off"
+
+msgid "strengthenYourBibleHabitAndHaveFunDoingIt"
+msgstr "Strengthen your Bible habit and have fun doing it with an activity!"
+
+msgid "toRestartTurnThemBack"
+msgstr "To restart, turn them back on and do a Bible activity."
+
+msgid "turnOffStreaks"
+msgstr "Turn Off Streaks"
+
+msgid "turnOnStreaks"
+msgstr "Turn On Streaks"
+
+msgid "verseArt"
+msgstr "Verse Art"
+
+msgid "weFrozeYourStreak"
+msgstr "We froze your Streak! Keep it going with a Bible activity."
+
+msgid "woohooYouveStartedYourStreak"
+msgstr "Woohoo! You’ve started your Streak."
+
+msgid "wowYoureSoGoodAtThis"
+msgstr "Wow, you’re so good at this!"
+

@@ -1,0 +1,246 @@
+# This file is auto-generated
+msgid ""
+msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en-US\n"
+"MIME-Version: 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: YouVersion BibleLoop 1.0\n"
+"X-Crowdin-SourceKey: msgstr\n"
+"X-Generator: Babel 2.0\n"
+
+msgid "aboutBlurb"
+msgstr "Bible Loop is a free, immersive Bible experience from YouVersion designed primarily for teens. Developed in partnership with OneHope, Bible Loop is made to help teens fall in love with God and His Word. Enjoy daily guided Bible reflections, verse memory challenges, and access to the Bible on the go."
+
+msgid "addCheckIn"
+msgstr "Add check-in"
+
+msgid "backToHome"
+msgstr "Back to Home"
+
+msgid "beStillAndKnowThatGodIsWithYou"
+msgstr "Be still and\nknow that #God\nis with you.#"
+
+msgid "bibleLoop"
+msgstr "Bible Loop"
+
+msgid "bibleLoopUpper"
+msgstr "BIBLE LOOP"
+
+msgid "bibleVersion"
+msgstr "Bible Version"
+
+msgid "checkBackTomorrow"
+msgstr "Check Back Tomorrow"
+
+msgid "checkedInAtTime"
+msgstr "Checked-in at %1$s"
+
+msgid "chooseBackgroundImage"
+msgstr "Choose a background image."
+
+msgid "confirmPassword"
+msgstr "Confirm password"
+
+msgid "continueWithGoogle"
+msgstr "Continue with Google"
+
+msgid "createAPassword"
+msgstr "Create a password"
+
+msgid "createShareInspire"
+msgstr "Create, Share, Inspire"
+
+msgid "createVerseImages"
+msgstr "Create verse images"
+
+msgid "done"
+msgstr "Done"
+
+msgid "emailNotAvailable"
+msgstr "Email is not available"
+
+msgid "enterYourEmail"
+msgstr "Enter your email"
+
+msgid "finish"
+msgstr "Finish"
+
+msgid "font"
+msgstr "Font"
+
+msgid "from"
+msgstr "From"
+
+msgid "godIsMyRefugeAndMyStrength"
+msgstr "God is my\n#Refuge# and my\n#strength.#"
+
+msgid "goodAfternoon"
+msgstr "Good afternoon!"
+
+msgid "goodEvening"
+msgstr "Good evening!"
+
+msgid "goodMorning"
+msgstr "Good morning!"
+
+msgid "greetingsBeALightInTheDarkness"
+msgstr "#Be a light in# the darkness!"
+
+msgid "greetingsChooseToSmile"
+msgstr "Choose to smile."
+
+msgid "greetingsDreamBigTrustGodsPlan"
+msgstr "Dream big, trust God's plan."
+
+msgid "greetingsGodsGotYourBackAlways"
+msgstr "God's got your back, always."
+
+msgid "greetingsGodsLoveFuelsYourCourage"
+msgstr "God's #love\nfuels # your\ncourage."
+
+msgid "greetingsGodsPlanIncludesYou"
+msgstr "God's plan includes you!"
+
+msgid "greetingsGrowInGrace"
+msgstr "Grow in grace."
+
+msgid "greetingsLetYourLightShineBright"
+msgstr "Let your light shine bright!"
+
+msgid "greetingsRememberThatYouAreLoved"
+msgstr "Remember that you are loved."
+
+msgid "greetingsYoureStrongerThanYouThink"
+msgstr "You're stronger than you think!"
+
+msgid "highlights"
+msgstr "Highlights"
+
+msgid "howOldAreYou"
+msgstr "How old are you?"
+
+msgid "iAmTheWayTheTruthAndTheLife"
+msgstr "I AM the #way\n#the #truth# and\nthe #life.#"
+
+msgid "image"
+msgstr "Image"
+
+msgid "inWeaknessHeIsString"
+msgstr "#In Weakness#\nhe is strong. "
+
+msgid "invalidEmailOrUsername"
+msgstr "Invalid email or username"
+
+msgid "invalidPassword"
+msgstr "Invalid password"
+
+msgid "letGodLiveThroughYou"
+msgstr "Let God live\n#through you.#"
+
+msgid "loopAccountAlreadyVerified"
+msgstr "Your account is already verified!"
+
+msgid "loopBibleHabit"
+msgstr "Streaks help you build your daily Bible habit."
+
+msgid "loopEmailUnavailable"
+msgstr "Sorry, that email is not available"
+
+msgid "loopIncorrectEmailOrPassword"
+msgstr "Incorrect Email or Password"
+
+msgid "loopPasswordLengthRequirement"
+msgstr "Password must be at least 6 characters long"
+
+msgid "loopPleaseConnectToTheInternet"
+msgstr "Please connect to the internet"
+
+msgid "loopPleaseSignIn"
+msgstr "Please sign in"
+
+msgid "loopSorryUnknownError"
+msgstr "Sorry, something went wrong"
+
+msgid "makeTheBibleYours"
+msgstr "Make the Bible Yours"
+
+msgid "memoryVerseChallengeUpper"
+msgstr "MEMORY VERSE CHALLENGE"
+
+msgid "moreUpper"
+msgstr "MORE"
+
+msgid "name"
+msgstr "Name"
+
+msgid "newExperience"
+msgstr "We’re busy preparing a\nnew experience for you"
+
+msgid "next"
+msgstr "Next"
+
+msgid "notYetImplemented"
+msgstr "Not yet implemented"
+
+msgid "notes"
+msgstr "Notes"
+
+msgid "password"
+msgstr "Password"
+
+msgid "passwordMustBe15Chars"
+msgstr "Password must be at least 15 characters"
+
+msgid "prayMoreWorryLess"
+msgstr "Pray More.#\nWorry Less.#"
+
+msgid "profileUpper"
+msgstr "PROFILE"
+
+msgid "resendVerification"
+msgstr "Resend Verification"
+
+msgid "shareBibleLoop"
+msgstr "Check out this Bible Loop!"
+
+msgid "slowDownAndListenToGodsVoice"
+msgstr "Slow down\nand listen to\n#God's voice.#"
+
+msgid "storyShareImage"
+msgstr "Use as wallpaper or share with your friends."
+
+msgid "tapToPlace"
+msgstr "Tap to place"
+
+msgid "testYourMemory"
+msgstr "Test Your Memory"
+
+msgid "thisIsTheDayThatTheLordHasMade"
+msgstr "#This is the day\n#that the Lord has made."
+
+msgid "uploadPhoto"
+msgstr "Upload your own photo"
+
+msgid "verifyYourAccount"
+msgstr "with a link to verify your account."
+
+msgid "verifyYourEmail"
+msgstr "Verify your email"
+
+msgid "verseArtUpper"
+msgstr "VERSE ART"
+
+msgid "verseVisualizer"
+msgstr "Verse Visualizer"
+
+msgid "weSentAnEmailTo"
+msgstr "We sent an email to"
+
+msgid "whatShouldWeCallYou"
+msgstr "What should we call you?"
+
+msgid "youAreAChildOfGod"
+msgstr "You are a #child\n of God.#"
+

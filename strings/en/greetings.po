@@ -1,0 +1,45 @@
+# This file is auto-generated
+msgid ""
+msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en-US\n"
+"MIME-Version: 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: YouVersion Greetings 1.0\n"
+"X-Crowdin-SourceKey: msgstr\n"
+"X-Generator: Babel 2.0\n"
+
+msgid "beALightInTheDarkness"
+msgstr "Be a light in the darkness."
+
+msgid "beStillAndKnowThatGodIsWithYou"
+msgstr "Be still and know that God is with you."
+
+msgid "godIsMyRefugeAndMyStrength"
+msgstr "God is my refuge and my strength."
+
+msgid "godsLoveFuelsYourCourage"
+msgstr "God's love fuels your courage."
+
+msgid "iAmTheWayTheTruthAndTheLife"
+msgstr "I am the way, the truth, and the life."
+
+msgid "inWeaknessHeIsStrong"
+msgstr "In weakness, He is strong."
+
+msgid "letGodLiveThroughYou"
+msgstr "Let God live through you."
+
+msgid "prayMoreWorryLess"
+msgstr "Pray more. Worry less."
+
+msgid "slowDownAndListenToGodsVoice"
+msgstr "Slow down and listen to God's voice."
+
+msgid "thisIsTheDayThatTheLordHasMade"
+msgstr "This is the day that the Lord has made."
+
+msgid "youAreAChildOfGod"
+msgstr "You are a child of God."
+

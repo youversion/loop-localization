@@ -1,0 +1,48 @@
+# This file is auto-generated
+msgid ""
+msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en-US\n"
+"MIME-Version: 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: YouVersion Users 1.0\n"
+"X-Crowdin-SourceKey: msgstr\n"
+"X-Generator: Babel 2.0\n"
+
+msgid "IForgotMyPassword"
+msgstr "I forgot my password"
+
+msgid "continue_"
+msgstr "Continue"
+
+msgid "email"
+msgstr "Email"
+
+msgid "enterfirstname"
+msgstr "Please enter your first name"
+
+msgid "firstname"
+msgstr "First Name"
+
+msgid "invalidEmailAddress"
+msgstr "The email address is invalid."
+
+msgid "password"
+msgstr "Password"
+
+msgid "passwordRequired"
+msgstr "Password required"
+
+msgid "privacypolicy"
+msgstr "Privacy Policy"
+
+msgid "signIn"
+msgstr "Sign In"
+
+msgid "signInWithGoogle"
+msgstr "Sign in with Google"
+
+msgid "welcomeBack"
+msgstr "Welcome back!"
+

@@ -1,0 +1,84 @@
+# This file is auto-generated
+msgid ""
+msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en-US\n"
+"MIME-Version: 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: YouVersion StreaksReminders 1.0\n"
+"X-Crowdin-SourceKey: msgstr\n"
+"X-Generator: Babel 2.0\n"
+
+msgid "buildYourBibleMuscle"
+msgstr "💪 Build your Bible muscle!"
+
+msgid "chooseABibleActivityAndKeepYourStreakGoing"
+msgstr "Choose a Bible activity and keep your Streak going!"
+
+msgid "chooseABibleActivityToKeepYourStreakGoing"
+msgstr "Choose a Bible activity to keep your Streak going."
+
+msgid "chooseABibleActivityToPickUpWhereYouLeftOff"
+msgstr "Choose a Bible activity to pick up where you left off."
+
+msgid "chooseABibleActivityToSpendTimeWithGodAndKeepYourStreakGoing"
+msgstr "Choose a Bible activity to spend time with God. And, keep your Streak going!"
+
+msgid "chooseAnActivityToContinueYourStreakToday"
+msgstr "Choose an activity to continue your Streak today."
+
+msgid "chooseAnActivityToKeepItGoingToday"
+msgstr "Choose an activity to keep it going today!"
+
+msgid "continueYourStreakToday"
+msgstr "Continue your Streak today."
+
+msgid "doAtLeastOneBibleActivityToGetYourStreakStarted"
+msgstr "Do at least one Bible activity to get your Streak started, and come back every day to keep it going!"
+
+msgid "dontLoseYourStreak"
+msgstr "Don’t lose your Streak!"
+
+msgid "haveAMinute"
+msgstr "Have a minute?"
+
+msgid "howsYourStreakGoing"
+msgstr "How’s your Streak going?"
+
+msgid "itsBibleTime"
+msgstr "🕜 It’s Bible time!"
+
+msgid "keepItUp"
+msgstr "Keep it up!"
+
+msgid "keepYourStreakGoingToday"
+msgstr "Keep your Streak going today."
+
+msgid "letsGo"
+msgstr "Let’s go!"
+
+msgid "pickABibleActivityToKeepYourStreakGoing"
+msgstr "Pick a Bible activity to keep your Streak going."
+
+msgid "spendTimeWithGodToday"
+msgstr "Spend time with God today!"
+
+msgid "startingInThreeTwoOne"
+msgstr "Starting in 3… 2… 1…"
+
+msgid "takeTimeWithGodToday"
+msgstr "Take time with God today."
+
+msgid "weFrozeYourStreak"
+msgstr "🥶 We froze your Streak!"
+
+msgid "wereSoGladYoureHere"
+msgstr "👋 We’re so glad you’re here!"
+
+msgid "youUsedYourLastStreakFreezeThisWeek"
+msgstr "You used your last Streak Freeze this week. Choose a Bible activity today."
+
+msgid "youveGotThis"
+msgstr "You’ve got this!"
+

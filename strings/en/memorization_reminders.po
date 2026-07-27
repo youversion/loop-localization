@@ -1,0 +1,66 @@
+# This file is auto-generated
+msgid ""
+msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en-US\n"
+"MIME-Version: 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: YouVersion MemorizationReminders 1.0\n"
+"X-Crowdin-SourceKey: msgstr\n"
+"X-Generator: Babel 2.0\n"
+
+msgid "almostThere"
+msgstr "Almost there!"
+
+msgid "challengeAccepted"
+msgstr "Challenge accepted!"
+
+msgid "flexYourMemoryMuscles"
+msgstr "Flex your memory muscles—try memorizing a Bible verse today."
+
+msgid "hitMasteryLevelToday"
+msgstr "Hit mastery level today!"
+
+msgid "masterYourMemorySkills"
+msgstr "Master your memory skills!"
+
+msgid "masterYourMemoryVerseToday"
+msgstr "Master your memory verse today."
+
+msgid "masterYourMemoryVerseTodayExclamation"
+msgstr "Master your memory verse today!"
+
+msgid "memoryVerseHasBeenUpdated"
+msgstr "Memory Verse has been updated! Test your memory with the new experience today."
+
+msgid "readyToKeepGoing"
+msgstr "Ready to keep going?"
+
+msgid "showOffYourMemorySkills"
+msgstr "Show off your memory skills!"
+
+msgid "tapToKeepWorkingOnYourMemoryVerse"
+msgstr "Tap to keep working on your memory verse."
+
+msgid "tapToMemorizeABibleVerse"
+msgstr "Tap to memorize a Bible verse."
+
+msgid "thinkYouKnowThisVerse"
+msgstr "Think you know this verse?"
+
+msgid "tryMemorizingABibleVerseToday"
+msgstr "Try memorizing a Bible verse today."
+
+msgid "tryMemorizingABibleVerseTodayExclamation"
+msgstr "Try memorizing a Bible verse today!"
+
+msgid "wantToChallengeYourself"
+msgstr "Want to challenge yourself?"
+
+msgid "wantToTrySomethingNew"
+msgstr "Want to try something new?"
+
+msgid "weBelieveInYou"
+msgstr "We believe in you!"
+

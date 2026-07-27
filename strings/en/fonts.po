@@ -1,0 +1,24 @@
+# This file is auto-generated
+msgid ""
+msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en-US\n"
+"MIME-Version: 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: YouVersion Fonts 1.0\n"
+"X-Crowdin-SourceKey: msgstr\n"
+"X-Generator: Babel 2.0\n"
+
+msgid "delete"
+msgstr "Delete"
+
+msgid "fileSizeInKB"
+msgstr "%1$s KB"
+
+msgid "fileSizeInMB"
+msgstr "%1$s MB"
+
+msgid "font"
+msgstr "Font"
+

@@ -1,0 +1,57 @@
+# This file is auto-generated
+msgid ""
+msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en-US\n"
+"MIME-Version: 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: YouVersion Settings 1.0\n"
+"X-Crowdin-SourceKey: msgstr\n"
+"X-Generator: Babel 2.0\n"
+
+msgid "allowNotifications"
+msgstr "Allow notifications"
+
+msgid "audioVideoNotifications"
+msgstr "Audio / Video Notifications"
+
+msgid "dailyVideo"
+msgstr "Daily video"
+
+msgid "dailyVideoReminder"
+msgstr "Daily Video Reminder"
+
+msgid "deleteAccount"
+msgstr "Delete Account"
+
+msgid "downloadFailed"
+msgstr "Download Failed"
+
+msgid "goToDeviceSettings"
+msgstr "Go to Device Settings"
+
+msgid "helpAndFeedback"
+msgstr "Help & Feedback"
+
+msgid "memoryMix"
+msgstr "Memory Mix"
+
+msgid "memoryVerse"
+msgstr "Memory Verse"
+
+msgid "notificationPermissionsDisabledBody"
+msgstr "To get notifications, turn on notification permissions in your device settings."
+
+msgid "notificationPermissionsDisabledTitle"
+msgstr "Notification permissions are disabled"
+
+msgid "notifications"
+msgstr "Notifications"
+
+msgid "reminders"
+msgstr "Reminders"
+
+msgid "streak"
+msgstr "Streak"
+

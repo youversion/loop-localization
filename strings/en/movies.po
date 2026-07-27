@@ -1,0 +1,48 @@
+# This file is auto-generated
+msgid ""
+msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en-US\n"
+"MIME-Version: 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: YouVersion Movies 1.0\n"
+"X-Crowdin-SourceKey: msgstr\n"
+"X-Generator: Babel 2.0\n"
+
+msgid "discoverRelatedVideos"
+msgstr "Discover Related Videos"
+
+msgid "goToCollection"
+msgstr "Go to collection"
+
+msgid "learnMore"
+msgstr "LEARN MORE"
+
+msgid "less"
+msgstr "LESS"
+
+msgid "more"
+msgstr "MORE"
+
+msgid "recommendations"
+msgstr "Recommendations"
+
+msgid "relatedScripture"
+msgstr "Related Scripture"
+
+msgid "share"
+msgstr "Share"
+
+msgid "shareVideo"
+msgstr "Hey, have you seen this? Check out %1$s:"
+
+msgid "title"
+msgstr "Title"
+
+msgid "transparency"
+msgstr "Transparency"
+
+msgid "videos"
+msgstr "Videos"
+

@@ -1,0 +1,36 @@
+# This file is auto-generated
+msgid ""
+msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en-US\n"
+"MIME-Version: 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: YouVersion StoriesReminders 1.0\n"
+"X-Crowdin-SourceKey: msgstr\n"
+"X-Generator: Babel 2.0\n"
+
+msgid "storiesReminder1"
+msgstr "Open Bible Loop and watch the daily video!"
+
+msgid "storiesReminder2"
+msgstr "Get to know Him better with the daily video."
+
+msgid "storiesReminder3"
+msgstr "Check out the daily video made just for you!"
+
+msgid "storiesReminder4"
+msgstr "Time to be with God! Open Bible Loop and watch the daily video."
+
+msgid "storiesReminderTitle1"
+msgstr "❓ “What does God’s Word say?”"
+
+msgid "storiesReminderTitle2"
+msgstr "God wants to spend time with you!"
+
+msgid "storiesReminderTitle3"
+msgstr "👀 You’ll love this…"
+
+msgid "storiesReminderTitle4"
+msgstr "What time is it?"
+

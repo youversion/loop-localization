@@ -1,0 +1,186 @@
+# This file is auto-generated
+msgid ""
+msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en-US\n"
+"MIME-Version: 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: YouVersion BibleApp 1.0\n"
+"X-Crowdin-SourceKey: msgstr\n"
+"X-Generator: Babel 2.0\n"
+
+msgid "about"
+msgstr "About"
+
+msgid "acceptDownloadDismiss"
+msgstr "Accept download by %1$s to keep the offline Bible version %2$s or dismiss and choose a version to download."
+
+msgid "addAWidget"
+msgstr "Add a widget"
+
+msgid "allSections"
+msgstr "All Sections"
+
+msgid "allTimeTotalPrompt"
+msgstr "Now includes your all-time total"
+
+msgid "bibleGuides"
+msgstr "Bible Guides"
+
+msgid "bibleSupport"
+msgstr "Bible Support"
+
+msgid "copyright"
+msgstr "Copyright"
+
+msgid "country"
+msgstr "Country"
+
+msgid "customize"
+msgstr "Customize"
+
+msgid "dateFormatAndTime"
+msgstr "MMM d, yyyy 'at' h:mm a"
+
+msgid "dateFormatMonthDay"
+msgstr "MMMM d"
+
+msgid "declareWithYourMouth"
+msgstr "if you declare with your mouth, ‘Jesus is Lord,’ and believe in your heart that God raised him from the dead, you will be saved."
+
+msgid "fiveStars"
+msgstr "Give us 5-stars to help others find our Bible App"
+
+msgid "fontSize"
+msgstr "Font Size"
+
+msgid "helpShare"
+msgstr "Connect others with God's Word"
+
+msgid "hide"
+msgstr "Hide"
+
+msgid "incorrectEmailOrPassword"
+msgstr "Incorrect Email or Password"
+
+msgid "invite"
+msgstr "Hey! I love using YouVersion, and I think you will, too. You can study God's Word, read and watch daily devotionals, pray with friends, and more! Get it here:"
+
+msgid "keepAllYourHighlights"
+msgstr "Keep all your Highlights"
+
+msgid "language"
+msgstr "Language: %1$s"
+
+msgid "makeBibleYours"
+msgstr "MAKE THE BIBLE YOURS"
+
+msgid "name"
+msgstr "Name"
+
+msgid "needAMomentWithGod"
+msgstr "Need a moment with God?"
+
+msgid "noRelatedContent"
+msgstr "No related content"
+
+msgid "notificationBenefits"
+msgstr "People who enable notifications are 74% more likely to meet their daily Bible goal."
+
+msgid "offlineBibleAgreementSingle"
+msgstr "Our agreement with the publisher of this Bible version requires us to share your name and the following information with them in order to offer this version for offline use. By proceeding you agree that %1$s may contact you via email and that you may unsubscribe at any time."
+
+msgid "oneToTwo"
+msgstr "1-2"
+
+msgid "preview"
+msgstr "Preview"
+
+msgid "rateThisApp"
+msgstr "Rate This App"
+
+msgid "readBibleOnline"
+msgstr "Read the Bible Online"
+
+msgid "save"
+msgstr "Save"
+
+msgid "seekGodTitle"
+msgstr "Seek God Every Day"
+
+msgid "selectFont"
+msgstr "Select Font Type"
+
+msgid "sendEmail"
+msgstr "Send Email"
+
+msgid "shareApp"
+msgstr "Share the App"
+
+msgid "signin"
+msgstr "Sign In"
+
+msgid "sortAlphabetical"
+msgstr "Alphabetical"
+
+msgid "sponsorMessage"
+msgstr "%1$s brought to you by %2$s"
+
+msgid "square"
+msgstr "Square"
+
+msgid "streaksHelpBuildPrompt"
+msgstr "Streaks help you build your daily Bible habit."
+
+msgid "tapAVerse"
+msgstr "Tap on a verse in the Bible to highlight."
+
+msgid "text"
+msgstr "Text"
+
+msgid "textControls"
+msgstr "Text Controls"
+
+msgid "theme"
+msgstr "Theme"
+
+msgid "themeDark"
+msgstr "Dark Mode"
+
+msgid "themeLight"
+msgstr "Light Mode"
+
+msgid "themeMatch"
+msgstr "Match Device Setting"
+
+msgid "updateAvailable"
+msgstr "Update available"
+
+msgid "verse"
+msgstr "Verse"
+
+msgid "verseImageDesignIndex"
+msgstr "Verse Image Design %1$s"
+
+msgid "verseImageFont"
+msgstr "Verse Image Fonts"
+
+msgid "verseSelectionNotAvailable"
+msgstr "Verse selection doesn't exist in this version."
+
+msgid "vertical"
+msgstr "Vertical"
+
+msgid "votdShare"
+msgstr "I'd love to share the Verse of the Day with you!"
+
+msgid "votdWidget"
+msgstr "Verse of the Day Widget"
+
+msgid "youCanHaveAsManyAs"
+msgstr "You can have as many as %1$s"
+
+msgid "youWillShare"
+msgstr "You will share"
+

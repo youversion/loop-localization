@@ -1,0 +1,186 @@
+# This file is auto-generated
+msgid ""
+msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en-US\n"
+"MIME-Version: 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: YouVersion Bible 1.0\n"
+"X-Crowdin-SourceKey: msgstr\n"
+"X-Generator: Babel 2.0\n"
+
+msgid "actionCannotBeUndone"
+msgstr "This action cannot be undone"
+
+msgid "add"
+msgstr "Add"
+
+msgid "addVersion"
+msgstr "ADD VERSION"
+
+msgid "agree"
+msgstr "Agree"
+
+msgid "agreeDownload"
+msgstr "Agree and Download"
+
+msgid "all"
+msgstr "All"
+
+msgid "back"
+msgstr "Back"
+
+msgid "bibleStories"
+msgstr "Bible Stories"
+
+msgid "chooseChapter"
+msgstr "Choose Chapter"
+
+msgid "chooseVersion"
+msgstr "Choose Version"
+
+msgid "clear"
+msgstr "Clear"
+
+msgid "compareVersions"
+msgstr "Compare Versions"
+
+msgid "copied"
+msgstr "Copied to clipboard."
+
+msgid "copy"
+msgstr "Copy"
+
+msgid "delete"
+msgstr "Delete"
+
+msgid "deleteNote"
+msgstr "Delete Note"
+
+msgid "deleteNoteQuestionUpper"
+msgstr "DELETE NOTE?"
+
+msgid "deleteVersionBody"
+msgstr "Are you sure you want to remove this downloaded version?"
+
+msgid "deleteVersionTitle"
+msgstr "Delete Bible Versions"
+
+msgid "dismiss"
+msgstr "Dismiss"
+
+msgid "dlComplete"
+msgstr "The Bible download is complete."
+
+msgid "dlStartMessage"
+msgstr "We’ve started the download process. We’ll let you know when it’s completed."
+
+msgid "downloaded"
+msgstr "Downloaded"
+
+msgid "downloadedEmphasized"
+msgstr "Downloaded!"
+
+msgid "downloading"
+msgstr "Downloading"
+
+msgid "downloadingVersion"
+msgstr "Downloading Version"
+
+msgid "drag"
+msgstr "Drag"
+
+msgid "edit"
+msgstr "Edit"
+
+msgid "findBibleStoriesHere"
+msgstr "Find Bible Stories here!"
+
+msgid "forward"
+msgstr "Forward"
+
+msgid "history"
+msgstr "History"
+
+msgid "keepNote"
+msgstr "Keep Note"
+
+msgid "language_x"
+msgstr "%1$s (%2$s)"
+
+msgid "learnMore"
+msgstr "Learn More"
+
+msgid "listenInBible"
+msgstr "Listen in Bible"
+
+msgid "maybeLater"
+msgstr "Maybe Later"
+
+msgid "nextVerse"
+msgstr "NEXT VERSE"
+
+msgid "notNow"
+msgstr "Not now"
+
+msgid "note"
+msgstr "Note"
+
+msgid "ok"
+msgstr "OK"
+
+msgid "previousVerse"
+msgstr "PREVIOUS VERSE"
+
+msgid "readInBible"
+msgstr "Read in Bible"
+
+msgid "readOfflineAnyTime"
+msgstr "Read it anytime, anywhere — even offline."
+
+msgid "references"
+msgstr "References"
+
+msgid "remove"
+msgstr "Remove"
+
+msgid "saveNote"
+msgstr "Save Note"
+
+msgid "search"
+msgstr "Search"
+
+msgid "selectBible"
+msgstr "Select Bible"
+
+msgid "selectLanguage"
+msgstr "Select a Language"
+
+msgid "selectVerse"
+msgstr "Select Verse"
+
+msgid "suggested"
+msgstr "Suggested"
+
+msgid "versionDownloadAgreement"
+msgstr "Our agreement with the publisher of this Bible version requires us to share your name and the following information with them in order to offer this version for offline use. By proceeding you agree to share this information and allow the publisher to email you."
+
+msgid "versions"
+msgstr "Versions"
+
+msgid "viewDownload"
+msgstr "View Download"
+
+msgid "writeANoteForThisVerse"
+msgstr "Write a note for this verse"
+
+msgid "xAvailableLanguages"
+msgstr "%1$s Available Languages"
+
+msgid "x_versions"
+msgstr "%1$s Versions (%2$s)"
+
+msgid "yes"
+msgstr "Yes"
+

@@ -1,0 +1,53 @@
+# This file is auto-generated
+msgid ""
+msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en-US\n"
+"MIME-Version: 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: YouVersion BibleAudio 1.0\n"
+"X-Crowdin-SourceKey: msgstr\n"
+"X-Generator: Babel 2.0\n"
+
+msgid "audioBibles"
+msgstr "Audio Bibles"
+
+msgid "back"
+msgstr "Back"
+
+msgid "buffering"
+msgstr "Buffering"
+
+msgid "forward"
+msgstr "Forward"
+
+msgid "off"
+msgstr "Off"
+
+msgid "pause"
+msgstr "Pause"
+
+msgid "play"
+msgstr "Play"
+
+msgid "stories"
+msgstr "Stories"
+
+msgid "switchNarrator"
+msgstr "Switch Narrator"
+
+msgid "timer"
+msgstr "Timer Off"
+
+msgid "title_dramatized"
+msgstr "%1$s (Dramatized)"
+
+msgid "x_hours"
+msgid_plural "x_hours"
+msgstr[0] "1 Hour"
+msgstr[1] "%1$s Hours"
+
+msgid "x_minutes"
+msgstr "%1$s Minutes"
+

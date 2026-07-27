@@ -1,0 +1,135 @@
+# This file is auto-generated
+msgid ""
+msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en-US\n"
+"MIME-Version: 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: YouVersion App 1.0\n"
+"X-Crowdin-SourceKey: msgstr\n"
+"X-Generator: Babel 2.0\n"
+
+msgid "about"
+msgstr "About"
+
+msgid "badges"
+msgstr "Badges"
+
+msgid "bible"
+msgstr "Bible"
+
+msgid "bibleAppActivity"
+msgstr "Bible App Activity"
+
+msgid "bibleSettings"
+msgstr "Bible Settings"
+
+msgid "bookmarks"
+msgstr "Bookmarks"
+
+msgid "clearSearchQuery"
+msgstr "Clear search query"
+
+msgid "create"
+msgstr "Create"
+
+msgid "daysAgo"
+msgstr "%1$sd"
+
+msgid "dismiss"
+msgstr "Dismiss"
+
+msgid "download"
+msgstr "Download"
+
+msgid "enterComment"
+msgstr "Enter Comment…"
+
+msgid "errorPassword"
+msgstr "Error password"
+
+msgid "events"
+msgstr "Events"
+
+msgid "genericError"
+msgstr "An error occurred. If it continues to happen, please file a report via Help > Contact Support."
+
+msgid "goodAfternoonUser"
+msgstr "Good Afternoon, %1$s"
+
+msgid "help"
+msgstr "Help"
+
+msgid "home"
+msgstr "Home"
+
+msgid "hoursAgo"
+msgstr "%1$sh"
+
+msgid "images"
+msgstr "Images"
+
+msgid "language"
+msgstr "Language"
+
+msgid "loading"
+msgstr "Loading"
+
+msgid "login"
+msgstr "Login"
+
+msgid "lostNetworkNotificationMessage"
+msgstr "Some functionality will not be available until connection is established."
+
+msgid "memory"
+msgstr "Memory"
+
+msgid "minutesAgo"
+msgstr "%1$sm"
+
+msgid "more"
+msgstr "More"
+
+msgid "navigateBack"
+msgstr "Navigate Back"
+
+msgid "notifications"
+msgstr "Notifications"
+
+msgid "nowAgo"
+msgstr "Now"
+
+msgid "prayer"
+msgstr "Prayer"
+
+msgid "profile"
+msgstr "Profile"
+
+msgid "search"
+msgstr "Search"
+
+msgid "settings"
+msgstr "Settings"
+
+msgid "share"
+msgstr "Share"
+
+msgid "shareYouVersion"
+msgstr "Share YouVersion"
+
+msgid "submitFeedback"
+msgstr "Submit Feedback"
+
+msgid "today"
+msgstr "Today"
+
+msgid "user"
+msgstr "User"
+
+msgid "videos"
+msgstr "Videos"
+
+msgid "weeksAgo"
+msgstr "%1$sw"
+

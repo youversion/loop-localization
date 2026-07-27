@@ -1,0 +1,36 @@
+# This file is auto-generated
+msgid ""
+msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en-US\n"
+"MIME-Version: 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: YouVersion Votd 1.0\n"
+"X-Crowdin-SourceKey: msgstr\n"
+"X-Generator: Babel 2.0\n"
+
+msgid "download"
+msgstr "Download"
+
+msgid "letter_spacing"
+msgstr "Letter Spacing"
+
+msgid "like"
+msgstr "Like"
+
+msgid "liked"
+msgstr "Liked"
+
+msgid "line_height"
+msgstr "Line Height"
+
+msgid "read"
+msgstr "Read"
+
+msgid "video"
+msgstr "Video"
+
+msgid "view_all"
+msgstr "View All"
+

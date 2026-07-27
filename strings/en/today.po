@@ -1,0 +1,99 @@
+# This file is auto-generated
+msgid ""
+msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en-US\n"
+"MIME-Version: 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: YouVersion Today 1.0\n"
+"X-Crowdin-SourceKey: msgstr\n"
+"X-Generator: Babel 2.0\n"
+
+msgid "comeBackTomorrow"
+msgstr "Come back tomorrow to memorize a different verse."
+
+msgid "done"
+msgstr "Done"
+
+msgid "dragAndDrop"
+msgstr "Drag and Drop"
+
+msgid "earnAnotherCrown"
+msgstr "Earn Another Crown"
+
+msgid "greatJob"
+msgstr "Great Job!"
+
+msgid "greetingsBlessings"
+msgstr "Blessings"
+
+msgid "greetingsGodCaresForYou"
+msgstr "God cares for you"
+
+msgid "greetingsGodIsWithYou"
+msgstr "God is with you"
+
+msgid "greetingsHisGraceIsEnough"
+msgstr "His grace is enough"
+
+msgid "greetingsJesusLovesYou"
+msgstr "Jesus loves you"
+
+msgid "greetingsMayGraceCoverYou"
+msgstr "May grace cover you"
+
+msgid "greetingsPeaceBeWithYou"
+msgstr "Peace be with you"
+
+msgid "greetingsYouAreAccepted"
+msgstr "You are accepted"
+
+msgid "greetingsYouAreCalledAndChosen"
+msgstr "You are called and chosen"
+
+msgid "greetingsYouAreCreatedByGod"
+msgstr "You are created by God"
+
+msgid "greetingsYouAreLoved"
+msgstr "You are loved"
+
+msgid "greetingsYouAreNeverAlone"
+msgstr "You are never alone"
+
+msgid "idLoveToShareTodaysPrayerWithYou"
+msgstr "I'd love to share today's prayer with you!"
+
+msgid "memorizeABibleVerse"
+msgstr "Memorize a Bible verse"
+
+msgid "memorizeTodaysVerse"
+msgstr "Memorize Today's Verse"
+
+msgid "playMemoryGame"
+msgstr "Play Memory Game"
+
+msgid "pray"
+msgstr "Pray"
+
+msgid "prayed"
+msgstr "Prayed"
+
+msgid "share"
+msgstr "Share"
+
+msgid "shareGodsWord"
+msgstr "Share God's Word"
+
+msgid "spendTimeWithGod"
+msgstr "Spend time with God"
+
+msgid "start"
+msgstr "Start"
+
+msgid "todaysPrayer"
+msgstr "Today's Prayer"
+
+msgid "todaysPrayerUpper"
+msgstr "TODAY’S PRAYER"
+

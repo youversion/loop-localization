@@ -1,0 +1,27 @@
+# This file is auto-generated
+msgid ""
+msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en-US\n"
+"MIME-Version: 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: YouVersion Search 1.0\n"
+"X-Crowdin-SourceKey: msgstr\n"
+"X-Generator: Babel 2.0\n"
+
+msgid "xHours"
+msgid_plural "xHours"
+msgstr[0] "1 hour"
+msgstr[1] "%1$s hours"
+
+msgid "xMinutes"
+msgid_plural "xMinutes"
+msgstr[0] "1 minute"
+msgstr[1] "%1$s minutes"
+
+msgid "xSeconds"
+msgid_plural "xSeconds"
+msgstr[0] "1 second"
+msgstr[1] "%1$s seconds"
+

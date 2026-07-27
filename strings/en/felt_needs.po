@@ -1,0 +1,48 @@
+# This file is auto-generated
+msgid ""
+msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en-US\n"
+"MIME-Version: 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: YouVersion FeltNeeds 1.0\n"
+"X-Crowdin-SourceKey: msgstr\n"
+"X-Generator: Babel 2.0\n"
+
+msgid "checkIn"
+msgstr "Check-In"
+
+msgid "getACustomDevo"
+msgstr "Get a Custom Devo Based on Your Mood"
+
+msgid "getAPersonalizedDevo"
+msgstr "Get a personalized devo based on your mood"
+
+msgid "helpUsMakeItBetter"
+msgstr "Help us make it better"
+
+msgid "howAreYouFeeling"
+msgstr "How are you feeling?"
+
+msgid "prayerEmoji"
+msgstr "🙏 Prayer"
+
+msgid "saveToMemorize"
+msgstr "Save to Memorize"
+
+msgid "saved"
+msgstr "Saved"
+
+msgid "tryNow"
+msgstr "Try Now"
+
+msgid "useTheSlider"
+msgstr "Use the slider to find your general mood, and we’ll give you a personalized devo."
+
+msgid "weveAddedNewDevotionalContent"
+msgstr "We've added new devotional content to help you process your emotions with God's Word."
+
+msgid "whatDidYouThinkAboutThatExperience"
+msgstr "What did you think of that experience?"
+

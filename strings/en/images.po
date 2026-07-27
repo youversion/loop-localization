@@ -1,0 +1,114 @@
+# This file is auto-generated
+msgid ""
+msgstr ""
+"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en-US\n"
+"MIME-Version: 1.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: YouVersion Images 1.0\n"
+"X-Crowdin-SourceKey: msgstr\n"
+"X-Generator: Babel 2.0\n"
+
+msgid "accessSdCardPermission"
+msgstr "Then the Bible App will need access to your SD card so it can copy this offline Bible there. On the next screen, please tap Allow to begin downloading your offline Bible."
+
+msgid "backgroundBlur"
+msgstr "Background Blur"
+
+msgid "backgroundBrightness"
+msgstr "Background Brightness"
+
+msgid "chooseABackgroundImage"
+msgstr "Choose a background image."
+
+msgid "chooseYourBackgroundImage"
+msgstr "Choose Your Background Image"
+
+msgid "confirmSdCardPermission"
+msgstr "The Bible App needs access to your SD card in order to copy this offline Bible to your device. Would you still like to download this offline Bible?"
+
+msgid "createImage"
+msgstr "Create Image"
+
+msgid "cropImage"
+msgstr "Crop Image"
+
+msgid "downloadingImagesDisabled"
+msgstr "Downloading Images is currently disabled in your Settings. Would you like to temporarily enable Downloading Images while this action is completed?"
+
+msgid "finish"
+msgstr "Finish"
+
+msgid "friendHasNoImagesYet"
+msgstr "Your friend doesn't have any images yet."
+
+msgid "imageSaved"
+msgstr "Image Saved"
+
+msgid "imageTitle"
+msgstr "Choose Image"
+
+msgid "images"
+msgstr "Images"
+
+msgid "loading"
+msgstr "Loading..."
+
+msgid "lookingGoodUppercase"
+msgstr "LOOKING GOOD!"
+
+msgid "newToFaith"
+msgstr "New to Faith"
+
+msgid "noImage"
+msgstr "No Image"
+
+msgid "pageTitle"
+msgstr "Page Title"
+
+msgid "savedToProfile"
+msgstr "Saved to Profile"
+
+msgid "share"
+msgstr "Share"
+
+msgid "square"
+msgstr "Square"
+
+msgid "squareIsBest"
+msgstr "Square is best for sharing on social media."
+
+msgid "tapToViewImage"
+msgstr "Tap to View the Image"
+
+msgid "textOpacity"
+msgstr "Text Opacity"
+
+msgid "useYourOwnImage"
+msgstr "Use your own image"
+
+msgid "verseArtLeaveDialogBody"
+msgstr "The image you’ve designed won’t be saved if you leave now."
+
+msgid "verseArtLeaveDialogDiscard"
+msgstr "Discard"
+
+msgid "verseArtLeaveDialogKeepEditing"
+msgstr "Keep Editing"
+
+msgid "verseArtLeaveDialogTitle"
+msgstr "Discard design?"
+
+msgid "vertical"
+msgstr "Vertical"
+
+msgid "verticalIsBest"
+msgstr "Vertical is best for wallpaper."
+
+msgid "veryNiceUppercase"
+msgstr "VERY NICE!"
+
+msgid "viewImage"
+msgstr "View Image"
+
