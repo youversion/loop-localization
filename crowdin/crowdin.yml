@@ -4,6 +4,12 @@
 # Same Crowdin project as loop-ios/Flutter (257). This repo owns pushing new
 # source strings; loop-ios and youversion-flutter-loop only pull translations.
 #
+# `dest`/`translation` are pinned to youversion-flutter-loop's existing
+# Crowdin path (assets/strings/en/*.po) rather than this repo's own
+# strings/en/ layout -- pushes from here must land on the same Crowdin files
+# Flutter already pushes to, or they'd create duplicate strings instead of
+# updating existing ones.
+#
 "project_id": "257"
 "base_path": ".."
 "base_url": "https://youversion.crowdin.com"
@@ -12,7 +18,8 @@
 "files": [
     {
         "source": "strings/en/*.po",
-        "translation": "strings/%two_letters_code%/%file_name%.po",
+        "dest": "assets/strings/en/%original_file_name%",
+        "translation": "assets/strings/%two_letters_code%/%original_file_name%",
     },
 ]
 
