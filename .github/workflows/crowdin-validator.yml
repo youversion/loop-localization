@@ -11,11 +11,19 @@ name: Crowdin validator (Bitrise)
 # protection actually needs to block a merge, regardless of whether Bitrise's
 # own webhook is wired up.
 #
-# Requires one repo secret: BITRISE_PAT (a Bitrise personal access token, or
-# workspace API token, with at least Developer access to the
+# Requires one repo secret: BITRISE_API_TOKEN (a Bitrise personal access
+# token, or workspace API token, with at least Developer access to the
 # "loop-localization" app -- Bitrise -> Account Settings -> Security ->
 # Personal access tokens). Not the Build trigger token; polling build status
 # needs a real API token per Bitrise's docs.
+#
+# The trigger payload intentionally omits pull_request_* fields: Bitrise
+# tries to resolve those against GitHub too, which hits the same broken
+# identity and makes the *trigger* call itself fail with the same
+# "GitHub identity is not available for user" error. Triggering a plain
+# branch build (branch + commit_hash) sidesteps that entirely -- the
+# validator script only needs `git fetch origin main` + a diff, not a PR
+# merge ref.
 
 on:
   pull_request:
@@ -34,40 +42,33 @@ jobs:
       - name: Trigger Bitrise crowdin_validator build
         id: trigger
         env:
-          BITRISE_PAT: ${{ secrets.BITRISE_PAT }}
+          BITRISE_API_TOKEN: ${{ secrets.BITRISE_API_TOKEN }}
         run: |
           set -euo pipefail
-          if [ -z "${BITRISE_PAT:-}" ]; then
-            echo "::error::Repo secret BITRISE_PAT is not set -- see comments in this workflow file."
+          if [ -z "${BITRISE_API_TOKEN:-}" ]; then
+            echo "::error::Repo secret BITRISE_API_TOKEN is not set -- see comments in this workflow file."
             exit 1
           fi
 
           payload=$(jq -n \
             --arg workflow_id "crowdin_validator" \
             --arg branch "${{ github.head_ref }}" \
-            --arg branch_dest "${{ github.base_ref }}" \
             --arg commit_hash "${{ github.event.pull_request.head.sha }}" \
             --arg commit_message "${{ github.event.pull_request.title }}" \
-            --arg pr_repo_url "${{ github.event.pull_request.head.repo.clone_url }}" \
-            --argjson pr_id "${{ github.event.pull_request.number }}" \
             '{
               hook_info: {type: "bitrise"},
               build_params: {
                 workflow_id: $workflow_id,
                 branch: $branch,
-                branch_dest: $branch_dest,
                 commit_hash: $commit_hash,
                 commit_message: $commit_message,
-                pull_request_id: $pr_id,
-                pull_request_repository_url: $pr_repo_url,
-                pull_request_head_branch: $branch,
                 skip_git_status_report: true
               }
             }')
 
           response=$(curl -sS -w '\n%{http_code}' -X POST \
             "https://api.bitrise.io/v0.1/apps/${BITRISE_APP_SLUG}/builds" \
-            -H "Authorization: ${BITRISE_PAT}" \
+            -H "Authorization: ${BITRISE_API_TOKEN}" \
             -H "Content-Type: application/json" \
             -d "$payload")
           http_code=$(echo "$response" | tail -n1)
@@ -87,14 +88,14 @@ jobs:
 
       - name: Wait for Bitrise build result
         env:
-          BITRISE_PAT: ${{ secrets.BITRISE_PAT }}
+          BITRISE_API_TOKEN: ${{ secrets.BITRISE_API_TOKEN }}
           BUILD_SLUG: ${{ steps.trigger.outputs.build_slug }}
         run: |
           set -euo pipefail
           # status: 0 = in-progress, 1 = success, 2 = failed, 3 = aborted
           for _ in $(seq 1 90); do
             resp=$(curl -sS "https://api.bitrise.io/v0.1/apps/${BITRISE_APP_SLUG}/builds/${BUILD_SLUG}" \
-              -H "Authorization: ${BITRISE_PAT}")
+              -H "Authorization: ${BITRISE_API_TOKEN}")
             status=$(echo "$resp" | jq -r '.data.status')
             status_text=$(echo "$resp" | jq -r '.data.status_text')
             echo "Bitrise build status: $status ($status_text)"
