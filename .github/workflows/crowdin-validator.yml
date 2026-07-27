@@ -11,8 +11,8 @@ name: Crowdin validator (Bitrise)
 # protection actually needs to block a merge, regardless of whether Bitrise's
 # own webhook is wired up.
 #
-# Requires one repo secret: BITRISE_API_TOKEN (a Bitrise personal access
-# token, or workspace API token, with at least Developer access to the
+# Requires one repo secret: BITRISE_PAT (a Bitrise personal access token, or
+# workspace API token, with at least Developer access to the
 # "loop-localization" app -- Bitrise -> Account Settings -> Security ->
 # Personal access tokens). Not the Build trigger token; polling build status
 # needs a real API token per Bitrise's docs.
@@ -34,11 +34,11 @@ jobs:
       - name: Trigger Bitrise crowdin_validator build
         id: trigger
         env:
-          BITRISE_API_TOKEN: ${{ secrets.BITRISE_API_TOKEN }}
+          BITRISE_PAT: ${{ secrets.BITRISE_PAT }}
         run: |
           set -euo pipefail
-          if [ -z "${BITRISE_API_TOKEN:-}" ]; then
-            echo "::error::Repo secret BITRISE_API_TOKEN is not set -- see comments in this workflow file."
+          if [ -z "${BITRISE_PAT:-}" ]; then
+            echo "::error::Repo secret BITRISE_PAT is not set -- see comments in this workflow file."
             exit 1
           fi
 
@@ -67,7 +67,7 @@ jobs:
 
           response=$(curl -sS -w '\n%{http_code}' -X POST \
             "https://api.bitrise.io/v0.1/apps/${BITRISE_APP_SLUG}/builds" \
-            -H "Authorization: ${BITRISE_API_TOKEN}" \
+            -H "Authorization: ${BITRISE_PAT}" \
             -H "Content-Type: application/json" \
             -d "$payload")
           http_code=$(echo "$response" | tail -n1)
@@ -87,14 +87,14 @@ jobs:
 
       - name: Wait for Bitrise build result
         env:
-          BITRISE_API_TOKEN: ${{ secrets.BITRISE_API_TOKEN }}
+          BITRISE_PAT: ${{ secrets.BITRISE_PAT }}
           BUILD_SLUG: ${{ steps.trigger.outputs.build_slug }}
         run: |
           set -euo pipefail
           # status: 0 = in-progress, 1 = success, 2 = failed, 3 = aborted
           for _ in $(seq 1 90); do
             resp=$(curl -sS "https://api.bitrise.io/v0.1/apps/${BITRISE_APP_SLUG}/builds/${BUILD_SLUG}" \
-              -H "Authorization: ${BITRISE_API_TOKEN}")
+              -H "Authorization: ${BITRISE_PAT}")
             status=$(echo "$resp" | jq -r '.data.status')
             status_text=$(echo "$resp" | jq -r '.data.status_text')
             echo "Bitrise build status: $status ($status_text)"
