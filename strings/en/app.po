@@ -13,6 +13,9 @@ msgstr ""
 msgid "hackathon"
 msgstr "Hackathon"
 
+msgid "hackathon2026"
+msgstr "Hackathon 2026"
+
 msgid "about"
 msgstr "About"
 
