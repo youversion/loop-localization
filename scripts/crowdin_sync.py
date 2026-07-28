@@ -195,18 +195,61 @@ def parse_args():
     return parser.parse_args()
 
 
+def changed_po_files():
+    # Scope the push to just the .po files this merge actually touched,
+    # instead of every file crowdin/crowdin.yml's `strings/en/*.po` glob
+    # matches. `crowdin upload sources` re-uploads (and Crowdin re-diffs)
+    # every matched file on every invocation regardless of whether it
+    # changed, which was flooding Crowdin's webhook log with ~30 entries
+    # per merge even when only one string changed. Diffing HEAD's parent
+    # correctly covers squash merges and "create a merge commit" merges
+    # (single new commit on main either way); a rebase-merge that lands
+    # multiple commits in one push would only see the last one here -- any
+    # file missed that way still gets picked up on the *next* push that
+    # touches it, so this stays eventually-consistent either way.
+    parent = subprocess.run(
+        ["git", "rev-parse", "HEAD^"], capture_output=True, text=True
+    )
+    if parent.returncode != 0:
+        print("No parent commit (e.g. first commit); uploading all source files.")
+        return None
+
+    diff = capture([
+        "git", "diff", "--name-only", "--diff-filter=ACMR",
+        parent.stdout.strip(), "HEAD", "--", "strings/en/*.po",
+    ])
+    return [line for line in diff.splitlines() if line]
+
+
 def push_new_strings(dry_run=False):
     # Push any locally-added source strings (hand-edited into the target
     # .po file directly; see scripts/crowdin_validator.py for the PR-time
-    # gate) to Crowdin. Scoping to just strings/en/*.po is done via
-    # crowdin/crowdin.yml's `files:` entry, not a CLI flag. This is
-    # unconditional: Crowdin matches by identifier and no-ops anything
-    # unchanged, so no local diffing is needed here. Never pass
-    # --delete-obsolete; this must stay additive/update-only.
-    cmd = ["crowdin", "upload", "sources"]
-    if dry_run:
-        cmd.append("--dryrun")
-    run(cmd, cwd=str(CROWDIN_DIR))
+    # gate) to Crowdin. This is unconditional per-file: Crowdin matches by
+    # identifier and no-ops anything unchanged, so no per-string diffing is
+    # needed here -- just per-file scoping (see changed_po_files() above).
+    # Never pass --delete-obsolete; this must stay additive/update-only.
+    files = changed_po_files()
+    if files == []:
+        print("No strings/en/*.po changes vs. the previous commit; nothing to push.")
+        return
+
+    if files is None:
+        cmd = ["crowdin", "upload", "sources"]
+        if dry_run:
+            cmd.append("--dryrun")
+        run(cmd, cwd=str(CROWDIN_DIR))
+        return
+
+    for path in files:
+        print(f"Changed source file: {path}")
+    for path in files:
+        # -s is a config override, resolved the same way as crowdin.yml's own
+        # `source:` value -- relative to base_path (".."), i.e. the repo root,
+        # not relative to this subprocess's cwd (crowdin/).
+        cmd = ["crowdin", "upload", "sources", "-s", path]
+        if dry_run:
+            cmd.append("--dryrun")
+        run(cmd, cwd=str(CROWDIN_DIR))
 
 
 def download_sources():
