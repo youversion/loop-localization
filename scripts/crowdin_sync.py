@@ -67,11 +67,16 @@ from pathlib import Path
 
 CROWDIN_DIR = Path("crowdin")
 
-# Mirrors crowdin/crowdin.yml's `translation:` pattern. The crowdin CLI
-# requires -s/--source and -t/--translation to be overridden together on the
-# command line -- passing -s alone errors with "Both the 'source' and the
+# Mirror crowdin/crowdin.yml's `dest:`/`translation:` patterns. The crowdin
+# CLI requires -s/--source and -t/--translation to be overridden together on
+# the command line -- passing -s alone errors with "Both the 'source' and the
 # 'translation' must be specified in the parameters" instead of falling back
-# to the config file's `translation:` value.
+# to the config file's values. It also does NOT fall back to the config
+# file's `dest:` in that case either: without --dest, it silently created a
+# *new* file mirroring the local source path ("strings/en/app.po") instead of
+# updating the real, existing "Bible Loop (Master)/app.po" -- so --dest must
+# be passed explicitly too, every time -s/-t are overridden.
+DEST_PATTERN = "Bible Loop (Master)/%original_file_name%"
 TRANSLATION_PATTERN = "Bible Loop (Master)/%two_letters_code%/%original_file_name%"
 
 # Rolling branch + PR settings (override via env in CI if needed).
@@ -250,12 +255,15 @@ def push_new_strings(dry_run=False):
     for path in files:
         print(f"Changed source file: {path}")
     for path in files:
-        # -s/-t are config overrides, resolved the same way as crowdin.yml's
-        # own `source:`/`translation:` values -- relative to base_path (".."),
-        # i.e. the repo root, not relative to this subprocess's cwd (crowdin/).
+        # -s/--dest/-t are config overrides, resolved the same way as
+        # crowdin.yml's own `source:`/`dest:`/`translation:` values --
+        # relative to base_path (".."), i.e. the repo root, not relative to
+        # this subprocess's cwd (crowdin/). All three must be passed together;
+        # see DEST_PATTERN/TRANSLATION_PATTERN above for why.
         cmd = [
             "crowdin", "upload", "sources",
             "-s", path,
+            "--dest", DEST_PATTERN,
             "-t", TRANSLATION_PATTERN,
         ]
         if dry_run:
