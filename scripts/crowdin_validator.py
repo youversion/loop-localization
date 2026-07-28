@@ -30,6 +30,15 @@ from pathlib import Path
 EN_STRINGS_DIR = Path("strings/en")
 BASE_BRANCH = os.environ.get("CROWDIN_SYNC_BASE", "main")
 
+# Must match crowdin_sync.py's BRANCH default/env var exactly: PRs from this
+# rolling branch are crowdin_sync.py's own pull-mode output, mirroring
+# whatever Crowdin's UI/API currently has -- including edits/deletions, which
+# is exactly what this validator otherwise exists to block for *hand*-edited
+# PRs. Skip entirely for that branch, or crowdin_pull's own self-heal PRs
+# (e.g. reflecting a string deleted on Crowdin) would fail this check and
+# never be mergeable.
+SYNC_BRANCH = os.environ.get("CROWDIN_SYNC_BRANCH", "chore/crowdin-sync")
+
 # Matches any `msgid "..."` line (including ones followed by msgid_plural) --
 # used only to detect whether a key exists anywhere, not to read its value.
 _ANY_MSGID_RE = re.compile(r'^msgid "((?:[^"\\]|\\.)*)"$', re.MULTILINE)
@@ -133,9 +142,28 @@ def validate() -> int:
     return 1
 
 
+def head_branch() -> str:
+    # Bitrise's git-clone step checks out PRs as a detached merge ref, so
+    # `git branch --show-current` is empty -- the actual PR head branch name
+    # is only available via the env vars CI exports. Bitrise sets
+    # BITRISE_GIT_BRANCH to the git-clone step's resolved `branch` input
+    # (the PR's head branch); GitHub Actions would set GITHUB_HEAD_REF. Fall
+    # back to the real current branch for local/manual runs.
+    return (
+        os.environ.get("BITRISE_GIT_BRANCH")
+        or os.environ.get("GITHUB_HEAD_REF")
+        or capture(["git", "branch", "--show-current"])
+    )
+
+
 def main() -> int:
     root = capture(["git", "rev-parse", "--show-toplevel"])
     os.chdir(root)
+
+    if head_branch() == SYNC_BRANCH:
+        print(f"OK: skipping validation for crowdin_sync.py's own '{SYNC_BRANCH}' branch.")
+        return 0
+
     # A PR checkout may not already have origin/{BASE_BRANCH} fetched locally
     # (depends on the CI clone depth) -- fetch it explicitly so the diff
     # below can't fail just because the ref is missing.
