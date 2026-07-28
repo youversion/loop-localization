@@ -187,6 +187,16 @@ def ensure_git_identity():
              os.environ.get("CROWDIN_SYNC_GIT_NAME", "Crowdin Sync Bot")])
 
 
+def ensure_git_auth():
+    # git-clone's checkout works read-only over plain HTTPS with no
+    # credential helper configured, so a later `git push` fails with
+    # "could not read Username for 'https://github.com'". `gh auth setup-git`
+    # points git's https credential helper at `gh`, which in turn picks up
+    # GH_TOKEN from the environment -- no separate git-specific credential
+    # setup needed beyond the GH_TOKEN this script already requires.
+    run(["gh", "auth", "setup-git"])
+
+
 def parse_args():
     parser = argparse.ArgumentParser(
         description="Sync localization strings with Crowdin and open a pull request.",
@@ -332,6 +342,7 @@ def main():
 
     validate_sync_branch()
     ensure_git_identity()
+    ensure_git_auth()
 
     # Start the sync branch fresh from the latest base branch. Also fetch the
     # rolling branch (if it exists) so --force-with-lease has a remote-tracking
