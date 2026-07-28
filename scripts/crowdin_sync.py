@@ -67,6 +67,13 @@ from pathlib import Path
 
 CROWDIN_DIR = Path("crowdin")
 
+# Mirrors crowdin/crowdin.yml's `translation:` pattern. The crowdin CLI
+# requires -s/--source and -t/--translation to be overridden together on the
+# command line -- passing -s alone errors with "Both the 'source' and the
+# 'translation' must be specified in the parameters" instead of falling back
+# to the config file's `translation:` value.
+TRANSLATION_PATTERN = "Bible Loop (Master)/%two_letters_code%/%original_file_name%"
+
 # Rolling branch + PR settings (override via env in CI if needed).
 BRANCH = os.environ.get("CROWDIN_SYNC_BRANCH", "chore/crowdin-sync")
 BASE_BRANCH = os.environ.get("CROWDIN_SYNC_BASE", "main")
@@ -243,10 +250,14 @@ def push_new_strings(dry_run=False):
     for path in files:
         print(f"Changed source file: {path}")
     for path in files:
-        # -s is a config override, resolved the same way as crowdin.yml's own
-        # `source:` value -- relative to base_path (".."), i.e. the repo root,
-        # not relative to this subprocess's cwd (crowdin/).
-        cmd = ["crowdin", "upload", "sources", "-s", path]
+        # -s/-t are config overrides, resolved the same way as crowdin.yml's
+        # own `source:`/`translation:` values -- relative to base_path (".."),
+        # i.e. the repo root, not relative to this subprocess's cwd (crowdin/).
+        cmd = [
+            "crowdin", "upload", "sources",
+            "-s", path,
+            "-t", TRANSLATION_PATTERN,
+        ]
         if dry_run:
             cmd.append("--dryrun")
         run(cmd, cwd=str(CROWDIN_DIR))
