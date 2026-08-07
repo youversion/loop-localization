@@ -10,18 +10,6 @@ msgstr ""
 "X-Crowdin-SourceKey: msgstr\n"
 "X-Generator: Babel 2.0\n"
 
-msgid "hackathon"
-msgstr "Hackathon"
-
-msgid "hackathon2026"
-msgstr "Hackathon 2026"
-
-msgid "hackathon2026ScopedPushTest"
-msgstr "Hackathon 2026 Scoped Push Test"
-
-msgid "hackathon2026ScopedPushTest2"
-msgstr "Hackathon 2026 Scoped Push Test 2"
-
 msgid "about"
 msgstr "About"
 
