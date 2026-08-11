@@ -13,8 +13,26 @@ msgstr ""
 msgid "aboutBlurb"
 msgstr "Bible Loop is a free, immersive Bible experience from YouVersion designed primarily for teens. Developed in partnership with OneHope, Bible Loop is made to help teens fall in love with God and His Word. Enjoy daily guided Bible reflections, verse memory challenges, and access to the Bible on the go."
 
+msgid "account"
+msgstr "Account"
+
 msgid "addCheckIn"
 msgstr "Add check-in"
+
+msgid "addName"
+msgstr "Add name"
+
+msgid "addNote"
+msgstr "Add Note"
+
+msgid "addUsername"
+msgstr "Add username"
+
+msgid "addYourBirthday"
+msgstr "Add your birthday"
+
+msgid "aWidgetCanHelpYouRememberToMemorize"
+msgstr "A widget can help you remember to spend time memorizing God’s Word."
 
 msgid "backToHome"
 msgstr "Back to Home"
@@ -25,11 +43,23 @@ msgstr "Be still and\nknow that #God\nis with you.#"
 msgid "bibleLoop"
 msgstr "Bible Loop"
 
+msgid "bibleLoopOnlySendsAReminder"
+msgstr "Bible Loop only sends a reminder when you haven’t made progress on your Streak or Memory Verse for the day. Nothing more."
+
 msgid "bibleLoopUpper"
 msgstr "BIBLE LOOP"
 
 msgid "bibleVersion"
 msgstr "Bible Version"
+
+msgid "birthday"
+msgstr "Birthday"
+
+msgid "buildYourBibleHabitAndTrackYourStreak"
+msgstr "Build your Bible habit and track your Streak!"
+
+msgid "changePassword"
+msgstr "Change Password"
 
 msgid "checkBackTomorrow"
 msgstr "Check Back Tomorrow"
@@ -37,17 +67,50 @@ msgstr "Check Back Tomorrow"
 msgid "checkedInAtTime"
 msgstr "Checked-in at %1$s"
 
+msgid "chooseAVerse"
+msgstr "Choose a Verse"
+
 msgid "chooseBackgroundImage"
 msgstr "Choose a background image."
+
+msgid "collectionNotAvailable"
+msgstr "Collection Not Available"
 
 msgid "confirmPassword"
 msgstr "Confirm password"
 
+msgid "connectToGoogle"
+msgstr "Connect to Google"
+
 msgid "continueWithGoogle"
 msgstr "Continue with Google"
 
+msgid "continueWithoutAnAccount"
+msgstr "Continue without an account"
+
+msgid "continueWithoutAProfile"
+msgstr "Continue without a profile"
+
+msgid "couldntDeleteProfile"
+msgstr "Couldn’t delete profile."
+
+msgid "createAccount"
+msgstr "Create account"
+
+msgid "createAnAccountOrSignInToContinue"
+msgstr "Create an account or sign in to continue"
+
 msgid "createAPassword"
 msgstr "Create a password"
+
+msgid "createAProfile"
+msgstr "Create a Profile"
+
+msgid "createAProfileAndKeepMasteringBibleVerses"
+msgstr "Create a profile and keep mastering Bible verses."
+
+msgid "createAProfileAndMasterAVerseToJoinThisWeeksLeaderboard"
+msgstr "Create a profile and master a verse to join this week’s leaderboard."
 
 msgid "createShareInspire"
 msgstr "Create, Share, Inspire"
@@ -55,14 +118,50 @@ msgstr "Create, Share, Inspire"
 msgid "createVerseImages"
 msgstr "Create verse images"
 
+msgid "day"
+msgstr "Day"
+
+msgid "deleteProfile"
+msgstr "Delete Profile"
+
+msgid "deletingYourProfileWillLoseLeaderboardProgress"
+msgstr "Deleting your profile will result in the loss of your leaderboard progress."
+
+msgid "didYouMean"
+msgstr "Did you mean:"
+
+msgid "discardChanges"
+msgstr "Discard Changes?"
+
+msgid "displayName"
+msgstr "Display Name"
+
 msgid "done"
 msgstr "Done"
+
+msgid "dontSeeTheBibleStoryYoureLookingFor"
+msgstr "Don’t see the Bible story you’re looking for?"
+
+msgid "earnCrownsWhenYouMemorizeVerses"
+msgstr "Earn Crowns when you memorize verses!"
 
 msgid "emailNotAvailable"
 msgstr "Email is not available"
 
+msgid "enterCarefullyBirthdaysCantBeEdited"
+msgstr "Enter carefully - birthdays can’t be edited."
+
 msgid "enterYourEmail"
 msgstr "Enter your email"
+
+msgid "enterYourNewPassword"
+msgstr "Enter your new password"
+
+msgid "enterYourOldPassword"
+msgstr "Enter your old password"
+
+msgid "errorInVerseContent"
+msgstr "Error in Verse Content"
 
 msgid "finish"
 msgstr "Finish"
@@ -73,8 +172,14 @@ msgstr "Font"
 msgid "from"
 msgstr "From"
 
+msgid "getStarted"
+msgstr "Get started"
+
 msgid "godIsMyRefugeAndMyStrength"
 msgstr "God is my\n#Refuge# and my\n#strength.#"
+
+msgid "godThankYouForAlwaysBeingWithMe"
+msgstr "God, thank You for always being with me. Please guide my heart and mind today. Help me to follow Your word and become more like You each and everyday. In Jesus’ Name, Amen."
 
 msgid "goodAfternoon"
 msgstr "Good afternoon!"
@@ -84,6 +189,9 @@ msgstr "Good evening!"
 
 msgid "goodMorning"
 msgstr "Good morning!"
+
+msgid "googleSignInIsNotAvailableOnThisDevice"
+msgstr "Google sign-in is not available on this device."
 
 msgid "greetingsBeALightInTheDarkness"
 msgstr "#Be a light in# the darkness!"
@@ -124,11 +232,14 @@ msgstr "How old are you?"
 msgid "iAmTheWayTheTruthAndTheLife"
 msgstr "I AM the #way\n#the #truth# and\nthe #life.#"
 
+msgid "ifYouDeleteYourAccount"
+msgstr "If you delete your account, you’ll lose access to your Bible progress across all our Bible apps."
+
 msgid "image"
 msgstr "Image"
 
-msgid "inWeaknessHeIsString"
-msgstr "#In Weakness#\nhe is strong. "
+msgid "inPartnershipWith"
+msgstr "in partnership with"
 
 msgid "invalidEmailOrUsername"
 msgstr "Invalid email or username"
@@ -136,8 +247,38 @@ msgstr "Invalid email or username"
 msgid "invalidPassword"
 msgstr "Invalid password"
 
+msgid "inWeaknessHeIsString"
+msgstr "#In Weakness#\nhe is strong. "
+
+msgid "joinTheLeaderboard"
+msgstr "Join the Leaderboard"
+
+msgid "joinTheWeeklyLeaderboard"
+msgstr "Join the weekly leaderboard!"
+
+msgid "keepAccount"
+msgstr "Keep Account"
+
+msgid "keepProfile"
+msgstr "Keep Profile"
+
+msgid "lastWeeksResults"
+msgstr "Last Week’s Results"
+
+msgid "leaderboard"
+msgstr "Leaderboard"
+
 msgid "letGodLiveThroughYou"
 msgstr "Let God live\n#through you.#"
+
+msgid "letUsKnow"
+msgstr "Let Us Know"
+
+msgid "levelComplete"
+msgstr "%1$s Complete!"
+
+msgid "listenToTheBibleWithHipHop"
+msgstr "Listen to the Bible with hip hop"
 
 msgid "loopAccountAlreadyVerified"
 msgstr "Your account is already verified!"
@@ -166,8 +307,14 @@ msgstr "Sorry, something went wrong"
 msgid "makeTheBibleYours"
 msgstr "Make the Bible Yours"
 
+msgid "memorizeVersesToEarnCrowns"
+msgstr "Memorize Verses to Earn Crowns"
+
 msgid "memoryVerseChallengeUpper"
 msgstr "MEMORY VERSE CHALLENGE"
+
+msgid "month"
+msgstr "Month"
 
 msgid "moreUpper"
 msgstr "MORE"
@@ -175,17 +322,35 @@ msgstr "MORE"
 msgid "name"
 msgstr "Name"
 
+msgid "navigatesToMasteredVerseList"
+msgstr "Navigates to mastered verse list"
+
 msgid "newExperience"
 msgstr "We’re busy preparing a\nnew experience for you"
 
 msgid "next"
 msgstr "Next"
 
-msgid "notYetImplemented"
-msgstr "Not yet implemented"
+msgid "niceToMeetYouName"
+msgstr "NICE TO MEET YOU, \n%1$s."
+
+msgid "noInternetConnectionShowingSavedContent"
+msgstr "No internet connection. Showing saved content where available."
 
 msgid "notes"
 msgstr "Notes"
+
+msgid "notYetImplemented"
+msgstr "Not yet implemented"
+
+msgid "noUserDataAvailable"
+msgstr "No user data available"
+
+msgid "oldPassword"
+msgstr "Old password"
+
+msgid "oneHopeLogo"
+msgstr "OneHope Logo"
 
 msgid "password"
 msgstr "Password"
@@ -193,14 +358,50 @@ msgstr "Password"
 msgid "passwordMustBe15Chars"
 msgstr "Password must be at least 15 characters"
 
+msgid "pickADisplayName"
+msgstr "Pick a display name"
+
+msgid "pickUpYourCurrentVerseAndKeepMemorizing"
+msgstr "Pick up your current verse and keep memorizing."
+
+msgid "playbackSpeed"
+msgstr "Playback Speed"
+
+msgid "pleaseCheckYourDeviceDateAndTimeSettings"
+msgstr "Please check your device date & time settings and set them to automatic."
+
 msgid "prayMoreWorryLess"
 msgstr "Pray More.#\nWorry Less.#"
 
 msgid "profileUpper"
 msgstr "PROFILE"
 
+msgid "randomize"
+msgstr "Randomize"
+
+msgid "refreshLeaderboard"
+msgstr "Refresh leaderboard"
+
+msgid "resendInSeconds"
+msgstr "Resend in %1$ss"
+
 msgid "resendVerification"
 msgstr "Resend Verification"
+
+msgid "saveBibleNotesAndHighlights"
+msgstr "Save Bible Notes & Highlights"
+
+msgid "searchTheBible"
+msgstr "Search the Bible"
+
+msgid "seeAll"
+msgstr "See All"
+
+msgid "seeTodaysVerseOnYourHomeScreen"
+msgstr "See today’s verse on your Home Screen."
+
+msgid "shareAFewDetailsToFinishCreatingYourProfile"
+msgstr "Share a few details to finish creating your profile."
 
 msgid "shareBibleLoop"
 msgstr "Check out this Bible Loop!"
@@ -208,8 +409,17 @@ msgstr "Check out this Bible Loop!"
 msgid "slowDownAndListenToGodsVoice"
 msgstr "Slow down\nand listen to\n#God's voice.#"
 
+msgid "startAStreak"
+msgstr "Start a Streak"
+
+msgid "stayOnTrack"
+msgstr "Stay on track"
+
 msgid "storyShareImage"
 msgstr "Use as wallpaper or share with your friends."
+
+msgid "streetlightsAudioBibleNowAvailableForNlt"
+msgstr "Streetlights Audio Bible is now available for the NLT. Listen to word-for-word scripture read dynamically over a custom-made soundtrack."
 
 msgid "tapToPlace"
 msgstr "Tap to place"
@@ -217,11 +427,53 @@ msgstr "Tap to place"
 msgid "testYourMemory"
 msgstr "Test Your Memory"
 
+msgid "thisIsHowYoullAppearToOthers"
+msgstr "This is how you’ll appear to others. You won’t be able to change this later."
+
 msgid "thisIsTheDayThatTheLordHasMade"
 msgstr "#This is the day\n#that the Lord has made."
 
+msgid "toListenToTheBibleConnectToTheInternet"
+msgstr "To listen to the Bible, connect to the internet and try again."
+
+msgid "tryItOut"
+msgstr "Try it Out"
+
+msgid "tryMemorizingTheVerseOfTheDay"
+msgstr "Try memorizing the Verse of the Day, or select another verse from any part of the Bible."
+
+msgid "unableToCreateVerseArt"
+msgstr "Unable to Create Verse Art"
+
+msgid "unableToLoad"
+msgstr "Unable to Load"
+
+msgid "unableToLoadVerse"
+msgstr "Unable to Load Verse"
+
+msgid "unableToMemorize"
+msgstr "Unable to Memorize"
+
+msgid "unableToSave"
+msgstr "Unable to Save"
+
+msgid "unverified"
+msgstr "Unverified"
+
 msgid "uploadPhoto"
 msgstr "Upload your own photo"
+
+msgid "useAnotherEmail"
+msgstr "Use Another Email"
+
+msgid "username"
+msgstr "Username"
+
+msgid "usernamesCanOnlyBeUpdatedOnceEvery30Days"
+msgstr "Usernames can only be updated once every 30 days."
+
+msgid "verified"
+msgstr "Verified"
 
 msgid "verifyYourAccount"
 msgstr "with a link to verify your account."
@@ -235,12 +487,41 @@ msgstr "VERSE ART"
 msgid "verseVisualizer"
 msgstr "Verse Visualizer"
 
+msgid "wallpaper"
+msgstr "Wallpaper"
+
+msgid "wayToGoCrownForMasteringThisVerse"
+msgstr "Way to go! You’ve earned a crown for mastering this verse."
+
+msgid "wellNeverShareThisInformationWithOthers"
+msgstr "We’ll never share this information with others."
+
 msgid "weSentAnEmailTo"
 msgstr "We sent an email to"
+
+msgid "weSentAnEmailToUpdatePassword"
+msgstr "We sent an email to %1$s with a link to update your password."
+
+msgid "weSentAnEmailToVerifyAccount"
+msgstr "We sent an email to %1$s with a link to verify your account."
 
 msgid "whatShouldWeCallYou"
 msgstr "What should we call you?"
 
+msgid "you"
+msgstr "You"
+
 msgid "youAreAChildOfGod"
 msgstr "You are a #child\n of God.#"
 
+msgid "youHaveUnsavedChangesThatWillBeLost"
+msgstr "You have unsaved changes that will be lost."
+
+msgid "youreOfflineAudioMayBeUnavailable"
+msgstr "You’re offline. Audio may be unavailable."
+
+msgid "youveMemorizedEverySurpriseMeVerse"
+msgstr "You’ve memorized every Surprise Me verse!"
+
+msgid "youVersionLogo"
+msgstr "YouVersion Logo"
