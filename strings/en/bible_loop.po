@@ -55,6 +55,9 @@ msgstr "Bible Version"
 msgid "birthday"
 msgstr "Birthday"
 
+msgid "buildYourBibleHabitAndTrackYourStreak"
+msgstr "Build your Bible habit and track your Streak!"
+
 msgid "changePassword"
 msgstr "Change Password"
 
@@ -138,6 +141,9 @@ msgstr "Done"
 
 msgid "dontSeeTheBibleStoryYoureLookingFor"
 msgstr "Don’t see the Bible story you’re looking for?"
+
+msgid "earnCrownsWhenYouMemorizeVerses"
+msgstr "Earn Crowns when you memorize verses!"
 
 msgid "emailNotAvailable"
 msgstr "Email is not available"
@@ -301,6 +307,9 @@ msgstr "Sorry, something went wrong"
 msgid "makeTheBibleYours"
 msgstr "Make the Bible Yours"
 
+msgid "memorizeVersesToEarnCrowns"
+msgstr "Memorize Verses to Earn Crowns"
+
 msgid "memoryVerseChallengeUpper"
 msgstr "MEMORY VERSE CHALLENGE"
 
@@ -379,6 +388,9 @@ msgstr "Resend in %1$ss"
 msgid "resendVerification"
 msgstr "Resend Verification"
 
+msgid "saveBibleNotesAndHighlights"
+msgstr "Save Bible Notes & Highlights"
+
 msgid "searchTheBible"
 msgstr "Search the Bible"
 
@@ -396,6 +408,9 @@ msgstr "Check out this Bible Loop!"
 
 msgid "slowDownAndListenToGodsVoice"
 msgstr "Slow down\nand listen to\n#God's voice.#"
+
+msgid "startAStreak"
+msgstr "Start a Streak"
 
 msgid "stayOnTrack"
 msgstr "Stay on track"
@@ -420,6 +435,9 @@ msgstr "#This is the day\n#that the Lord has made."
 
 msgid "toListenToTheBibleConnectToTheInternet"
 msgstr "To listen to the Bible, connect to the internet and try again."
+
+msgid "tryItOut"
+msgstr "Try it Out"
 
 msgid "tryMemorizingTheVerseOfTheDay"
 msgstr "Try memorizing the Verse of the Day, or select another verse from any part of the Bible."
