@@ -136,6 +136,9 @@ msgstr "Create a profile to join the weekly leaderboard."
 msgid "createShareInspire"
 msgstr "Create, Share, Inspire"
 
+msgid "createVerseArt"
+msgstr "Create Verse Art"
+
 msgid "createVerseImages"
 msgstr "Create verse images"
 
@@ -199,11 +202,17 @@ msgstr "Error in Verse Content"
 msgid "finish"
 msgstr "Finish"
 
+msgid "finishAMemoryVerseLevel"
+msgstr "Finish a Memory Verse Level"
+
 msgid "font"
 msgstr "Font"
 
 msgid "forgotPassword"
 msgstr "Forgot Password"
+
+msgid "forgotPasswordDescription"
+msgstr "Enter your email or username and we’ll send you a reset link."
 
 msgid "from"
 msgstr "From"
@@ -427,6 +436,12 @@ msgstr "Playback Speed"
 msgid "pleaseCheckYourDeviceDateAndTimeSettings"
 msgstr "Please check your device date & time settings and set them to automatic."
 
+msgid "pleaseEnterYourEmailOrUsername"
+msgstr "Please enter your email or username"
+
+msgid "prayerOfTheDay"
+msgstr "Prayer of the Day"
+
 msgid "prayMoreWorryLess"
 msgstr "Pray More.#\nWorry Less.#"
 
@@ -435,6 +450,9 @@ msgstr "PROFILE"
 
 msgid "randomize"
 msgstr "Randomize"
+
+msgid "readAChapterOfTheBible"
+msgstr "Read a Chapter of the Bible"
 
 msgid "refreshLeaderboard"
 msgstr "Refresh leaderboard"
