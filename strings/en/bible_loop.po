@@ -16,6 +16,9 @@ msgstr "Bible Loop is a free, immersive Bible experience from YouVersion designe
 msgid "account"
 msgstr "Account"
 
+msgid "addAWidgetUpper"
+msgstr "ADD A WIDGET"
+
 msgid "addCheckIn"
 msgstr "Add check-in"
 
@@ -67,6 +70,9 @@ msgstr "Check Back Tomorrow"
 msgid "checkedInAtTime"
 msgstr "Checked-in at %1$s"
 
+msgid "checkYourEmail"
+msgstr "Check Your Email"
+
 msgid "chooseAVerse"
 msgstr "Choose a Verse"
 
@@ -94,6 +100,9 @@ msgstr "Continue without a profile"
 msgid "couldntDeleteProfile"
 msgstr "Couldn’t delete profile."
 
+msgid "couldntSyncYourLeaderboardScore"
+msgstr "Couldn’t sync your leaderboard score. Please try again."
+
 msgid "createAccount"
 msgstr "Create account"
 
@@ -111,6 +120,12 @@ msgstr "Create a profile and keep mastering Bible verses."
 
 msgid "createAProfileAndMasterAVerseToJoinThisWeeksLeaderboard"
 msgstr "Create a profile and master a verse to join this week’s leaderboard."
+
+msgid "createAProfileAndStartMasteringBibleVerses"
+msgstr "Create a profile and start mastering Bible verses in Memory Verse!"
+
+msgid "createAProfileToJoinTheWeeklyLeaderboard"
+msgstr "Create a profile to join the weekly leaderboard."
 
 msgid "createShareInspire"
 msgstr "Create, Share, Inspire"
@@ -148,6 +163,15 @@ msgstr "Earn Crowns when you memorize verses!"
 msgid "emailNotAvailable"
 msgstr "Email is not available"
 
+msgid "endsInDays"
+msgstr "Ends in %1$sd"
+
+msgid "endsInHours"
+msgstr "Ends in %1$sh"
+
+msgid "endsToday"
+msgstr "Ends today"
+
 msgid "enterCarefullyBirthdaysCantBeEdited"
 msgstr "Enter carefully - birthdays can’t be edited."
 
@@ -168,6 +192,9 @@ msgstr "Finish"
 
 msgid "font"
 msgstr "Font"
+
+msgid "forgotPassword"
+msgstr "Forgot Password"
 
 msgid "from"
 msgstr "From"
@@ -234,6 +261,9 @@ msgstr "I AM the #way\n#the #truth# and\nthe #life.#"
 
 msgid "ifYouDeleteYourAccount"
 msgstr "If you delete your account, you’ll lose access to your Bible progress across all our Bible apps."
+
+msgid "ifYourEmailIsntVerifiedWithin3Days"
+msgstr "If your email isn’t verified within 3 days, your account will be deleted."
 
 msgid "image"
 msgstr "Image"
@@ -307,11 +337,20 @@ msgstr "Sorry, something went wrong"
 msgid "makeTheBibleYours"
 msgstr "Make the Bible Yours"
 
+msgid "masterAVerseToJoinThisWeeksLeaderboard"
+msgstr "Master a verse to join this week’s leaderboard."
+
+msgid "memorizeAVerse"
+msgstr "Memorize a Verse"
+
 msgid "memorizeVersesToEarnCrowns"
 msgstr "Memorize Verses to Earn Crowns"
 
 msgid "memoryVerseChallengeUpper"
 msgstr "MEMORY VERSE CHALLENGE"
+
+msgid "minimum15Characters"
+msgstr "Minimum 15 characters"
 
 msgid "month"
 msgstr "Month"
@@ -327,6 +366,9 @@ msgstr "Navigates to mastered verse list"
 
 msgid "newExperience"
 msgstr "We’re busy preparing a\nnew experience for you"
+
+msgid "newPassword"
+msgstr "New password"
 
 msgid "next"
 msgstr "Next"
@@ -363,6 +405,9 @@ msgstr "Pick a display name"
 
 msgid "pickUpYourCurrentVerseAndKeepMemorizing"
 msgstr "Pick up your current verse and keep memorizing."
+
+msgid "playAllFourLevelsToMasterAVerse"
+msgstr "Play all four levels of Memory Verse to master a verse and join the leaderboard."
 
 msgid "playbackSpeed"
 msgstr "Playback Speed"
@@ -459,6 +504,9 @@ msgstr "Unable to Save"
 
 msgid "unverified"
 msgstr "Unverified"
+
+msgid "updateYourPassword"
+msgstr "Update your password"
 
 msgid "uploadPhoto"
 msgstr "Upload your own photo"
