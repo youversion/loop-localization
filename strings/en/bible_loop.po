@@ -40,6 +40,9 @@ msgstr "A widget can help you remember to spend time memorizing God’s Word."
 msgid "backToHome"
 msgstr "Back to Home"
 
+msgid "backToSignIn"
+msgstr "Back to Sign In"
+
 msgid "beStillAndKnowThatGodIsWithYou"
 msgstr "Be still and\nknow that #God\nis with you.#"
 
@@ -81,6 +84,9 @@ msgstr "Choose a background image."
 
 msgid "collectionNotAvailable"
 msgstr "Collection Not Available"
+
+msgid "confirmNewPassword"
+msgstr "Confirm new password"
 
 msgid "confirmPassword"
 msgstr "Confirm password"
@@ -162,6 +168,9 @@ msgstr "Earn Crowns when you memorize verses!"
 
 msgid "emailNotAvailable"
 msgstr "Email is not available"
+
+msgid "emailOrUsername"
+msgstr "Email or username"
 
 msgid "endsInDays"
 msgstr "Ends in %1$sd"
@@ -399,6 +408,9 @@ msgstr "Password"
 
 msgid "passwordMustBe15Chars"
 msgstr "Password must be at least 15 characters"
+
+msgid "passwordsMustMatch"
+msgstr "Passwords must match"
 
 msgid "pickADisplayName"
 msgstr "Pick a display name"
