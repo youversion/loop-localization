@@ -17,7 +17,7 @@ msgid "reflect"
 msgstr "Reflect"
 
 msgid "writeYourOwnResponse"
-msgstr "'Write your own response"
+msgstr "Write your own response"
 
 msgid "aboutBlurb"
 msgstr "Bible Loop is a free, immersive Bible experience from YouVersion designed primarily for teens. Developed in partnership with OneHope, Bible Loop is made to help teens fall in love with God and His Word. Enjoy daily guided Bible reflections, verse memory challenges, and access to the Bible on the go."
