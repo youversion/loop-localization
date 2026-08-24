@@ -10,6 +10,57 @@ msgstr ""
 "X-Crowdin-SourceKey: msgstr\n"
 "X-Generator: Babel 2.0\n"
 
+msgid "doodle"
+msgstr "Doodle"
+
+msgid "exploreLoops"
+msgstr "Explore Loops"
+
+msgid "findYourNextStep"
+msgstr "Find your next step."
+
+msgid "fullScreen"
+msgstr "Full Screen"
+
+msgid "learningLoops"
+msgstr "Learning Loops"
+
+msgid "matchThePairs"
+msgstr "Match the pairs"
+
+msgid "newLearningLoops"
+msgstr "New: Learning Loops"
+
+msgid "weAreTestingANewFeatureThatBringsYou"
+msgstr "We’re testing a new feature that brings you interactive, bite-sized Bible lessons and devotionals."
+
+msgid "helpUsByCompletingALoop"
+msgstr "Help us by completing a Loop and providing your feedback."
+
+msgid "quiz"
+msgstr "Quiz"
+
+msgid "readFullChapter"
+msgstr "Read Full Chapter"
+
+msgid "scrub"
+msgstr "Scrub"
+
+msgid "select"
+msgstr "Select"
+
+msgid "somethingWentWrongLoadingThisLoop"
+msgstr "Something went wrong loading this Loop."
+
+msgid "sortInTheCorrectOrder"
+msgstr "Sort in the correct order"
+
+msgid "startALoop"
+msgstr "Start a Loop"
+
+msgid "trueOrFalse"
+msgstr "True or False"
+
 msgid "skip"
 msgstr "Skip"
 
