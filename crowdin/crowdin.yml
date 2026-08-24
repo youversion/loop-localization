@@ -11,6 +11,12 @@
 # Pushes from here must land on these existing Crowdin files, or they'd
 # create duplicate strings instead of updating existing ones.
 #
+# `update_option` covers the case where a push changes the English text of an
+# existing string (these files carry `X-Crowdin-SourceKey: msgstr`, so editing
+# a msgstr *is* a source-text change). Crowdin's default is to treat the
+# changed string as new and discard its existing translations;
+# `update_as_unapproved` keeps them and flags them for re-review instead.
+#
 "project_id": "257"
 "base_path": ".."
 "base_url": "https://youversion.crowdin.com"
@@ -21,6 +27,7 @@
         "source": "strings/en/*.po",
         "dest": "Bible Loop (Master)/%original_file_name%",
         "translation": "Bible Loop (Master)/%two_letters_code%/%original_file_name%",
+        "update_option": "update_as_unapproved",
     },
 ]
 

@@ -15,22 +15,22 @@ each a separate Bitrise workflow/trigger since they have different purposes:
       parsing details.
 
   --push
-      Pushes any new source strings added locally (a contributor hand-edits
-      the target `.po` file directly, no script needed) to Crowdin, via an
-      unconditional `crowdin upload sources`, then exits -- no pull, no
-      commit, no PR. Crowdin matches by identifier, so this is a no-op for
-      anything unchanged -- no local diffing needed. Does not require
-      `GH_TOKEN`.
+      Pushes locally-made source string changes -- additions, edits and
+      deletions alike (a contributor hand-edits the target `.po` file
+      directly, no script needed) -- to Crowdin, via an unconditional
+      `crowdin upload sources`, then exits: no pull, no commit, no PR.
+      Crowdin matches by identifier, so this is a no-op for anything
+      unchanged -- no local diffing needed. Does not require `GH_TOKEN`.
 
   --dry-run
       Preview the pull without switching branches, committing, pushing, or
       opening a PR. Combine with `--push` to preview just the push instead
       (`crowdin upload sources --dryrun`). Does not require `GH_TOKEN`.
 
-Crowdin is the single source of truth for existing strings; they're never
-hand-edited here. New strings are added by hand-editing the target `.po`
-file directly and are gated on PRs by `scripts/crowdin_validator.py`, but
-only this script ever writes to Crowdin.
+Source strings are added, edited and deleted by hand-editing the target
+`.po` file directly; `scripts/crowdin_validator.py` reports those deltas on
+the PR and blocks only outright mistakes. Crowdin stays the single source of
+truth for *translations*, and only this script ever writes to Crowdin.
 
 Bundle 13 -- the same bundle youversion-flutter-loop's own pull uses -- was
 confirmed via a live download to be scoped to exactly "Bible Loop
@@ -236,20 +236,60 @@ def changed_po_files():
         print("No parent commit (e.g. first commit); uploading all source files.")
         return None
 
+    parent_ref = parent.stdout.strip()
     diff = capture([
         "git", "diff", "--name-only", "--diff-filter=ACMR",
-        parent.stdout.strip(), "HEAD", "--", "strings/en/*.po",
+        parent_ref, "HEAD", "--", "strings/en/*.po",
     ])
+    warn_deleted_files(parent_ref)
     return [line for line in diff.splitlines() if line]
 
 
+def warn_deleted_files(parent_ref):
+    # A deleted .po can't be uploaded, so it falls outside the ACMR filter
+    # above and would otherwise vanish without a trace: the file stays in
+    # Crowdin and the next pull restores it, strings and all.
+    #
+    # crowdin_validator.py rejects this on the PR, so it should never reach
+    # here -- but the validator skips crowdin_sync.py's own branch and only
+    # runs on PRs, so this is the backstop for anything that got in another
+    # way. Warn loudly rather than failing the push of the files that did
+    # change; by this point the merge has already happened.
+    removed = capture([
+        "git", "diff", "--name-only", "--diff-filter=D",
+        parent_ref, "HEAD", "--", "strings/en/*.po",
+    ])
+    for path in removed.splitlines():
+        if path:
+            name = Path(path).name
+            print(
+                f"WARNING: {path} was deleted locally but is NOT removed from "
+                f"Crowdin by this push. Delete \"{DEST_PATTERN.split('%')[0]}{name}\" "
+                "in the Crowdin UI, or it will come back -- with every string "
+                "it held -- on the next pull.",
+                flush=True,
+            )
+
+
 def push_new_strings(dry_run=False):
-    # Push any locally-added source strings (hand-edited into the target
+    # Push locally-made source string changes (hand-edited into the target
     # .po file directly; see scripts/crowdin_validator.py for the PR-time
-    # gate) to Crowdin. This is unconditional per-file: Crowdin matches by
+    # report) to Crowdin. This is unconditional per-file: Crowdin matches by
     # identifier and no-ops anything unchanged, so no per-string diffing is
     # needed here -- just per-file scoping (see changed_po_files() above).
-    # Never pass --delete-obsolete; this must stay additive/update-only.
+    #
+    # Additions, edits AND deletions all propagate from this one command, via
+    # the CLI's default --auto-update: Crowdin re-reads the uploaded source
+    # file and reconciles the whole file against it, so a key dropped locally
+    # goes obsolete in Crowdin too. crowdin.yml's `update_option` decides what
+    # an *edit* costs (see that file).
+    #
+    # Never pass --delete-obsolete. Despite the name it does not delete
+    # obsolete strings -- per `crowdin upload sources --help` (CLI 4.12.0) it
+    # deletes "obsolete files and folders ... that no longer match the source
+    # configuration", and since each invocation below is scoped with
+    # `-s <one file>`, the other 29 .po files in "Bible Loop (Master)/" would
+    # all look obsolete and be deleted.
     files = changed_po_files()
     if files == []:
         print("No strings/en/*.po changes vs. the previous commit; nothing to push.")
