@@ -238,7 +238,7 @@ def changed_po_files():
 
     parent_ref = parent.stdout.strip()
     diff = capture([
-        "git", "diff", "--name-only", "--diff-filter=ACMR",
+        "git", "diff", "--name-only", "--no-renames", "--diff-filter=ACM",
         parent_ref, "HEAD", "--", "strings/en/*.po",
     ])
     warn_deleted_files(parent_ref)
@@ -255,8 +255,12 @@ def warn_deleted_files(parent_ref):
     # runs on PRs, so this is the backstop for anything that got in another
     # way. Warn loudly rather than failing the push of the files that did
     # change; by this point the merge has already happened.
+    # --no-renames here too: without it a `git mv` of a catalog reports a
+    # single R entry, which this filter misses entirely -- so the old file
+    # would stay in Crowdin unmentioned while the new one is uploaded
+    # alongside it. As a delete plus an add, the removal is visible.
     removed = capture([
-        "git", "diff", "--name-only", "--diff-filter=D",
+        "git", "diff", "--name-only", "--no-renames", "--diff-filter=D",
         parent_ref, "HEAD", "--", "strings/en/*.po",
     ])
     for path in removed.splitlines():

@@ -165,6 +165,8 @@ def removed_file(path: Path, base: dict[str, str], current: dict[str, str]) -> s
     every string in it. Emptying a file in place is the same outcome by
     another route, so it is caught here too -- but only for a file that had
     entries to begin with, since licenses.po is legitimately empty already.
+    Renaming or moving a catalog lands here as well, via changed_po_files()'s
+    --no-renames: the destination is a normal add, the source a removal.
     """
     if not base or current:
         return None
@@ -199,8 +201,18 @@ def detect_renames(
 
 
 def changed_po_files() -> list[Path]:
+    # --no-renames matters. With git's default rename detection a `git mv` of
+    # a whole catalog reports only the destination path, so the vanished
+    # source file never reaches removed_file() and the rename sails through as
+    # a pile of "added" strings -- while the push uploads the new file and
+    # leaves the old one in Crowdin, so the next pull restores both and every
+    # string exists twice. Treating a rename as a delete plus an add surfaces
+    # the removal, which is what it actually is as far as Crowdin's concerned.
+    # It also catches a move *out* of strings/en/, which rename detection
+    # would otherwise hide from this path-scoped diff.
     output = capture(
-        ["git", "diff", "--name-only", f"origin/{BASE_BRANCH}...HEAD", "--", str(EN_STRINGS_DIR)]
+        ["git", "diff", "--name-only", "--no-renames",
+         f"origin/{BASE_BRANCH}...HEAD", "--", str(EN_STRINGS_DIR)]
     )
     return [Path(line) for line in output.splitlines() if line.endswith(".po")]
 

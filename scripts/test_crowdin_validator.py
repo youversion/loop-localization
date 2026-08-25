@@ -328,6 +328,28 @@ class ValidatorEndToEndTests(unittest.TestCase):
         self.assertIn("deleted, 2 string(s)", stdout)
         self.assertIn("1 file(s) removed", stdout)
 
+    def test_renaming_a_whole_file_fails(self):
+        # git's rename detection reports only the destination path, which
+        # would hide the removal and let the rename through as a pile of
+        # additions -- while Crowdin kept the original file and the next pull
+        # restored both catalogs. changed_po_files() passes --no-renames.
+        self.commit_base(app=po(entry("about", "About"), entry("bible", "Bible")))
+        self.git("mv", "strings/en/app.po", "strings/en/application.po")
+        self.commit("rename catalog")
+        stdout = self.assertFails(self.run_validator())
+        self.assertIn("whole file(s) removed", stdout)
+        self.assertIn("strings/en/app.po (deleted, 2 string(s))", stdout)
+        self.assertIn("2 added", stdout)
+
+    def test_moving_a_file_out_of_the_strings_dir_fails(self):
+        self.commit_base(app=po(entry("about", "About"), entry("bible", "Bible")))
+        (self.repo / "strings" / "archive").mkdir(parents=True)
+        self.git("mv", "strings/en/app.po", "strings/archive/app.po")
+        self.commit("archive catalog")
+        stdout = self.assertFails(self.run_validator())
+        self.assertIn("whole file(s) removed", stdout)
+        self.assertIn("strings/en/app.po (deleted, 2 string(s))", stdout)
+
     def test_emptying_a_file_in_place_fails(self):
         self.commit_base(app=po(entry("about", "About"), entry("bible", "Bible")))
         self.write("app.po", HEADER)
