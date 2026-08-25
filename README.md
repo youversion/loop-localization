@@ -52,9 +52,15 @@ reports but does not block them:
 | Delete a `msgid` | Discarded along with the string. |
 | Rename a `msgid` | **Lost.** Crowdin matches by key, so this is a delete plus an untranslated add. |
 
-Deleting a whole `.po` file is rejected, whether by removing the file or by
-emptying it in place. Delete the individual `msgid` entries and keep the
-file. `crowdin upload sources` can only ever *upload* a file, so a file
-removed here would survive in Crowdin and come back — along with all its
-strings — on the next pull; retiring a whole file has to start in the
+**The `.po` files themselves are fixed: never delete, rename or move one.**
+A catalog tracked on `main` has to still be there, whether it holds 600
+strings or none — deleting it, renaming it, moving it out of `strings/en/`,
+or emptying it in place all fail the build. Delete the individual `msgid`
+entries and keep the file.
+
+The reason is that `crowdin upload sources` can only ever *upload* a file.
+A deleted catalog survives in Crowdin and comes back, with all its strings,
+on the next pull. A renamed one is worse: the new name uploads as a new
+file while the old one stays, so the pull restores **both** and every string
+then exists twice. Retiring or renaming a catalog has to start in the
 Crowdin UI. The non-English translations are likewise Crowdin's alone.

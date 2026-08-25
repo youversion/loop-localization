@@ -179,34 +179,54 @@ def renamed_po_files() -> dict[Path, Path]:
     return renames
 
 
+def exists_in_base(path: Path) -> bool:
+    """Whether the base branch tracks this path at all.
+
+    Distinct from `base_content(path)` being empty, which is also what an
+    existing-but-empty file looks like -- licenses.po ships with zero
+    entries, so "held no strings" must not be mistaken for "wasn't there".
+    """
+    return subprocess.run(
+        ["git", "cat-file", "-e", f"origin/{BASE_BRANCH}:{path.as_posix()}"],
+        capture_output=True,
+    ).returncode == 0
+
+
 def missing_file(
     path: Path,
     base: dict[str, str],
     current: dict[str, str],
     renames: dict[Path, Path],
 ) -> tuple[str, str] | None:
-    """Classify a `.po` this PR wipes out as ("moved"|"removed", detail).
+    """Classify a `.po` this PR loses as ("moved"|"removed", detail).
 
     Deleting individual strings is supported; losing the file holding them is
-    not, and the two are worth separating. `crowdin upload sources` can only
-    ever *upload* a file, so a vanished file is invisible to the push: it
-    stays in the Crowdin project and the next pull restores it, along with
-    every string in it.
+    not. `crowdin upload sources` can only ever *upload* a file, so a
+    vanished file is invisible to the push: it stays in the Crowdin project
+    and the next pull restores it, along with every string in it.
 
-    The three routes there differ enough to be worth naming, since the fix
-    for each differs. A rename or move uploads the new path and strands the
-    old one, so the pull brings back *both* and every string ends up
-    duplicated across two files. A delete simply comes back. Emptying a file
-    in place is the delete case by another route -- caught only for a file
-    that had entries to begin with, since licenses.po is legitimately empty.
+    The rule is about the file, not its contents -- a catalog tracked on the
+    base branch has to still be there, whether it held 600 strings or none.
+    Counting strings instead would wave through deleting or renaming
+    licenses.po, which is empty but is still a real tracked file.
+
+    The three routes differ enough to be worth naming, since the fix for each
+    differs. A rename or move uploads the new path and strands the old one,
+    so the pull brings back *both* and every string ends up duplicated across
+    two files. A delete simply comes back. Emptying a file in place is the
+    delete case by another route, and is the one variant that does turn on
+    contents: it only counts as a loss if there were entries to lose.
     """
-    if not base or current:
+    if not exists_in_base(path):
         return None
     destination = renames.get(path)
     if destination:
         return ("moved", f"{path} -> {destination} ({len(base)} string(s))")
-    state = "deleted" if not path.exists() else "emptied"
-    return ("removed", f"{path} ({state}, {len(base)} string(s))")
+    if not path.exists():
+        return ("removed", f"{path} (deleted, {len(base)} string(s))")
+    if base and not current:
+        return ("removed", f"{path} (emptied, {len(base)} string(s))")
+    return None
 
 
 def entry_text(body: str) -> str:

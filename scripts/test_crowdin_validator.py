@@ -374,6 +374,35 @@ class ValidatorEndToEndTests(unittest.TestCase):
         self.assertIn("strings/en/app.po -> strings/en/application.po (1 string(s))", stdout)
         self.assertIn("strings/en/settings.po (deleted, 2 string(s))", stdout)
 
+    def test_deleting_an_empty_catalog_fails(self):
+        # licenses.po ships with zero entries but is still a tracked file.
+        # The rule is about losing the file, not about losing strings.
+        self.commit_base(app=po(entry("about", "About")), licenses=HEADER)
+        (self.repo / "strings" / "en" / "licenses.po").unlink()
+        self.commit("delete the empty catalog")
+        stdout = self.assertFails(self.run_validator())
+        self.assertIn("whole file(s) removed", stdout)
+        self.assertIn("strings/en/licenses.po (deleted, 0 string(s))", stdout)
+
+    def test_renaming_an_empty_catalog_fails(self):
+        self.commit_base(app=po(entry("about", "About")), licenses=HEADER)
+        self.git("mv", "strings/en/licenses.po", "strings/en/attributions.po")
+        self.commit("rename the empty catalog")
+        stdout = self.assertFails(self.run_validator())
+        self.assertIn("whole file(s) renamed or moved", stdout)
+        self.assertIn(
+            "strings/en/licenses.po -> strings/en/attributions.po (0 string(s))", stdout
+        )
+
+    def test_adding_a_brand_new_catalog_passes(self):
+        # A file absent from the base branch cannot be a loss.
+        self.commit_base(app=po(entry("about", "About")))
+        self.write("movies.po", po(entry("trailer", "Trailer")))
+        self.commit("add a new catalog")
+        stdout = self.assertPasses(self.run_validator())
+        self.assertIn("1 added", stdout)
+        self.assertNotIn("ERROR", stdout)
+
     def test_emptying_a_file_in_place_fails(self):
         self.commit_base(app=po(entry("about", "About"), entry("bible", "Bible")))
         self.write("app.po", HEADER)
