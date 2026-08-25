@@ -327,6 +327,8 @@ class ValidatorEndToEndTests(unittest.TestCase):
         self.assertIn("whole file(s) removed", stdout)
         self.assertIn("deleted, 2 string(s)", stdout)
         self.assertIn("1 file(s) removed", stdout)
+        # A plain delete must not be dressed up as a rename.
+        self.assertNotIn("renamed or moved", stdout)
 
     def test_renaming_a_whole_file_fails(self):
         # git's rename detection reports only the destination path, which
@@ -337,9 +339,13 @@ class ValidatorEndToEndTests(unittest.TestCase):
         self.git("mv", "strings/en/app.po", "strings/en/application.po")
         self.commit("rename catalog")
         stdout = self.assertFails(self.run_validator())
-        self.assertIn("whole file(s) removed", stdout)
-        self.assertIn("strings/en/app.po (deleted, 2 string(s))", stdout)
-        self.assertIn("2 added", stdout)
+        self.assertIn("whole file(s) renamed or moved", stdout)
+        self.assertIn(
+            "strings/en/app.po -> strings/en/application.po (2 string(s))", stdout
+        )
+        self.assertIn("1 file(s) renamed/moved", stdout)
+        # Diagnosed as a rename, not misreported as a plain delete.
+        self.assertNotIn("whole file(s) removed", stdout)
 
     def test_moving_a_file_out_of_the_strings_dir_fails(self):
         self.commit_base(app=po(entry("about", "About"), entry("bible", "Bible")))
@@ -347,8 +353,26 @@ class ValidatorEndToEndTests(unittest.TestCase):
         self.git("mv", "strings/en/app.po", "strings/archive/app.po")
         self.commit("archive catalog")
         stdout = self.assertFails(self.run_validator())
-        self.assertIn("whole file(s) removed", stdout)
-        self.assertIn("strings/en/app.po (deleted, 2 string(s))", stdout)
+        # The path-scoped diff sees only a delete here; renamed_po_files()
+        # runs unscoped precisely so the destination is still named.
+        self.assertIn("whole file(s) renamed or moved", stdout)
+        self.assertIn(
+            "strings/en/app.po -> strings/archive/app.po (2 string(s))", stdout
+        )
+
+    def test_renaming_one_file_while_deleting_another_reports_each_kind(self):
+        self.commit_base(
+            app=po(entry("about", "About")),
+            settings=po(entry("theme", "Theme"), entry("mode", "Mode")),
+        )
+        self.git("mv", "strings/en/app.po", "strings/en/application.po")
+        (self.repo / "strings" / "en" / "settings.po").unlink()
+        self.commit("rename one, delete another")
+        stdout = self.assertFails(self.run_validator())
+        self.assertIn("1 file(s) renamed/moved", stdout)
+        self.assertIn("1 file(s) removed", stdout)
+        self.assertIn("strings/en/app.po -> strings/en/application.po (1 string(s))", stdout)
+        self.assertIn("strings/en/settings.po (deleted, 2 string(s))", stdout)
 
     def test_emptying_a_file_in_place_fails(self):
         self.commit_base(app=po(entry("about", "About"), entry("bible", "Bible")))

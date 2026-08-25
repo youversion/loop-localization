@@ -25,8 +25,9 @@ base branch, and splits what it finds in two:
       is almost always a copy-paste slip, so it is worth a deliberate second
       look rather than a silent merge.
 
-      Wiping out a whole file is an error too -- see removed_file() below.
-      Deleting strings is fine; deleting the file that holds them is not.
+      Losing a whole file is an error too, reported as a rename/move or as
+      a removal -- see missing_file() below. Deleting strings is fine;
+      deleting or renaming the file that holds them is not.
 
 Structural checks run only over the files the PR actually changed, so a
 pre-existing quirk elsewhere can never fail an unrelated PR.
@@ -155,23 +156,57 @@ def empty_value_keys(entries: dict[str, str]) -> list[str]:
     )
 
 
-def removed_file(path: Path, base: dict[str, str], current: dict[str, str]) -> str | None:
-    """Describe a `.po` that this PR wipes out entirely, or None.
+def renamed_po_files() -> dict[Path, Path]:
+    """{old path: new path} for every `.po` git sees as renamed or moved.
 
-    Deleting individual strings is supported; deleting the file holding them
-    is not, and the two are worth separating. `crowdin upload sources` can
-    only ever *upload* a file, so a removed file is invisible to the push:
-    it stays in the Crowdin project and the next pull restores it, along with
-    every string in it. Emptying a file in place is the same outcome by
-    another route, so it is caught here too -- but only for a file that had
-    entries to begin with, since licenses.po is legitimately empty already.
-    Renaming or moving a catalog lands here as well, via changed_po_files()'s
-    --no-renames: the destination is a normal add, the source a removal.
+    Reporting only. changed_po_files() deliberately passes --no-renames, so a
+    rename decomposes into the delete plus the add it really is on Crowdin's
+    side; this second pass turns detection back on purely to say *where* a
+    vanished catalog went. Deliberately unscoped: a move out of strings/en/
+    shows up as a plain delete in the path-scoped diff, because the
+    destination no longer matches the pathspec.
+    """
+    output = capture(
+        ["git", "diff", "--name-status", "--find-renames", f"origin/{BASE_BRANCH}...HEAD"]
+    )
+    renames = {}
+    for line in output.splitlines():
+        parts = line.split("\t")
+        if len(parts) == 3 and parts[0].startswith("R"):
+            source, destination = Path(parts[1]), Path(parts[2])
+            if source.suffix == ".po" and EN_STRINGS_DIR in source.parents:
+                renames[source] = destination
+    return renames
+
+
+def missing_file(
+    path: Path,
+    base: dict[str, str],
+    current: dict[str, str],
+    renames: dict[Path, Path],
+) -> tuple[str, str] | None:
+    """Classify a `.po` this PR wipes out as ("moved"|"removed", detail).
+
+    Deleting individual strings is supported; losing the file holding them is
+    not, and the two are worth separating. `crowdin upload sources` can only
+    ever *upload* a file, so a vanished file is invisible to the push: it
+    stays in the Crowdin project and the next pull restores it, along with
+    every string in it.
+
+    The three routes there differ enough to be worth naming, since the fix
+    for each differs. A rename or move uploads the new path and strands the
+    old one, so the pull brings back *both* and every string ends up
+    duplicated across two files. A delete simply comes back. Emptying a file
+    in place is the delete case by another route -- caught only for a file
+    that had entries to begin with, since licenses.po is legitimately empty.
     """
     if not base or current:
         return None
+    destination = renames.get(path)
+    if destination:
+        return ("moved", f"{path} -> {destination} ({len(base)} string(s))")
     state = "deleted" if not path.exists() else "emptied"
-    return f"{path} ({state}, {len(base)} string(s))"
+    return ("removed", f"{path} ({state}, {len(base)} string(s))")
 
 
 def entry_text(body: str) -> str:
@@ -241,18 +276,21 @@ def validate() -> int:
         return 0
 
     existing = find_existing_keys(EN_STRINGS_DIR)
+    file_renames = renamed_po_files()
     added, edited, deleted, renamed = [], [], [], []
-    collisions, duplicates, malformed, empties, removed = [], [], [], [], []
+    collisions, duplicates, malformed, empties = [], [], [], []
+    moved, removed = [], []
 
     for path in changed:
         content = path.read_text(encoding="utf-8") if path.exists() else ""
         base = parse_entries(base_content(path))
         current = parse_entries(content)
 
-        wiped = removed_file(path, base, current)
+        wiped = missing_file(path, base, current, file_renames)
         if wiped:
             # Report the file once rather than every string it held.
-            removed.append(wiped)
+            kind, detail = wiped
+            (moved if kind == "moved" else removed).append(detail)
             continue
 
         unparseable = malformed_keys(content)
@@ -295,6 +333,8 @@ def validate() -> int:
         f"{len(changed)} file(s) changed: {len(added)} added, {len(edited)} edited, "
         f"{len(deleted)} deleted, {len(renamed)} renamed."
     )
+    if moved:
+        summary += f" {len(moved)} file(s) renamed/moved."
     if removed:
         summary += f" {len(removed)} file(s) removed."
     print(summary)
@@ -316,9 +356,16 @@ def validate() -> int:
         renamed,
     )
 
-    if not (removed or collisions or duplicates or malformed or empties):
+    if not (moved or removed or collisions or duplicates or malformed or empties):
         return 0
 
+    report(
+        "ERROR: whole file(s) renamed or moved -- there is no rename on the "
+        "push path: the new name is uploaded as a new file and the old one "
+        "stays, so the next pull restores BOTH and every string exists twice. "
+        "Rename the file in the Crowdin UI instead, then pull:",
+        moved,
+    )
     report(
         "ERROR: whole file(s) removed -- delete the individual strings instead "
         "and keep the file, or remove the file in the Crowdin UI first "
