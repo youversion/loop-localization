@@ -28,6 +28,12 @@ msgstr "Learning Loops"
 msgid "matchThePairs"
 msgstr "Match the pairs"
 
+msgid "blankNumberOfTotal"
+msgstr "Blank %1$s of %2$s"
+
+msgid "empty"
+msgstr "Empty"
+
 msgid "newLearningLoops"
 msgstr "New: Learning Loops"
 
