@@ -10,6 +10,9 @@ msgstr ""
 "X-Crowdin-SourceKey: msgstr\n"
 "X-Generator: Babel 2.0\n"
 
+msgid "levelCompleteTitle"
+msgstr "Level Complete!"
+
 msgid "doodle"
 msgstr "Doodle"
 
