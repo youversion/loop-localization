@@ -367,6 +367,9 @@ msgstr "Join the Leaderboard"
 msgid "joinTheWeeklyLeaderboard"
 msgstr "Join the weekly leaderboard!"
 
+msgid "jumpBackIn"
+msgstr "Jump Back In"
+
 msgid "keepAccount"
 msgstr "Keep Account"
 
