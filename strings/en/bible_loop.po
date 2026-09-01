@@ -13,6 +13,18 @@ msgstr ""
 msgid "loops"
 msgstr "Loops"
 
+msgid "startLoop"
+msgstr "Start Loop"
+
+msgid "overview"
+msgstr "Overview"
+
+msgid "levelCountOne"
+msgstr "1 Level"
+
+msgid "levelCount"
+msgstr "{count} Levels"
+
 msgid "weDLoveToHearYourThoughts"
 msgstr "We’d love to hear your thoughts and ideas based on your experience with Loops."
 
