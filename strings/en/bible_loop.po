@@ -34,10 +34,10 @@ msgstr "Correct"
 msgid "incorrect"
 msgstr "Incorrect"
 
-msgid "true"
+msgid "true_"
 msgstr "True"
 
-msgid "false"
+msgid "false_"
 msgstr "False"
 
 msgid "levelCompleteTitle"
