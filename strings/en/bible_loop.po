@@ -10,6 +10,24 @@ msgstr ""
 "X-Crowdin-SourceKey: msgstr\n"
 "X-Generator: Babel 2.0\n"
 
+msgid "loops"
+msgstr "Loops"
+
+msgid "weDLoveToHearYourThoughts"
+msgstr "We’d love to hear your thoughts and ideas based on your experience with Loops."
+
+msgid "correct"
+msgstr "Correct"
+
+msgid "incorrect"
+msgstr "Incorrect"
+
+msgid "true"
+msgstr "True"
+
+msgid "false"
+msgstr "False"
+
 msgid "levelCompleteTitle"
 msgstr "Level Complete!"
 
