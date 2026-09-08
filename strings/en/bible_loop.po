@@ -172,6 +172,9 @@ msgstr "Birthday"
 msgid "buildYourBibleHabitAndTrackYourStreak"
 msgstr "Build your Bible habit and track your Streak!"
 
+msgid "change"
+msgstr "Change"
+
 msgid "changePassword"
 msgstr "Change Password"
 
@@ -522,6 +525,9 @@ msgstr "Old password"
 
 msgid "oneHopeLogo"
 msgstr "OneHope Logo"
+
+msgid "passageNotInVersionShowingInFallback"
+msgstr "This passage isn’t in %1$s, so we’re showing it in %2$s."
 
 msgid "password"
 msgstr "Password"
