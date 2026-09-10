@@ -10,6 +10,18 @@ msgstr ""
 "X-Crowdin-SourceKey: msgstr\n"
 "X-Generator: Babel 2.0\n"
 
+msgid "viewLoopInfo"
+msgstr "View Loop Info"
+
+msgid "restartLoop"
+msgstr "Restart Loop"
+
+msgid "areYouSureSmall"
+msgstr "Are you sure?"
+
+msgid "restartLoopWarning"
+msgstr "If you restart this Loop, all of your progress will be erased, and you'll start back on Level 1."
+
 msgid "sensitiveContent"
 msgstr "Sensitive Content"
 
