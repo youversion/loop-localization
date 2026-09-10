@@ -733,3 +733,155 @@ msgstr "You’ve memorized every Surprise Me verse!"
 msgid "youVersionLogo"
 msgstr "YouVersion Logo"
 
+msgid "categoryTheLifeOfJesus"
+msgstr "The Life of Jesus"
+
+msgid "categoryParables"
+msgstr "Parables"
+
+msgid "categoryWomenInTheBible"
+msgstr "Women in the Bible"
+
+msgid "categoryNewTestament"
+msgstr "New Testament"
+
+msgid "categoryOldTestament"
+msgstr "Old Testament"
+
+msgid "storyTitleJesusBirth"
+msgstr "Jesus’ Birth"
+
+msgid "storyTitleJesusChoosesHisDisciples"
+msgstr "Jesus Chooses His Disciples"
+
+msgid "storyTitleJesusWalksOnWater"
+msgstr "Jesus Walks on Water"
+
+msgid "storyTitleJesusCalmsTheStorm"
+msgstr "Jesus Calms the Storm"
+
+msgid "storyTitleJesusAndTheChildren"
+msgstr "Jesus and the Children"
+
+msgid "storyTitleJesusAndTheMiraculousCatchOfFish"
+msgstr "Jesus and the Miraculous Catch of Fish"
+
+msgid "storyTitleTheLastSupper"
+msgstr "The Last Supper"
+
+msgid "storyTitleJesusArrest"
+msgstr "Jesus’ Arrest"
+
+msgid "storyTitleJesusCrucifixion"
+msgstr "Jesus’ Crucifixion"
+
+msgid "storyTitleJesusResurrection"
+msgstr "Jesus’ Resurrection"
+
+msgid "storyTitleTheEmptyTomb"
+msgstr "The Empty Tomb"
+
+msgid "storyTitleTheHouseBuiltOnTheSandAndRock"
+msgstr "The House Built on the Sand and Rock"
+
+msgid "storyTitleEsthersRequestToTheKing"
+msgstr "Esther’s Request to the King"
+
+msgid "storyTitleDeborahBecomesIsraelsJudge"
+msgstr "Deborah Becomes Israel’s Judge"
+
+msgid "storyTitleHannahsPrayer"
+msgstr "Hannah’s Prayer"
+
+msgid "storyTitleRahabAndTheSpies"
+msgstr "Rahab and the Spies"
+
+msgid "storyTitleAnAngelVisitsMary"
+msgstr "An Angel Visits Mary"
+
+msgid "storyTitleTheWomanWashesJesusFeet"
+msgstr "The Woman Washes Jesus’ Feet"
+
+msgid "storyTitleLydia"
+msgstr "Lydia"
+
+msgid "storyTitleTheShepherdsVisitJesus"
+msgstr "The Shepherds Visit Jesus"
+
+msgid "storyTitleTheManWithLeprosy"
+msgstr "The Man With Leprosy"
+
+msgid "storyTitleTheBeatitudes"
+msgstr "The Beatitudes"
+
+msgid "storyTitleTheFeedingOfThe5000"
+msgstr "The Feeding of the 5,000"
+
+msgid "storyTitleZacchaeus"
+msgstr "Zacchaeus"
+
+msgid "storyTitleTheGreatCommission"
+msgstr "The Great Commission"
+
+msgid "storyTitleSaulMeetsJesus"
+msgstr "Saul Meets Jesus"
+
+msgid "storyTitlePetersMiraculousEscapeFromPrison"
+msgstr "Peter’s Miraculous Escape From Prison"
+
+msgid "storyTitleTheHolySpiritComesAtPentecost"
+msgstr "The Holy Spirit Comes at Pentecost"
+
+msgid "storyTitleJesusAppearsToHisDisciplesAfterTheResurrection"
+msgstr "Jesus Appears to His Disciples After the Resurrection"
+
+msgid "storyTitleTheNewJerusalem"
+msgstr "The New Jerusalem"
+
+msgid "storyTitleTheSower"
+msgstr "The Sower"
+
+msgid "storyTitleTheLostSheepAndTheLostCoin"
+msgstr "The Lost Sheep and the Lost Coin"
+
+msgid "storyTitleJesusTalksWithTheSamaritanWomanAtTheWell"
+msgstr "Jesus Talks With the Samaritan Woman at the Well"
+
+msgid "storyTitleTheProdigalSon"
+msgstr "The Prodigal Son"
+
+msgid "storyTitleTheGoodSamaritan"
+msgstr "The Good Samaritan"
+
+msgid "storyTitleTheCreationOfTheWorld"
+msgstr "The Creation of the World"
+
+msgid "storyTitleTheFall"
+msgstr "The Fall"
+
+msgid "storyTitleAbrahamsCall"
+msgstr "Abraham’s Call"
+
+msgid "storyTitleJosephsCoatDreamsAndBetrayalByHisBrothers"
+msgstr "Joseph’s Coat, Dreams, and Betrayal by His Brothers"
+
+msgid "storyTitleJochebedAndMiriamSaveMoses"
+msgstr "Jochebed and Miriam Save Moses"
+
+msgid "storyTitleCrossingTheRedSea"
+msgstr "Crossing the Red Sea"
+
+msgid "storyTitleTheTenCommandments"
+msgstr "The Ten Commandments"
+
+msgid "storyTitleTheGoldenCalf"
+msgstr "The Golden Calf"
+
+msgid "storyTitleTheCaptureOfJericho"
+msgstr "The Capture of Jericho"
+
+msgid "storyTitleDavidAndGoliath"
+msgstr "David and Goliath"
+
+msgid "storyTitleDanielAndTheLionsDen"
+msgstr "Daniel and the Lions’ Den"
