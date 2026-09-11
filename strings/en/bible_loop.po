@@ -918,3 +918,9 @@ msgstr "Redo"
 
 msgid "narratorNumber"
 msgstr "Narrator {number}"
+
+msgid "pageNumberOfTotal"
+msgstr "%1$s of %2$s"
+
+msgid "scrollVerticallyToNavigatePages"
+msgstr "Scroll vertically to navigate between pages"
