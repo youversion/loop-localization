@@ -918,3 +918,6 @@ msgstr "Redo"
 
 msgid "narratorNumber"
 msgstr "Narrator {number}"
+
+msgid "exitFullScreen"
+msgstr "Exit full screen"
