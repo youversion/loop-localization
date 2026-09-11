@@ -885,3 +885,36 @@ msgstr "David and Goliath"
 
 msgid "storyTitleDanielAndTheLionsDen"
 msgstr "Daniel and the Lions’ Den"
+
+msgid "lessonNumber"
+msgstr "Lesson {number}"
+
+msgid "photoLibraryAccessRequired"
+msgstr "Photo library access is required to save images. Please allow access in Settings."
+
+msgid "drawingCanvas"
+msgstr "Drawing canvas"
+
+msgid "scrubCard"
+msgstr "Scrub card"
+
+msgid "scrubToReveal"
+msgstr "Scrub to reveal"
+
+msgid "videoProgress"
+msgstr "Video progress"
+
+msgid "progress"
+msgstr "Progress"
+
+msgid "percentValue"
+msgstr "{count} percent"
+
+msgid "undo"
+msgstr "Undo"
+
+msgid "redo"
+msgstr "Redo"
+
+msgid "narratorNumber"
+msgstr "Narrator {number}"
