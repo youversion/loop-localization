@@ -10,6 +10,9 @@ msgstr ""
 "X-Crowdin-SourceKey: msgstr\n"
 "X-Generator: Babel 2.0\n"
 
+msgid "completed"
+msgstr "Completed"
+
 msgid "viewLoopInfo"
 msgstr "View Loop Info"
 
