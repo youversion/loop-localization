@@ -283,6 +283,12 @@ msgstr "Did you mean:"
 msgid "discardChanges"
 msgstr "Discard Changes?"
 
+msgid "displayLanguage"
+msgstr "Display Language"
+
+msgid "displayLanguageDescription"
+msgstr "This determines the language for the app interface, including buttons, labels, notifications, etc."
+
 msgid "displayName"
 msgstr "Display Name"
 
@@ -450,6 +456,9 @@ msgstr "Let God live\n#through you.#"
 
 msgid "letUsKnow"
 msgstr "Let Us Know"
+
+msgid "letsMakeSureWereSpeakingTheSameLanguage"
+msgstr "Let’s make sure we’re speaking the same language."
 
 msgid "levelComplete"
 msgstr "%1$s Complete!"
