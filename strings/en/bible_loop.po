@@ -458,7 +458,7 @@ msgid "letUsKnow"
 msgstr "Let Us Know"
 
 msgid "letsMakeSureWereSpeakingTheSameLanguage"
-msgstr "Let's make sure we're speaking the same language."
+msgstr "Let’s make sure we’re speaking the same language."
 
 msgid "levelComplete"
 msgstr "%1$s Complete!"
