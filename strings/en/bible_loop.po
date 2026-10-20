@@ -796,6 +796,9 @@ msgstr "The Empty Tomb"
 msgid "storyTitleTheHouseBuiltOnTheSandAndRock"
 msgstr "The House Built on the Sand and Rock"
 
+msgid "storyTitleRuthAndNaomi"
+msgstr "Ruth & Naomi"
+
 msgid "storyTitleEsthersRequestToTheKing"
 msgstr "Esther’s Request to the King"
 
