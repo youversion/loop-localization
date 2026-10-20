@@ -19,17 +19,17 @@ msgstr "Challenge accepted!"
 msgid "flexYourMemoryMuscles"
 msgstr "Flex your memory muscles—try memorizing a Bible verse today."
 
-msgid "hitMasteryLevelToday"
-msgstr "Hit mastery level today!"
+msgid "hitMemoryLevelToday"
+msgstr "Hit memory level today!"
 
-msgid "masterYourMemorySkills"
-msgstr "Master your memory skills!"
+msgid "improveYourMemorySkills"
+msgstr "Improve your memory skills!"
 
-msgid "masterYourMemoryVerseToday"
-msgstr "Master your memory verse today."
+msgid "memorizeYourMemoryVerseToday"
+msgstr "Memorize your memory verse today."
 
-msgid "masterYourMemoryVerseTodayExclamation"
-msgstr "Master your memory verse today!"
+msgid "memorizeYourMemoryVerseTodayExclamation"
+msgstr "Memorize your memory verse today!"
 
 msgid "memoryVerseHasBeenUpdated"
 msgstr "Memory Verse has been updated! Test your memory with the new experience today."
