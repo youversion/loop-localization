@@ -46,6 +46,9 @@ msgstr "CLOSE, BUT NOT YET."
 msgid "completeAll4ToMaster"
 msgstr "Complete all 4 levels in a verse to master it and earn a crown."
 
+msgid "completeAll4ToMemorize"
+msgstr "Complete all 4 levels in a verse to memorize it and earn a crown."
+
 msgid "continuePhrase"
 msgstr "Continue"
 
@@ -105,6 +108,9 @@ msgstr "HIGH-FIVE FOR YOU!"
 
 msgid "iMasteredThisVerseOn"
 msgstr "I mastered this verse on"
+
+msgid "iMemorizedThisVerseOn"
+msgstr "I memorized this verse on"
 
 msgid "ifYouWantToMemorize"
 msgstr "If you want to memorize this verse again, you’ll begin at level 1."
@@ -189,6 +195,9 @@ msgstr "LEVEL UP"
 
 msgid "masteredVerses"
 msgstr "Mastered Verses"
+
+msgid "memorizedVerses"
+msgstr "Memorized Verses"
 
 msgid "masteredVersesUpper"
 msgstr "MASTERED VERSES"
@@ -376,6 +385,9 @@ msgstr "Verse of the Day"
 msgid "versesMastered"
 msgstr "Verses Mastered"
 
+msgid "versesMemorized"
+msgstr "Verses Memorized"
+
 msgid "versesMasteredUpper"
 msgstr "VERSES MASTERED"
 
@@ -402,6 +414,9 @@ msgstr "What would you like to memorize next?"
 
 msgid "whenYouMasterAVerse"
 msgstr "When you master a verse, it will show up here!"
+
+msgid "whenYouMemorizeAVerse"
+msgstr "When you memorize a verse, it will show up here!"
 
 msgid "wordAppearsMultipleTimes"
 msgstr "'{word}' appears {count} times in positions: {positions}"
@@ -435,6 +450,9 @@ msgstr "You got this."
 
 msgid "youHaventMasteredAnyVersesYet"
 msgstr "You haven’t mastered any verses yet"
+
+msgid "youHaventMemorizedAnyVersesYet"
+msgstr "You haven’t memorized any verses yet"
 
 msgid "youKnowWhosAwesome"
 msgstr "YOU KNOW WHO’S AWESOME? YOU ARE."
@@ -483,6 +501,9 @@ msgstr "YOU’VE GOT THIS!"
 
 msgid "youveMasteredThisVerse"
 msgstr "YOU’VE MASTERED THIS VERSE!"
+
+msgid "youveMemorizedThisVerseUpper"
+msgstr "YOU’VE MEMORIZED THIS VERSE!"
 
 msgid "youveUnlockedTheNextLevel"
 msgstr "You’ve unlocked the next level!"
