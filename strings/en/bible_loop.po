@@ -247,20 +247,11 @@ msgstr "Create a password"
 msgid "createAProfile"
 msgstr "Create a Profile"
 
-msgid "createAProfileAndKeepMasteringBibleVerses"
-msgstr "Create a profile and keep mastering Bible verses."
-
 msgid "createAProfileAndKeepMemorizingBibleVerses"
 msgstr "Create a profile and keep memorizing Bible verses."
 
-msgid "createAProfileAndMasterAVerseToJoinThisWeeksLeaderboard"
-msgstr "Create a profile and master a verse to join this week’s leaderboard."
-
 msgid "createAProfileAndMemorizeAVerseToJoinThisWeeksLeaderboard"
 msgstr "Create a profile and memorize a verse to join this week’s leaderboard."
-
-msgid "createAProfileAndStartMasteringBibleVerses"
-msgstr "Create a profile and start mastering Bible verses in Memory Verse!"
 
 msgid "createAProfileAndStartMemorizingBibleVerses"
 msgstr "Create a profile and start memorizing Bible verses in Memory Verse!"
@@ -502,9 +493,6 @@ msgstr "Sorry, something went wrong"
 msgid "makeTheBibleYours"
 msgstr "Make the Bible Yours"
 
-msgid "masterAVerseToJoinThisWeeksLeaderboard"
-msgstr "Master a verse to join this week’s leaderboard."
-
 msgid "memorizeAVerseToJoinThisWeeksLeaderboard"
 msgstr "Memorize a verse to join this week’s leaderboard."
 
@@ -528,9 +516,6 @@ msgstr "MORE"
 
 msgid "name"
 msgstr "Name"
-
-msgid "navigatesToMasteredVerseList"
-msgstr "Navigates to mastered verse list"
 
 msgid "navigatesToMemorizedVerseList"
 msgstr "Navigates to memorized verse list"
@@ -582,9 +567,6 @@ msgstr "Pick a display name"
 
 msgid "pickUpYourCurrentVerseAndKeepMemorizing"
 msgstr "Pick up your current verse and keep memorizing."
-
-msgid "playAllFourLevelsToMasterAVerse"
-msgstr "Play all four levels of Memory Verse to master a verse and join the leaderboard."
 
 msgid "playAllFourLevelsToMemorizeAVerse"
 msgstr "Play all four levels of Memory Verse to memorize a verse and join the leaderboard."
@@ -726,9 +708,6 @@ msgstr "Verse Visualizer"
 
 msgid "wallpaper"
 msgstr "Wallpaper"
-
-msgid "wayToGoCrownForMasteringThisVerse"
-msgstr "Way to go! You’ve earned a crown for mastering this verse."
 
 msgid "wayToGoCrownForMemorizingThisVerse"
 msgstr "Way to go! You’ve earned a crown for memorizing this verse."

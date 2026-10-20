@@ -43,9 +43,6 @@ msgstr "🏁 GO!"
 msgid "closeButNotYet"
 msgstr "CLOSE, BUT NOT YET."
 
-msgid "completeAll4ToMaster"
-msgstr "Complete all 4 levels in a verse to master it and earn a crown."
-
 msgid "completeAll4ToMemorize"
 msgstr "Complete all 4 levels in a verse to memorize it and earn a crown."
 
@@ -105,9 +102,6 @@ msgstr "Halfway there!"
 
 msgid "highFiveForYou"
 msgstr "HIGH-FIVE FOR YOU!"
-
-msgid "iMasteredThisVerseOn"
-msgstr "I mastered this verse on"
 
 msgid "iMemorizedThisVerseOn"
 msgstr "I memorized this verse on"
@@ -193,14 +187,8 @@ msgstr "Level Up"
 msgid "levelUpUpper"
 msgstr "LEVEL UP"
 
-msgid "masteredVerses"
-msgstr "Mastered Verses"
-
 msgid "memorizedVerses"
 msgstr "Memorized Verses"
-
-msgid "masteredVersesUpper"
-msgstr "MASTERED VERSES"
 
 msgid "matchItMixItLoopIt"
 msgstr "MATCH IT. MIX IT. LOOP IT. ♾️"
@@ -228,9 +216,6 @@ msgstr "MEMORY VERSE"
 
 msgid "mixItAgain"
 msgstr "MIX IT AGAIN!"
-
-msgid "moreVersesWillBeAdded"
-msgstr "More verses will be added soon. In the meantime, you can still replay mastered verses and memorize the Verse of the Day."
 
 msgid "myVerses"
 msgstr "My Verses"
@@ -382,17 +367,8 @@ msgstr "UP NEXT"
 msgid "verseOfTheDay"
 msgstr "Verse of the Day"
 
-msgid "versesMastered"
-msgstr "Verses Mastered"
-
 msgid "versesMemorized"
 msgstr "Verses Memorized"
-
-msgid "versesMasteredUpper"
-msgstr "VERSES MASTERED"
-
-msgid "wayToGo"
-msgstr "Way to go! You’ve earned a crown for mastering this level."
 
 msgid "weBelieveInYou"
 msgstr "We believe in you!"
@@ -411,9 +387,6 @@ msgstr "What would you like to memorize first?"
 
 msgid "whatWouldYouLikeToMemorizeNext"
 msgstr "What would you like to memorize next?"
-
-msgid "whenYouMasterAVerse"
-msgstr "When you master a verse, it will show up here!"
 
 msgid "whenYouMemorizeAVerse"
 msgstr "When you memorize a verse, it will show up here!"
@@ -447,9 +420,6 @@ msgstr "YOU DID IT!"
 
 msgid "youGotThis"
 msgstr "You got this."
-
-msgid "youHaventMasteredAnyVersesYet"
-msgstr "You haven’t mastered any verses yet"
 
 msgid "youHaventMemorizedAnyVersesYet"
 msgstr "You haven’t memorized any verses yet"
@@ -498,9 +468,6 @@ msgstr "YOU’RE TRYING—THAT’S AWESOME!"
 
 msgid "youveGotThis"
 msgstr "YOU’VE GOT THIS!"
-
-msgid "youveMasteredThisVerse"
-msgstr "YOU’VE MASTERED THIS VERSE!"
 
 msgid "youveMemorizedThisVerseUpper"
 msgstr "YOU’VE MEMORIZED THIS VERSE!"
