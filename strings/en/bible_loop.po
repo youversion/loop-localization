@@ -11,7 +11,7 @@ msgstr ""
 "X-Generator: Babel 2.0\n"
 
 msgid "changeProfilePicture"
-msgstr "Change Profile Picture
+msgstr "Change Profile Picture"
 
 msgid "changeCover"
 msgstr "Change Cover"
