@@ -10,6 +10,165 @@ msgstr ""
 "X-Crowdin-SourceKey: msgstr\n"
 "X-Generator: Babel 2.0\n"
 
+msgid "profilePictureBunny"
+msgstr "Bunny"
+
+msgid "profilePictureTurtle"
+msgstr "Turtle"
+
+msgid "profilePictureBear"
+msgstr "Bear"
+
+msgid "profilePictureBee"
+msgstr "Bee"
+
+msgid "profilePictureFalcon"
+msgstr "Falcon"
+
+msgid "profilePictureLion"
+msgstr "Lion"
+
+msgid "profilePictureDeer"
+msgstr "Deer"
+
+msgid "profilePictureButterfly"
+msgstr "Butterfly"
+
+msgid "profilePictureCamel"
+msgstr "Camel"
+
+msgid "profilePictureFox"
+msgstr "Fox"
+
+msgid "profilePictureDragon"
+msgstr "Dragon"
+
+msgid "profilePictureDonkey"
+msgstr "Donkey"
+
+msgid "profilePictureWhale"
+msgstr "Whale"
+
+msgid "profilePictureGoat"
+msgstr "Goat"
+
+msgid "profilePictureDove"
+msgstr "Dove"
+
+msgid "profilePictureDolphin"
+msgstr "Dolphin"
+
+msgid "profilePictureSheep"
+msgstr "Sheep"
+
+msgid "profilePictureMinnow"
+msgstr "Minnow"
+
+msgid "profilePictureEagle"
+msgstr "Eagle"
+
+msgid "profilePictureOwl"
+msgstr "Owl"
+
+msgid "profilePictureWolf"
+msgstr "Wolf"
+
+msgid "profilePictureSparrow"
+msgstr "Sparrow"
+
+msgid "profilePictureLamb"
+msgstr "Lamb"
+
+msgid "profilePictureScribe"
+msgstr "Scribe"
+
+msgid "profilePictureTeacher"
+msgstr "Teacher"
+
+msgid "profilePictureMessenger"
+msgstr "Messenger"
+
+msgid "profilePictureHealer"
+msgstr "Healer"
+
+msgid "profilePicturePeacemaker"
+msgstr "Peacemaker"
+
+msgid "profilePictureLearner"
+msgstr "Learner"
+
+msgid "profilePictureExplorer"
+msgstr "Explorer"
+
+msgid "profilePictureGardener"
+msgstr "Gardener"
+
+msgid "profilePictureServant"
+msgstr "Servant"
+
+msgid "profilePictureSinger"
+msgstr "Singer"
+
+msgid "profilePictureFisherman"
+msgstr "Fisherman"
+
+msgid "profilePictureShepherd"
+msgstr "Shepherd"
+
+msgid "profilePictureAdventurer"
+msgstr "Adventurer"
+
+msgid "profilePictureHelper"
+msgstr "Helper"
+
+msgid "profilePictureTraveler"
+msgstr "Traveler"
+
+msgid "profilePictureArtist"
+msgstr "Artist"
+
+msgid "profilePictureSeeker"
+msgstr "Seeker"
+
+msgid "profilePicturePoet"
+msgstr "Poet"
+
+msgid "profilePictureGuardian"
+msgstr "Guardian"
+
+msgid "profilePictureFriend"
+msgstr "Friend"
+
+msgid "profilePictureListener"
+msgstr "Listener"
+
+msgid "profilePictureBuilder"
+msgstr "Builder"
+
+msgid "profilePictureWatcher"
+msgstr "Watcher"
+
+msgid "profilePictureWitness"
+msgstr "Witness"
+
+msgid "profilePictureProphet"
+msgstr "Prophet"
+
+msgid "profilePictureRunner"
+msgstr "Runner"
+
+msgid "profilePictureStoryteller"
+msgstr "Storyteller"
+
+msgid "profilePictureLeader"
+msgstr "Leader"
+
+msgid "profilePictureCompanion"
+msgstr "Companion"
+
+msgid "profilePictureNeighbor"
+msgstr "Neighbor"
+
 msgid "coverColorGreen"
 msgstr "Green"
 
