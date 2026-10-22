@@ -10,6 +10,24 @@ msgstr ""
 "X-Crowdin-SourceKey: msgstr\n"
 "X-Generator: Babel 2.0\n"
 
+msgid "coverColorGreen"
+msgstr "Green"
+
+msgid "coverColorBlue"
+msgstr "Blue"
+
+msgid "coverColorLightBlue"
+msgstr "Light blue"
+
+msgid "coverColorPink"
+msgstr "Pink"
+
+msgid "coverColorYellow"
+msgstr "Yellow"
+
+msgid "coverColorRed"
+msgstr "Red"
+
 msgid "changeProfilePicture"
 msgstr "Change Profile Picture"
 
