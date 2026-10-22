@@ -1161,3 +1161,501 @@ msgstr "Pin a favorite verse to your profile."
 
 msgid "changePinnedVerse"
 msgstr "Change Pinned Verse"
+
+msgid "godHelpMeSlowDownBefore"
+msgstr "God, help me slow down before I react. Teach me to listen and respond with love instead of frustration. I trust You with what I feel is unfair today. Amen."
+
+msgid "lordHelpMeDealWithWhats"
+msgstr "Lord, help me deal with what’s bothering me before it turns into bitterness. Give me strength to let go of my pride and make peace with others today. Amen."
+
+msgid "godRemindMeThatMyWords"
+msgstr "God, remind me that my words have power. Help me speak with kindness and compassion, even when I don’t think others deserve it. After all, You showed compassion to me first. Amen."
+
+msgid "lordCalmMyHeartAndRemind"
+msgstr "Lord, calm my heart and remind me that You see what’s fair and what’s not. Help me trust You with the outcome, whatever it may be. Amen."
+
+msgid "godForgivenessIsHardButI"
+msgstr "God, forgiveness is hard, but I know You’ve forgiven me. Help me let go of what’s keeping me angry. Let Your grace abound in and through me. Amen."
+
+msgid "lordGiveMePatienceWhenSomeone"
+msgstr "Lord, give me patience when someone hurts me. Help me rise above it and keep my peace. I know the work You’re doing in me is worth the wait. Amen."
+
+msgid "godThankYouForBeingPatient"
+msgstr "God, thank You for being patient with me. Help me reflect Your kindness even when I’m frustrated. I know others will see You in me as I do. Amen."
+
+msgid "jesusHelpMeChoosePeaceEven"
+msgstr "Jesus, help me choose peace even when others don’t. Show me how to walk through conflict with the grace and love that can only come from Your Spirit working in me. Amen."
+
+msgid "lordYouSeeMyPainAnd"
+msgstr "Lord, You see my pain and how deeply I’ve been hurt. Thank You for staying close and healing my heart. I trust that Your justice will prevail today. Amen."
+
+msgid "godHelpMeBeSomeoneWho"
+msgstr "God, help me be someone who brings peace, not more hurt. Give me courage to take the first step toward healing. And thank You for the joy that comes with trusting in You. Amen."
+
+msgid "lordHelpMeRespondWithGoodness"
+msgstr "Lord, help me respond with goodness even when I’m wronged. Show me that love is stronger than anger. You have everything under Your control. Amen."
+
+msgid "godINeedYourHealingWhere"
+msgstr "God, I need Your healing where I’ve been hurt. Thank You for being gentle with my heart. Hold me close today. Amen."
+
+msgid "youCanTrustGodWithYourFrustrationsUpper"
+msgstr "YOU CAN TRUST GOD WITH YOUR FRUSTRATIONS."
+
+msgid "yourAngerDoesNotHaveToControlYouUpper"
+msgstr "YOUR ANGER DOES NOT HAVE TO CONTROL YOU."
+
+msgid "theHolySpiritHelpsYouChooseGentlenessUpper"
+msgstr "THE HOLY SPIRIT HELPS YOU CHOOSE GENTLENESS."
+
+msgid "letGoOfAngerTrustGodInsteadUpper"
+msgstr "LET GO OF ANGER—TRUST GOD INSTEAD."
+
+msgid "forgivenessSetsYouFreeFromPrideUpper"
+msgstr "FORGIVENESS SETS YOU FREE FROM PRIDE."
+
+msgid "patienceHelpsYouSeeHowGodsAtWorkUpper"
+msgstr "PATIENCE HELPS YOU SEE HOW GOD’S AT WORK."
+
+msgid "youLiveLikeJesusWhenYouChooseCompassionOverAngerUpper"
+msgstr "YOU LIVE LIKE JESUS WHEN YOU CHOOSE COMPASSION OVER ANGER."
+
+msgid "whenYouTrustGodYouCanLiveInPeaceUpper"
+msgstr "WHEN YOU TRUST GOD, YOU CAN LIVE IN PEACE."
+
+msgid "godIsWithYouWorkingForYourGoodUpper"
+msgstr "GOD IS WITH YOU, WORKING FOR YOUR GOOD."
+
+msgid "joyGrowsWhenAngerDoesntRuleYouUpper"
+msgstr "JOY GROWS WHEN ANGER DOESN’T RULE YOU."
+
+msgid "leaveJusticeToGodWalkHumblyUpper"
+msgstr "LEAVE JUSTICE TO GOD; WALK HUMBLY."
+
+msgid "godCanHealTheHurtInjusticeCausesUpper"
+msgstr "GOD CAN HEAL THE HURT INJUSTICE CAUSES."
+
+msgid "godThankYouForBeingRight"
+msgstr "God, thank You for being right here with me. Give me strength and wisdom to face what’s ahead with courage and humility. Amen."
+
+msgid "lordHelpMeChooseTrustOver"
+msgstr "Lord, help me choose trust over fear. Remind me that You are bigger than anything I face. You will never fail me. Amen"
+
+msgid "godThankYouForAlwaysSticking"
+msgstr "God, thank You for always sticking with me. Forgive me for the times my belief in You has slipped. In You, I have nothing to fear. Amen."
+
+msgid "holySpiritFillMeWithYour"
+msgstr "Holy Spirit, fill me with Your power and love today. Help me stand strong and believe that I can share Jesus in my world. Amen."
+
+msgid "lordYouAreMyLightWhen"
+msgstr "Lord, You are my light when things feel dark. Thank You for being my safe place."
+
+msgid "holySpiritRiseUpInMe"
+msgstr "Holy Spirit, rise up in me today. Help me to see past the waves of fear and set my eyes on Jesus. I know You will always carry me through. Amen."
+
+msgid "godThankYouForCallingMe"
+msgstr "God, thank You for calling me Your child. Help me live like someone who’s fully loved and free. Because that is who I am. Amen"
+
+msgid "godThankYouForAlwaysHearing"
+msgstr "God, thank You for always hearing me. Help me trust that You’ll take care of what I can’t control. As long as You love me, I have nothing to fear. Amen."
+
+msgid "godThankYouForNeverLeaving"
+msgstr "God, thank You for never leaving me. Give me courage to take the next step knowing You’re beside me. There is nothing I can’t overcome with Your help. Amen."
+
+msgid "lordFillMeWithYourPerfect"
+msgstr "Lord, fill me with Your perfect love. Let Your love push out every bit of fear and doubt. Let my life be a testimony of Your faithfulness. Amen."
+
+msgid "godThankYouForBeingThe"
+msgstr "God, thank You for being the safe place I can always run to when I’m in need. Help me to never fall into the trap of trying to do life on my own. Amen."
+
+msgid "godItsAmazingToKnowYou"
+msgstr "God, it’s amazing to know You, the Mightiest Warrior and Lord of all creation, choose to love me. Never let me get used to that. Amen."
+
+msgid "godsPowerAndPresenceSurroundsYouWhenYoureAfraidUpper"
+msgstr "GOD’S POWER AND PRESENCE SURROUNDS YOU WHEN YOU’RE AFRAID."
+
+msgid "whenYouFeelInsufficientGodIsEnoughUpper"
+msgstr "WHEN YOU FEEL INSUFFICIENT, GOD IS ENOUGH."
+
+msgid "godGuidesAndEmpowersYourEveryStepUpper"
+msgstr "GOD GUIDES AND EMPOWERS YOUR EVERY STEP."
+
+msgid "theHolySpiritHelpsYouToLiveLikeJesusUpper"
+msgstr "THE HOLY SPIRIT HELPS YOU TO LIVE LIKE JESUS."
+
+msgid "darknessExistsButGodsLightShinesBrighterUpper"
+msgstr "DARKNESS EXISTS, BUT GOD’S LIGHT SHINES BRIGHTER."
+
+msgid "withTheHolySpiritYouCanBeBraveUpper"
+msgstr "WITH THE HOLY SPIRIT, YOU CAN BE BRAVE."
+
+msgid "inJesusSinHasNoPowerOverYouUpper"
+msgstr "IN JESUS, SIN HAS NO POWER OVER YOU."
+
+msgid "godHearsAndSavesYouUpper"
+msgstr "GOD HEARS AND SAVES YOU."
+
+msgid "yourCallingIsGreatGodsPresenceIsGreaterUpper"
+msgstr "YOUR CALLING IS GREAT; GOD’S PRESENCE IS GREATER."
+
+msgid "beCourageousGodsLoveMakesYouNewUpper"
+msgstr "BE COURAGEOUS—GOD’S LOVE MAKES YOU NEW."
+
+msgid "godWillNeverAbandonYouUpper"
+msgstr "GOD WILL NEVER ABANDON YOU."
+
+msgid "godsRelentlessLoveKeepsShapingYouUpper"
+msgstr "GOD’S RELENTLESS LOVE KEEPS SHAPING YOU."
+
+msgid "godThereAreBurdensInMy"
+msgstr "God, there are burdens in my life that are too big for me. I want You to take them. But if it’s Your will for me to bear them, give me the strength to carry on. Amen."
+
+msgid "godYouKnowWhatIsWeighing"
+msgstr "God, You know what is weighing me down today. You hear me when I cry out for help. That’s what I’m doing today. Help me, Lord. I believe You will. Amen."
+
+msgid "jesusLivingForYouIsNot"
+msgstr "Jesus, living for You is not always easy. Sometimes it pushes me to my limit. But thanks to You, I never have to do it alone. Thank You. Amen."
+
+msgid "godYouRenewMyStrengthWhen"
+msgstr "God, You renew my strength when I feel worn out. Help me rise above what’s weighing me down today and see the world through Your eyes. Amen."
+
+msgid "godAsWeirdAsItSounds"
+msgstr "God, as weird as it sounds, thank You for the hard things in my life. They force me to depend on You and You alone. What a blessing it is to know that I can always count on You. Amen."
+
+msgid "holySpiritFillMeWithYourPeace"
+msgstr "Holy Spirit, fill me with Your peace that stays steady when life is messy. Help me to slow down, breathe, and trust You’re always here with me. Amen."
+
+msgid "godThankYouForYourPresence"
+msgstr "God, thank You for Your presence. Remind me that anxiety is not the end of my story. Today, I choose to believe Your joy will outlast this feeling. Amen."
+
+msgid "godYouTakeWhatTheEnemy"
+msgstr "God, You take what the enemy means for evil and turn it for Your good. Take this moment of my weakness and show the world just how powerful and loving You are. Amen."
+
+msgid "godIDontAlwaysUnderstandWhats"
+msgstr "God, I don’t always understand what’s happening, but I trust You. Help me follow Your lead and find peace in it. Amen"
+
+msgid "holySpiritHelpMeFeelYour"
+msgstr "Holy Spirit, help me feel Your presence. Remind me that this struggle I’m facing will not be the end of me. With Your help, I will overcome this. In You, I will find rest. Amen."
+
+msgid "lordSlowMeDownEnoughTo"
+msgstr "Lord, slow me down enough to rest in You. Refresh my body, my mind and my soul today. Remind me You’re guiding every step I take. I trust You. Amen."
+
+msgid "godImHandingYouWhatIve"
+msgstr "God, I’m handing You what I’ve been carrying. My temptations, my worries - You can have them all. Thank You for caring about every detail of my life. I love You, Lord. Amen."
+
+msgid "godHelpsYouWhenYouFeelOverwhelmedUpper"
+msgstr "GOD HELPS YOU WHEN YOU FEEL OVERWHELMED."
+
+msgid "godSeesYouInTheStruggleUpper"
+msgstr "GOD SEES YOU IN THE STRUGGLE."
+
+msgid "jesusHelpsYouWhenYoureLivingForHimUpper"
+msgstr "JESUS HELPS YOU WHEN YOU’RE LIVING FOR HIM."
+
+msgid "godsHopeCarriesYouWhenYouCantUpper"
+msgstr "GOD’S HOPE CARRIES YOU WHEN YOU CAN’T."
+
+msgid "youCanAlwaysDependOnGodUpper"
+msgstr "YOU CAN ALWAYS DEPEND ON GOD."
+
+msgid "theHolySpiritHoldsYouTogetherInStressUpper"
+msgstr "THE HOLY SPIRIT HOLDS YOU TOGETHER IN STRESS."
+
+msgid "itsOkayToRestInGodsPresenceUpper"
+msgstr "IT’S OKAY TO REST IN GOD’S PRESENCE."
+
+msgid "godUsesStruggleToShowHisStrengthUpper"
+msgstr "GOD USES STRUGGLE TO SHOW HIS STRENGTH."
+
+msgid "godKnowsTheAnswerSoFollowHimUpper"
+msgstr "GOD KNOWS THE ANSWER--SO FOLLOW HIM."
+
+msgid "whereverYouGoTheSpiritIsThereUpper"
+msgstr "WHEREVER YOU GO, THE SPIRIT IS THERE."
+
+msgid "youFindAllYouNeedInJesusUpper"
+msgstr "YOU FIND ALL YOU NEED IN JESUS."
+
+msgid "godCaresAboutTheThingsThatWorryYouUpper"
+msgstr "GOD CARES ABOUT THE THINGS THAT WORRY YOU."
+
+msgid "godThankYouForStayingClose"
+msgstr "God, thank You for staying close when my heart hurts. Help me feel Your comfort right now. Remind me that what You have in store for me is greater than what I’ve lost. Amen."
+
+msgid "godMyHeartIsBreakingBut"
+msgstr "God, my heart is breaking. But You know that. You’re here in this with me. Help me to find peace in Your presence today. Amen."
+
+msgid "lordThankYouForThePromise"
+msgstr "Lord, thank You for the promise that one day all pain will be gone. Help me hold on to hope until that day. And in the meantime, let me find joy that You’re in the waiting with me. Amen."
+
+msgid "godIDontFeelJoyfulRight"
+msgstr "God, I don’t feel joyful right now, but I still choose to hope in You. Remind me that better days will come. Remind that You are still my God, and let that be enough for today. Amen."
+
+msgid "jesusThankYouForTheHope"
+msgstr "Jesus, thank You for the hope You brought to the world. Because of You, I can look past my sadness with hopeful expectation. How amazing it is to be so loved by You. Amen."
+
+msgid "jesusYouBrokeEveryChainThat"
+msgstr "Jesus, You broke every chain that holds me down with Your death and ressurection. I choose to believe in that truth today. You are the Son of God. You call me Yours. And You are mine. Amen."
+
+msgid "godYouAreMySafePlace"
+msgstr "God, You are my safe place when life feels too heavy. You are the one I can always depend on. Thank You for never leaving me on my own. Amen."
+
+msgid "godYourGoodnessNeverRunsOut"
+msgstr "God, Your goodness never runs out. Your kindness never changes. Help me to hold tight to who You are. I know that when I do, I will remember who I am too. Amen."
+
+msgid "godYouCanOnlyCreateGood"
+msgstr "God, You can only create good. Take this moment, this awful, painful moment, and turn it into beauty. I know You can. And I believe You will. Amen."
+
+msgid "lordIHaveToBelieveYou"
+msgstr "Lord, I have to believe You are walking with me through this darkness. Let Your presence be the light that gets me through. Let me feel just how great Your love is for me. Amen."
+
+msgid "godIBelieveYouAreWith"
+msgstr "God, I believe You are with me today. Lead the way. Through sadness and pain, heartache and struggle, I will follow You because I know Your ways are better than mine. Amen."
+
+msgid "godComfortsYouInSufferingUpper"
+msgstr "GOD COMFORTS YOU IN SUFFERING."
+
+msgid "godSeesYouHeHasntForgottenUpper"
+msgstr "GOD SEES YOU; HE HASN’T FORGOTTEN."
+
+msgid "youCanTrustGodWithYourHurtsUpper"
+msgstr "YOU CAN TRUST GOD WITH YOUR HURTS."
+
+msgid "youCanHaveHopeInGodsPromisesUpper"
+msgstr "YOU CAN HAVE HOPE IN GOD’S PROMISES."
+
+msgid "godIsAlwaysCloseToYouUpper"
+msgstr "GOD IS ALWAYS CLOSE TO YOU."
+
+msgid "sadnessHurtsButGodStillHasGreatThingsForYouUpper"
+msgstr "SADNESS HURTS, BUT GOD STILL HAS GREAT THINGS FOR YOU."
+
+msgid "jesusHasAlreadyWonTakeHeartInHisVictoryUpper"
+msgstr "JESUS HAS ALREADY WON- TAKE HEART IN HIS VICTORY!"
+
+msgid "godWelcomesYouWhenYouAskForHelpUpper"
+msgstr "GOD WELCOMES YOU WHEN YOU ASK FOR HELP."
+
+msgid "inChaosAndPainGodRemainsGoodUpper"
+msgstr "IN CHAOS AND PAIN, GOD REMAINS GOOD."
+
+msgid "godCanUseThisForYourGoodUpper"
+msgstr "GOD CAN USE THIS FOR YOUR GOOD."
+
+msgid "godIsWithYouAndFightsForYouUpper"
+msgstr "GOD IS WITH YOU AND FIGHTS FOR YOU."
+
+msgid "godWillLeadYouThroughEveryValleyUpper"
+msgstr "GOD WILL LEAD YOU THROUGH EVERY VALLEY."
+
+msgid "godIKnowYouCanHear"
+msgstr "God, I know you can hear me. Please, fill me with Your life again. Remind me of how You’ve freed, and let me use that freedom to bring You praise. Amen."
+
+msgid "godHelpMeToWantTo"
+msgstr "God, help me to want to seek You again. I want to see You in every moment, from the mundane to the magnificent. I just want You. And I know You want me too. Amen."
+
+msgid "godSometimesMyHeartFeelsEmpty"
+msgstr "God, sometimes my heart feels empty. Fill me up again with Your presence and help me want more of You. Amen"
+
+msgid "jesusThankYouInYouI"
+msgstr "Jesus, thank You. In You, I am made new. Through You, I am a child of God. Because of You, I am never alone. Amen."
+
+msgid "godFollowingYouIsntAlwaysEasy"
+msgstr "God, following You isn’t always easy. Today, and everyday, fill me with new strength and courage to continue. I know, with Your help, that the cost of discipleship is always worth the work. Amen"
+
+msgid "holySpiritIWantMyChoices"
+msgstr "Holy Spirit, I want my choices to have purpose - to show the truth of Jesus to the world. And with You guiding everything I say, think, and do, I know they will. Amen."
+
+msgid "jesusYourLoveForMeIs"
+msgstr "Jesus, Your love for me is greater than I could ever imagine. Nothing can pry me away from God, and it’s all because of You. Thank You. Amen."
+
+msgid "godTheresNoWayICould"
+msgstr "God, there’s no way I could ever save myself from sin and struggle. But I don’t have to. You sent us Jesus. In Him, I am free. Help me to see just how good this day You’ve given me is. Amen."
+
+msgid "godRenewMyHeartAndHelp"
+msgstr "God, renew my heart and help me to be loyal to You again. Remind me what it feels like to be close to You. And help me to let go of anything that seperates us. Amen."
+
+msgid "jesusHelpMeStayConnectedTo"
+msgstr "Jesus, help me stay connected to You in every season. I know that when I do, joy and peace will follow. Amen."
+
+msgid "godThankYouForMakingMe"
+msgstr "God, thank You for making me with purpose. Show me how I can make a difference today, even in small ways. Never let me forget who You say I am. Amen"
+
+msgid "youAreAlwaysHeardByGodUpper"
+msgstr "YOU ARE ALWAYS HEARD BY GOD."
+
+msgid "keepPursuingGodHesPursuingYouUpper"
+msgstr "KEEP PURSUING GOD; HE’S PURSUING YOU."
+
+msgid "godsWordFillsYouWithLifeUpper"
+msgstr "GOD’S WORD FILLS YOU WITH LIFE."
+
+msgid "youAreNeverAloneWhenYoureInGodsFamilyUpper"
+msgstr "YOU ARE NEVER ALONE WHEN YOU’RE IN GOD’S FAMILY."
+
+msgid "youCanChooseJesusEvenWhenThingsAreDifficultUpper"
+msgstr "YOU CAN CHOOSE JESUS, EVEN WHEN THINGS ARE DIFFICULT."
+
+msgid "theSpiritGuidesYouWhenYoureUnsureUpper"
+msgstr "THE SPIRIT GUIDES YOU WHEN YOU’RE UNSURE."
+
+msgid "nothingCanSeparateYouFromGodsLoveUpper"
+msgstr "NOTHING CAN SEPARATE YOU FROM GOD’S LOVE."
+
+msgid "jesusCaresAboutYouHeCameToRescueYouUpper"
+msgstr "JESUS CARES ABOUT YOU—HE CAME TO RESCUE YOU."
+
+msgid "evenWhenYouStruggleGodIsWalkingWithYouUpper"
+msgstr "EVEN WHEN YOU STRUGGLE, GOD IS WALKING WITH YOU."
+
+msgid "youAreStrongWhenYouAreRootedInChristUpper"
+msgstr "YOU ARE STRONG WHEN YOU ARE ROOTED IN CHRIST."
+
+msgid "inChaosOrLonelinessGodRemainsGoodUpper"
+msgstr "IN CHAOS OR LONELINESS, GOD REMAINS GOOD."
+
+msgid "youWereMadeToReflectGodsLoveUpper"
+msgstr "YOU WERE MADE TO REFLECT GOD’S LOVE."
+
+msgid "jesusThankYouForGivingMe"
+msgstr "Jesus, thank You for giving me real peace that doesn’t depend on what’s happening around me. Help me to depend on the Holy Spirit today. I know He will never fail me. Amen."
+
+msgid "godThankYouForSurroundingMe"
+msgstr "God, thank You for surrounding me with Your peace. Keep my heart calm and steady in You, today. Amen."
+
+msgid "godThankYouForWatchingOver"
+msgstr "God, thank You for watching over me. I can rest because I know You’ve got me. Amen."
+
+msgid "godWhenITrustInYou"
+msgstr "God, when I trust in You, I feel free. Help me to never get bound up in self-reliance. I am made to need You. And that’s okay. Amen."
+
+msgid "jesusLetYourPeaceLeadMy"
+msgstr "Jesus, let Your peace lead my thoughts and actions. Help me live with a thankful heart and show others the same grace You have shown me. Amen."
+
+msgid "jesusYourWorkIsNotDone"
+msgstr "Jesus, Your work is not done yet. You are restoring everything sin tried to break. And that includes me. Help me to rest in knowing You are holding all my worries in Your hands. Amen."
+
+msgid "godThankYouForFillingMe"
+msgstr "God, thank You for filling me with Your peace and joy. Let it abound in everything I do, say, and think today. Amen."
+
+msgid "godInEverySituationICan"
+msgstr "God, in every situation, I can find peace in You. In the good and the bad, the easy and the difficult, You are with me through it all. Thank You,  God. Amen."
+
+msgid "godTeachMeToSlowDown"
+msgstr "God, teach me to slow down and be still. I trust that You’re working even when my life feels unfair. Amen."
+
+msgid "lordHelpMeLiveInA"
+msgstr "Lord, help me live in a way that pleases You, letting go of any grudges hiding in my heart. Let Your peace flow into all of my relationships. Amen."
+
+msgid "godThankYouForBlessingMe"
+msgstr "God, thank You for blessing me with Your kindness and peace. Wherever my feet may carry me today, help me to walk with a peaceful heart. Amen."
+
+msgid "godThereIsNothingGreaterThan"
+msgstr "God, there is nothing greater than You. Please give me the wisdom to know when to be still and the strength to stand when I cannot on my own. Either way, I have peace in knowing You are with me. Amen."
+
+msgid "inJesusYouAreWholeUpper"
+msgstr "IN JESUS, YOU ARE WHOLE."
+
+msgid "godsPeaceGuardsYouFromAnxietyUpper"
+msgstr "GOD’S PEACE GUARDS YOU FROM ANXIETY."
+
+msgid "letYourGuardDownGodsLoveNeverFailsUpper"
+msgstr "LET YOUR GUARD DOWN—GOD’S LOVE NEVER FAILS."
+
+msgid "youDontHaveToCarryItGodsGotYouUpper"
+msgstr "YOU DON’T HAVE TO CARRY IT—GOD’S GOT YOU."
+
+msgid "inConflictSeekJesusAndFindPeaceUpper"
+msgstr "IN CONFLICT, SEEK JESUS AND FIND PEACE."
+
+msgid "yourPeaceComesFromKnowingJesusUpper"
+msgstr "YOUR PEACE COMES FROM KNOWING JESUS."
+
+msgid "seeingJesusMoreFullyBringsYouPeaceUpper"
+msgstr "SEEING JESUS MORE FULLY BRINGS YOU PEACE."
+
+msgid "godGivesYouPeaceThatTheWorldCannotUpper"
+msgstr "GOD GIVES YOU PEACE THAT THE WORLD CANNOT."
+
+msgid "godsPlanForYouIsPerfectUpper"
+msgstr "GOD’S PLAN FOR YOU IS PERFECT."
+
+msgid "godsPeaceGivesYouPeaceWithOthersUpper"
+msgstr "GOD’S PEACE GIVES YOU PEACE WITH OTHERS."
+
+msgid "godWantsYouToLiveInHisPeaceUpper"
+msgstr "GOD WANTS YOU TO LIVE IN HIS PEACE."
+
+msgid "whenGodDoesntRemoveConflictHeStrengthensYouUpper"
+msgstr "WHEN GOD DOESN’T REMOVE CONFLICT, HE STRENGTHENS YOU."
+
+msgid "godThankYouForThisDay"
+msgstr "God, thank You for this day You’ve made. Help me notice all the good things in my life. I know they all come from You. Amen."
+
+msgid "godYouFillMyHeartWith"
+msgstr "God, You fill my heart with joy that lasts. Let everything I say and do point others back to You. Amen."
+
+msgid "godNeverLetMeForgetJust"
+msgstr "God, Never let me forget just how good You are to me. I give you all of me today: body, mind, and soul. Amen."
+
+msgid "godThankYouForYourPresenceMay"
+msgstr "God, thank You for Your presence. May I always come to You when I am in need. In You, I know I will never lack anything. Amen."
+
+msgid "godThankYouForTeachingMe"
+msgstr "God, thank You for teaching me to find joy in every circumstance. Help me to always choose gratitude, even when it doesn’t make sense. As long as I have You, I have enough. Amen"
+
+msgid "godYourGoodnessIsTooGreat"
+msgstr "God, Your goodness is too great to only be mine. May everyone I know and even the people I don’t find a reason and a way to praise Your name. Amen."
+
+msgid "godThankYouForAllowingMe"
+msgstr "God, thank You for allowing me to make my home in You. Help me to be humble enough to learn Your ways, and brave enough to choose them over my own. Amen."
+
+msgid "godIAmYourCreationYou"
+msgstr "God, I am Your creation. You know me better than anyone. Thank You for loving me and caring for me like no one else can. Amen."
+
+msgid "godThankYouForTurningMy"
+msgstr "God, thank You for turning my struggles into celebrations. Knowing You’re with me fills me with hope. And Your hope can never be taken from me. Amen."
+
+msgid "godHelpMeFindJoyEven"
+msgstr "God, help me find joy even when life isn’t easy. Remind me that the good work You started in me is alive and active. You will never give up on me, so I will never give up on You. Amen."
+
+msgid "holySpiritFillMeWithYourPresence"
+msgstr "Holy Spirit, fill me with Your presence today. Let everyone who sees my joy recoginze how You are the One who gives it to me. Amen."
+
+msgid "jesusYouAloneAreTheReason"
+msgstr "Jesus, You alone are the reason I can have joy. You made it possible for me to live in relationship with God. Thank You. I love You. And I know You love me too. Amen."
+
+msgid "youCanAlwaysBeThankfulGodIsGoodUpper"
+msgstr "YOU CAN ALWAYS BE THANKFUL—GOD IS GOOD."
+
+msgid "whateverHappensGodGivesYouJoyUpper"
+msgstr "WHATEVER HAPPENS, GOD GIVES YOU JOY."
+
+msgid "godDeservesWorshipPraiseHimWithAllYouHaveUpper"
+msgstr "GOD DESERVES WORSHIP—PRAISE HIM WITH ALL YOU HAVE."
+
+msgid "inGodsPresenceYouHaveEnoughUpper"
+msgstr "IN GOD’S PRESENCE, YOU HAVE ENOUGH."
+
+msgid "youWereMadeToDelightInGodUpper"
+msgstr "YOU WERE MADE TO DELIGHT IN GOD."
+
+msgid "godsGoodnessFillsCreationJoinThePraiseUpper"
+msgstr "GOD’S GOODNESS FILLS CREATION—JOIN THE PRAISE."
+
+msgid "knowingAndObeyingGodBringsYouLifeUpper"
+msgstr "KNOWING AND OBEYING GOD BRINGS YOU LIFE."
+
+msgid "godKnowsYourNeedsHeAlwaysProvidesUpper"
+msgstr "GOD KNOWS YOUR NEEDS—HE ALWAYS PROVIDES."
+
+msgid "godIsFaithfulHisLightShinesInDarknessUpper"
+msgstr "GOD IS FAITHFUL—HIS LIGHT SHINES IN DARKNESS."
+
+msgid "theJoyOfTheLordIsYourStrengthUpper"
+msgstr "THE JOY OF THE LORD IS YOUR STRENGTH."
+
+msgid "theHolySpiritOverfillsYouWithJoyUpper"
+msgstr "THE HOLY SPIRIT OVERFILLS YOU WITH JOY."
+
+msgid "jesusJoyOutlastsTheUpsAndDownsUpper"
+msgstr "JESUS’ JOY OUTLASTS THE UPS AND DOWNS."
