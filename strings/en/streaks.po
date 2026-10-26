@@ -223,7 +223,7 @@ msgstr "Turn On Streaks"
 msgid "verseArt"
 msgstr "Verse Art"
 
-msgid "weFrozeYourStreak"
+msgid "weFrozeYourStreakKeepItGoing"
 msgstr "We froze your Streak! Keep it going with a Bible activity."
 
 msgid "woohooYouveStartedYourStreak"
