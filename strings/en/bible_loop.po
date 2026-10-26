@@ -592,6 +592,9 @@ msgstr "Remember that you are loved."
 msgid "greetingsYoureStrongerThanYouThink"
 msgstr "You're stronger than you think!"
 
+msgid "helpUsMakeLoopsBetter"
+msgstr "Help us make Loops better."
+
 msgid "highlights"
 msgstr "Highlights"
 
@@ -837,6 +840,9 @@ msgstr "Use as wallpaper or share with your friends."
 
 msgid "streetlightsAudioBibleNowAvailableForNlt"
 msgstr "Streetlights Audio Bible is now available for the NLT. Listen to word-for-word scripture read dynamically over a custom-made soundtrack."
+
+msgid "takeAShortSurvey"
+msgstr "Take a short survey"
 
 msgid "tapToPlace"
 msgstr "Tap to place"
