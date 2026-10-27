@@ -343,6 +343,9 @@ msgstr "Add your birthday"
 msgid "aWidgetCanHelpYouRememberToMemorize"
 msgstr "A widget can help you remember to spend time memorizing God’s Word."
 
+msgid "aWorkOfArt"
+msgstr "A Work of Art!"
+
 msgid "backToHome"
 msgstr "Back to Home"
 
@@ -604,6 +607,9 @@ msgstr "If your email isn’t verified within 3 days, your account will be delet
 msgid "image"
 msgstr "Image"
 
+msgid "incredible"
+msgstr "Incredible!"
+
 msgid "inPartnershipWith"
 msgstr "in partnership with"
 
@@ -628,6 +634,9 @@ msgstr "Jump Back In"
 msgid "keepAccount"
 msgstr "Keep Account"
 
+msgid "keepItUpLevel"
+msgstr "Keep it up!"
+
 msgid "keepProfile"
 msgstr "Keep Profile"
 
@@ -651,6 +660,9 @@ msgstr "%1$s Complete!"
 
 msgid "listenToTheBibleWithHipHop"
 msgstr "Listen to the Bible with hip hop"
+
+msgid "lookAtYouGo"
+msgstr "Look at you go!"
 
 msgid "loopAccountAlreadyVerified"
 msgstr "Your account is already verified!"
@@ -715,8 +727,11 @@ msgstr "New password"
 msgid "next"
 msgstr "Next"
 
+msgid "nextLevelUnlocked"
+msgstr "Next level: unlocked."
+
 msgid "niceToMeetYouName"
-msgstr "NICE TO MEET YOU, \n%1$s."
+msgstr "%1$s HAS A NICE RING TO IT."
 
 msgid "noInternetConnectionShowingSavedContent"
 msgstr "No internet connection. Showing saved content where available."
@@ -729,6 +744,9 @@ msgstr "Not yet implemented"
 
 msgid "noUserDataAvailable"
 msgstr "No user data available"
+
+msgid "nowThatsArt"
+msgstr "Now, that’s art."
 
 msgid "oldPassword"
 msgstr "Old password"
@@ -902,7 +920,7 @@ msgid "wayToGoCrownForMemorizingThisVerse"
 msgstr "Way to go! You’ve earned a crown for memorizing this verse."
 
 msgid "wellNeverShareThisInformationWithOthers"
-msgstr "We’ll never share this information with others."
+msgstr "We’ll never share this with anyone."
 
 msgid "weSentAnEmailTo"
 msgstr "We sent an email to"
