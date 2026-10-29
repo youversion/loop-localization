@@ -586,6 +586,9 @@ msgstr "Remember that you are loved."
 msgid "greetingsYoureStrongerThanYouThink"
 msgstr "You're stronger than you think!"
 
+msgid "growYourScriptureKnowledge"
+msgstr "Grow your Scripture knowledge! Complete at least one activity per day to keep a streak."
+
 msgid "helpUsMakeLoopsBetter"
 msgstr "Help us make Loops better."
 
@@ -706,14 +709,23 @@ msgstr "MEMORY VERSE CHALLENGE"
 msgid "minimum15Characters"
 msgstr "Minimum 15 characters"
 
+msgid "missedADayNoWorries"
+msgstr "Missed a day? No worries! Each week, you get three chances to freeze your streak. Keep it going by choosing an activity the next day!"
+
 msgid "month"
 msgstr "Month"
 
 msgid "moreUpper"
 msgstr "MORE"
 
+msgid "moveTheSlider"
+msgstr "Move the slider to receive a personalized devotional!"
+
 msgid "name"
 msgstr "Name"
+
+msgid "nameHasANiceRingToIt"
+msgstr "%1$s HAS A NICE RING TO IT."
 
 msgid "navigatesToMemorizedVerseList"
 msgstr "Navigates to memorized verse list"
@@ -731,7 +743,7 @@ msgid "nextLevelUnlocked"
 msgstr "Next level: unlocked."
 
 msgid "niceToMeetYouName"
-msgstr "%1$s HAS A NICE RING TO IT."
+msgstr "NICE TO MEET YOU, \n%1$s."
 
 msgid "noInternetConnectionShowingSavedContent"
 msgstr "No internet connection. Showing saved content where available."
@@ -825,6 +837,9 @@ msgstr "Share a few details to finish creating your profile."
 
 msgid "shareBibleLoop"
 msgstr "Check out this Bible Loop!"
+
+msgid "shareWithFriends"
+msgstr "Share with Friends!"
 
 msgid "slowDownAndListenToGodsVoice"
 msgstr "Slow down\nand listen to\n#God's voice.#"
@@ -920,6 +935,9 @@ msgid "wayToGoCrownForMemorizingThisVerse"
 msgstr "Way to go! You’ve earned a crown for memorizing this verse."
 
 msgid "wellNeverShareThisInformationWithOthers"
+msgstr "We’ll never share this information with others."
+
+msgid "wellNeverShareThisWithAnyone"
 msgstr "We’ll never share this with anyone."
 
 msgid "weSentAnEmailTo"

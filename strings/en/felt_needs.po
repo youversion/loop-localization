@@ -38,7 +38,7 @@ msgid "tryNow"
 msgstr "Try Now"
 
 msgid "useTheSlider"
-msgstr "Move the slider to receive a personalized devotional!"
+msgstr "Use the slider to find your general mood, and we’ll give you a personalized devo."
 
 msgid "weveAddedNewDevotionalContent"
 msgstr "We've added new devotional content to help you process your emotions with God's Word."

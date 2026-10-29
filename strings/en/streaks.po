@@ -76,7 +76,7 @@ msgid "doAnActivityEveryDay"
 msgstr "Do an Activity Every Day"
 
 msgid "doingAtLeastOneActivityBeforeMidnight"
-msgstr "Grow your Scripture knowledge! Complete at least one activity per day to keep a streak."
+msgstr "Doing at least one activity before midnight extends your Streak."
 
 msgid "done"
 msgstr "Done"
@@ -162,7 +162,7 @@ msgid "nextMonth"
 msgstr "Next Month"
 
 msgid "nobodysPerfect"
-msgstr "Missed a day? No worries! Each week, you get three chances to freeze your streak. Keep it going by choosing an activity the next day!"
+msgstr "Nobody’s perfect! You’ll get three Streak Freezes each week. If you miss a day, we’ll save your Streak."
 
 msgid "notRightNow"
 msgstr "Not Right Now"
@@ -188,7 +188,7 @@ msgid "share"
 msgstr "Share"
 
 msgid "shareYourProgress"
-msgstr "Share with Friends!"
+msgstr "Share Your Progress"
 
 msgid "startYourStreak"
 msgstr "Start Your Streak"
