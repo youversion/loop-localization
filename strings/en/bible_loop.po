@@ -1164,3 +1164,6 @@ msgstr "Pin a favorite verse to your profile."
 
 msgid "changePinnedVerse"
 msgstr "Change Pinned Verse"
+
+msgid "pinThisVerse"
+msgstr "Pin This Verse"
