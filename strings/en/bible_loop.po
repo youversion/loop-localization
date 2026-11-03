@@ -10,6 +10,15 @@ msgstr ""
 "X-Crowdin-SourceKey: msgstr\n"
 "X-Generator: Babel 2.0\n"
 
+msgid "yourFavoriteVerse"
+msgstr "Your Favorite Verse"
+
+msgid "pinnedVerseEmptyDescription"
+msgstr "If there’s a verse that means a lot to you, your Profile is a great place to share it."
+
+msgid "pinBibleVerse"
+msgstr "Pin a Bible Verse"
+
 msgid "profilePictureBunny"
 msgstr "Bunny"
 
