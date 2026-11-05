@@ -1194,3 +1194,42 @@ msgstr "Change Pinned Verse"
 
 msgid "pinThisVerse"
 msgstr "Pin This Verse"
+
+msgid "addAPreferredLanguage"
+msgstr "Add a Preferred Language"
+
+msgid "addLanguage"
+msgstr "Add Language"
+
+msgid "appLanguage"
+msgstr "App Language"
+
+msgid "appLanguageDescription"
+msgstr "This language will display on all app features, including buttons, labels, notifications, etc."
+
+msgid "bibleLoopHasContentInManyLanguages"
+msgstr "Bible Loop has content in 50+ languages. If you speak more than one language, add it to personalize your experience."
+
+msgid "chooseAnotherAppLanguage"
+msgstr "Choose Another App Language"
+
+msgid "dragToReorderPriority"
+msgstr "Drag to reorder priority"
+
+msgid "keepLanguage"
+msgstr "Keep %1$s"
+
+msgid "preferredLanguages"
+msgstr "Preferred Languages"
+
+msgid "removeLanguage"
+msgstr "Remove language"
+
+msgid "removeLanguageDescription"
+msgstr "If you remove this language, you will need to choose a new language for app features. Your other languages won’t change."
+
+msgid "removeLanguageQuestion"
+msgstr "Remove %1$s?"
+
+msgid "setAsAppLanguage"
+msgstr "Set as app language"
