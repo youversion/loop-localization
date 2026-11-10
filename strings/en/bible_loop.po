@@ -1210,6 +1210,9 @@ msgstr "This language will display on all app features, including buttons, label
 msgid "bibleLoopHasContentInManyLanguages"
 msgstr "Bible Loop has content in 50+ languages. If you speak more than one language, add it to personalize your experience."
 
+msgid "bibleLoopHasContentInManyLanguagesIos"
+msgstr "Bible Loop has content in 10+ languages. If you speak more than one language, add it to personalize your experience."
+
 msgid "chooseAnotherAppLanguage"
 msgstr "Choose Another App Language"
 
