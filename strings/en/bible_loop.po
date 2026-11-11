@@ -1236,3 +1236,1769 @@ msgstr "Remove %1$s?"
 
 msgid "setAsAppLanguage"
 msgstr "Set as app language"
+
+msgid "about"
+msgstr "About"
+
+msgid "acceptDownloadDismiss"
+msgstr "Accept download by %1$s to keep the offline Bible version %2$s or dismiss and choose a version to download."
+
+msgid "accessSdCardPermission"
+msgstr "Then the Bible App will need access to your SD card so it can copy this offline Bible there. On the next screen, please tap Allow to begin downloading your offline Bible."
+
+msgid "actionCannotBeUndone"
+msgstr "This action cannot be undone"
+
+msgid "add"
+msgstr "Add"
+
+msgid "addAWidget"
+msgstr "Add a widget"
+
+msgid "addVersion"
+msgstr "ADD VERSION"
+
+msgid "agree"
+msgstr "Agree"
+
+msgid "agreeDownload"
+msgstr "Agree and Download"
+
+msgid "all"
+msgstr "All"
+
+msgid "allowNotifications"
+msgstr "Allow notifications"
+
+msgid "allSections"
+msgstr "All Sections"
+
+msgid "allTimeTotalPrompt"
+msgstr "Now includes your all-time total"
+
+msgid "almostHadIt"
+msgstr "ALMOST HAD IT!"
+
+msgid "almostThere"
+msgstr "ALMOST THERE!"
+
+msgid "almostThereReminder"
+msgstr "Almost there!"
+
+msgid "amen"
+msgstr "Amen"
+
+msgid "anyAvailableStreakFreezes"
+msgstr "Any available Streak Freezes will be used, and then your Streak will reset. You can turn it back on at any time and complete a Bible activity to keep it going!"
+
+msgid "appStreak"
+msgstr "App Streak"
+
+msgid "areYouReady"
+msgstr "ARE YOU READY?"
+
+msgid "areYouReadyToMixIt"
+msgstr "ARE YOU READY TO MIX IT?"
+
+msgid "areYouSure"
+msgstr "ARE YOU SURE?"
+
+msgid "attachAScreenshot"
+msgstr "Attach a Screenshot"
+
+msgid "audioBibles"
+msgstr "Audio Bibles"
+
+msgid "audioVideoNotifications"
+msgstr "Audio / Video Notifications"
+
+msgid "availableFreezes"
+msgstr "%1$s/%2$s Available"
+
+msgid "back"
+msgstr "Back"
+
+msgid "backgroundBlur"
+msgstr "Background Blur"
+
+msgid "backgroundBrightness"
+msgstr "Background Brightness"
+
+msgid "backToFirst"
+msgstr "Back to first"
+
+msgid "badges"
+msgstr "Badges"
+
+msgid "beALightInTheDarkness"
+msgstr "Be a light in the darkness."
+
+msgid "becauseOfYou"
+msgstr "It's Because of You"
+
+msgid "becauseOfYouThankYou"
+msgstr "Because of you, God's Word is reaching millions around the world. Thank you!"
+
+msgid "best"
+msgstr "Best"
+
+msgid "bestStreak"
+msgstr "Best Streak"
+
+msgid "betaTesterThanks"
+msgstr "Thanks for being a YouVersion beta tester! By continuing, you’re allowing us to occasionally collect information about your device, your account, and your Bible App usage."
+
+msgid "bible"
+msgstr "Bible"
+
+msgid "bibleAppActivity"
+msgstr "Bible App Activity"
+
+msgid "bibleChapter"
+msgstr "Bible Chapter"
+
+msgid "bibleGuides"
+msgstr "Bible Guides"
+
+msgid "bibleHabit"
+msgstr "Streaks help you build your Bible habit to encounter God's Word daily."
+
+msgid "bibleSettings"
+msgstr "Bible Settings"
+
+msgid "bibleStories"
+msgstr "Bible Stories"
+
+msgid "bibleSupport"
+msgstr "Bible Support"
+
+msgid "bookmarks"
+msgstr "Bookmarks"
+
+msgid "buffering"
+msgstr "Buffering"
+
+msgid "buildYourBibleMuscle"
+msgstr "💪 Build your Bible muscle!"
+
+msgid "calendarLoadingError"
+msgstr "Oops! We couldn’t load your streak calendar. Don’t worry, your progress is safe!"
+
+msgid "cancel"
+msgstr "Cancel"
+
+msgid "challengeAccepted"
+msgstr "Challenge accepted!"
+
+msgid "challengeYourself"
+msgstr "Challenge yourself!"
+
+msgid "chapterNotAvailable"
+msgstr "The version you selected doesn't have that chapter. What would you like to do?"
+
+msgid "check"
+msgstr "Check"
+
+msgid "checkeredFlagGo"
+msgstr "🏁 GO!"
+
+msgid "checkIn"
+msgstr "Check-In"
+
+msgid "checkItOut"
+msgstr "Check It Out"
+
+msgid "chooseABackgroundImage"
+msgstr "Choose a background image."
+
+msgid "chooseABibleActivityAndKeepYourStreakGoing"
+msgstr "Choose a Bible activity and keep your Streak going!"
+
+msgid "chooseABibleActivityToKeepYourStreakGoing"
+msgstr "Choose a Bible activity to keep your Streak going."
+
+msgid "chooseABibleActivityToPickUpWhereYouLeftOff"
+msgstr "Choose a Bible activity to pick up where you left off."
+
+msgid "chooseABibleActivityToSpendTimeWithGodAndKeepYourStreakGoing"
+msgstr "Choose a Bible activity to spend time with God. And, keep your Streak going!"
+
+msgid "chooseAnActivityTheNextDay"
+msgstr "Choose an activity the next day to keep your Streak going."
+
+msgid "chooseAnActivityToContinueYourStreakToday"
+msgstr "Choose an activity to continue your Streak today."
+
+msgid "chooseAnActivityToKeepItGoingToday"
+msgstr "Choose an activity to keep it going today!"
+
+msgid "chooseChapter"
+msgstr "Choose Chapter"
+
+msgid "chooseVersion"
+msgstr "Choose Version"
+
+msgid "chooseYourBackgroundImage"
+msgstr "Choose Your Background Image"
+
+msgid "clear"
+msgstr "Clear"
+
+msgid "clearSearchQuery"
+msgstr "Clear search query"
+
+msgid "close"
+msgstr "Close"
+
+msgid "closeButNotYet"
+msgstr "CLOSE, BUT NOT YET."
+
+msgid "comeBackTomorrow"
+msgstr "Come back tomorrow to memorize a different verse."
+
+msgid "compareVersions"
+msgstr "Compare Versions"
+
+msgid "completeAll4ToMemorize"
+msgstr "Complete all 4 levels in a verse to memorize it and earn a crown."
+
+msgid "confirmSdCardPermission"
+msgstr "The Bible App needs access to your SD card in order to copy this offline Bible to your device. Would you still like to download this offline Bible?"
+
+msgid "connectInternetMessage"
+msgstr "Please be sure you are connected to the Internet to use this feature."
+
+msgid "continue_"
+msgstr "Continue"
+
+msgid "continueEditing"
+msgstr "Continue editing"
+
+msgid "continuePhrase"
+msgstr "Continue"
+
+msgid "continueYourStreakToday"
+msgstr "Continue your Streak today."
+
+msgid "copied"
+msgstr "Copied to clipboard."
+
+msgid "copy"
+msgstr "Copy"
+
+msgid "copyright"
+msgstr "Copyright"
+
+msgid "country"
+msgstr "Country"
+
+msgid "create"
+msgstr "Create"
+
+msgid "createANote"
+msgstr "Create a Note"
+
+msgid "createHighlight"
+msgstr "Create a Highlight"
+
+msgid "createImage"
+msgstr "Create Image"
+
+msgid "cropImage"
+msgstr "Crop Image"
+
+msgid "currentStreak"
+msgstr "Current Streak"
+
+msgid "customize"
+msgstr "Customize"
+
+msgid "dailyRefreshStreak"
+msgstr "Daily Refresh Streak"
+
+msgid "dailyVideo"
+msgstr "Daily video"
+
+msgid "dailyVideoReminder"
+msgstr "Daily Video Reminder"
+
+msgid "dateFormatAndTime"
+msgstr "MMM d, yyyy 'at' h:mm a"
+
+msgid "dateFormatMonthDay"
+msgstr "MMMM d"
+
+msgid "daysAgo"
+msgstr "%1$sd"
+
+msgid "daysLong"
+msgid_plural "daysLong"
+msgstr[0] "day long!"
+msgstr[1] "days long!"
+
+msgid "dayStreak"
+msgstr "Day Streak"
+
+msgid "dayStreakExclamation"
+msgstr "Day Streak!"
+
+msgid "declareWithYourMouth"
+msgstr "if you declare with your mouth, ‘Jesus is Lord,’ and believe in your heart that God raised him from the dead, you will be saved."
+
+msgid "delete"
+msgstr "Delete"
+
+msgid "deleteAccount"
+msgstr "Delete Account"
+
+msgid "deleteNote"
+msgstr "Delete Note"
+
+msgid "deleteNoteQuestionUpper"
+msgstr "DELETE NOTE?"
+
+msgid "deleteVersionBody"
+msgstr "Are you sure you want to remove this downloaded version?"
+
+msgid "deleteVersionTitle"
+msgstr "Delete Bible Versions"
+
+msgid "details"
+msgstr "DETAILS"
+
+msgid "discard"
+msgstr "Discard"
+
+msgid "discoverRelatedVideos"
+msgstr "Discover Related Videos"
+
+msgid "dismiss"
+msgstr "Dismiss"
+
+msgid "dlComplete"
+msgstr "The Bible download is complete."
+
+msgid "dlStartMessage"
+msgstr "We’ve started the download process. We’ll let you know when it’s completed."
+
+msgid "doAnActivityEveryDay"
+msgstr "Do an Activity Every Day"
+
+msgid "doAtLeastOneBibleActivityToGetYourStreakStarted"
+msgstr "Do at least one Bible activity to get your Streak started, and come back every day to keep it going!"
+
+msgid "doingAtLeastOneActivityBeforeMidnight"
+msgstr "Doing at least one activity before midnight extends your Streak."
+
+msgid "dontGiveUp"
+msgstr "DON’T GIVE UP!"
+
+msgid "dontLoseYourStreak"
+msgstr "Don’t lose your Streak!"
+
+msgid "dontQuit"
+msgstr "DON’T QUIT!"
+
+msgid "download"
+msgstr "Download"
+
+msgid "downloaded"
+msgstr "Downloaded"
+
+msgid "downloadedEmphasized"
+msgstr "Downloaded!"
+
+msgid "downloadFailed"
+msgstr "Download Failed"
+
+msgid "downloading"
+msgstr "Downloading"
+
+msgid "downloadingImagesDisabled"
+msgstr "Downloading Images is currently disabled in your Settings. Would you like to temporarily enable Downloading Images while this action is completed?"
+
+msgid "downloadingVersion"
+msgstr "Downloading Version"
+
+msgid "drag"
+msgstr "Drag"
+
+msgid "dragAndDrop"
+msgstr "Drag and Drop"
+
+msgid "earnAnotherCrown"
+msgstr "Earn Another Crown"
+
+msgid "edit"
+msgstr "Edit"
+
+msgid "email"
+msgstr "Email"
+
+msgid "enterComment"
+msgstr "Enter Comment…"
+
+msgid "enterfirstname"
+msgstr "Please enter your first name"
+
+msgid "enterTheNextWordInTheVerse"
+msgstr "Enter the next word in the verse"
+
+msgid "enterTheWholeVerse"
+msgstr "Enter the whole verse"
+
+msgid "errorPassword"
+msgstr "Error password"
+
+msgid "events"
+msgstr "Events"
+
+msgid "fileSizeInKB"
+msgstr "%1$s KB"
+
+msgid "fileSizeInMB"
+msgstr "%1$s MB"
+
+msgid "fillInTheBlanks"
+msgstr "Fill in the Blanks"
+
+msgid "fillInTheBlanksInstructions"
+msgstr "Fill in the blanks by selecting words from the bottom half of the screen."
+
+msgid "fillInTheBlanksUpper"
+msgstr "FILL IN THE BLANKS"
+
+msgid "findBibleStoriesHere"
+msgstr "Find Bible Stories here!"
+
+msgid "finishStrong"
+msgstr "Finish strong 💪"
+
+msgid "firstLetter"
+msgstr "First Letter"
+
+msgid "firstLetterInstructions"
+msgstr "You’ll see the first letter of each word. Write in each word of the verse."
+
+msgid "firstLetterUpper"
+msgstr "FIRST LETTER"
+
+msgid "firstname"
+msgstr "First Name"
+
+msgid "fiveStars"
+msgstr "Give us 5-stars to help others find our Bible App"
+
+msgid "flexYourMemoryMuscles"
+msgstr "Flex your memory muscles—try memorizing a Bible verse today."
+
+msgid "fontSize"
+msgstr "Font Size"
+
+msgid "forward"
+msgstr "Forward"
+
+msgid "forwardSkip"
+msgstr "Forward"
+
+msgid "freezeRemaining"
+msgid_plural "freezeRemaining"
+msgstr[0] "%1$s freeze remaining"
+msgstr[1] "%1$s freezes remaining"
+
+msgid "freezes"
+msgstr "Freezes"
+
+msgid "freezesRemaining"
+msgid_plural "freezesRemaining"
+msgstr[0] "%1$s freeze remaining"
+msgstr[1] "%1$s freezes remaining"
+
+msgid "friendHasNoImagesYet"
+msgstr "Your friend doesn't have any images yet."
+
+msgid "genericError"
+msgstr "An error occurred. If it continues to happen, please file a report via Help > Contact Support."
+
+msgid "getACustomDevo"
+msgstr "Get a Custom Devo Based on Your Mood"
+
+msgid "getAPersonalizedDevo"
+msgstr "Get a personalized devo based on your mood"
+
+msgid "getAScoreOf80"
+msgstr "Get a score of <b>80%</b> to complete this level and unlock the next one."
+
+msgid "giveItAnotherGo"
+msgstr "GIVE IT ANOTHER GO!"
+
+msgid "giveItAnotherShot"
+msgstr "GIVE IT ANOTHER SHOT!"
+
+msgid "giveYourselfAHighFive"
+msgstr "GIVE YOURSELF A HIGH-FIVE!"
+
+msgid "go"
+msgstr "Go"
+
+msgid "godsLoveFuelsYourCourage"
+msgstr "God's love fuels your courage."
+
+msgid "goldStarForYou"
+msgstr "GOLD STAR FOR YOU!"
+
+msgid "goldStarForYouTitle"
+msgstr "Gold star for you!"
+
+msgid "goodAfternoonUser"
+msgstr "Good Afternoon, %1$s"
+
+msgid "goToCollection"
+msgstr "Go to collection"
+
+msgid "goToDeviceSettings"
+msgstr "Go to Device Settings"
+
+msgid "greatJob"
+msgstr "Great Job!"
+
+msgid "greetingsBlessings"
+msgstr "Blessings"
+
+msgid "greetingsGodCaresForYou"
+msgstr "God cares for you"
+
+msgid "greetingsGodIsWithYou"
+msgstr "God is with you"
+
+msgid "greetingsHisGraceIsEnough"
+msgstr "His grace is enough"
+
+msgid "greetingsJesusLovesYou"
+msgstr "Jesus loves you"
+
+msgid "greetingsMayGraceCoverYou"
+msgstr "May grace cover you"
+
+msgid "greetingsPeaceBeWithYou"
+msgstr "Peace be with you"
+
+msgid "greetingsYouAreAccepted"
+msgstr "You are accepted"
+
+msgid "greetingsYouAreCalledAndChosen"
+msgstr "You are called and chosen"
+
+msgid "greetingsYouAreCreatedByGod"
+msgstr "You are created by God"
+
+msgid "greetingsYouAreLoved"
+msgstr "You are loved"
+
+msgid "greetingsYouAreNeverAlone"
+msgstr "You are never alone"
+
+msgid "halfwayThere"
+msgstr "Halfway there!"
+
+msgid "haveAMinute"
+msgstr "Have a minute?"
+
+msgid "help"
+msgstr "Help"
+
+msgid "helpAndFeedback"
+msgstr "Help & Feedback"
+
+msgid "helpShare"
+msgstr "Connect others with God's Word"
+
+msgid "helpUsMakeItBetter"
+msgstr "Help us make it better"
+
+msgid "hide"
+msgstr "Hide"
+
+msgid "highFiveForYou"
+msgstr "HIGH-FIVE FOR YOU!"
+
+msgid "highlightVerses "
+msgstr "Highlight verses as you read using a variety of colors."
+
+msgid "history"
+msgstr "History"
+
+msgid "hitMemoryLevelToday"
+msgstr "Hit memory level today!"
+
+msgid "home"
+msgstr "Home"
+
+msgid "hoursAgo"
+msgstr "%1$sh"
+
+msgid "howAreYouFeeling"
+msgstr "How are you feeling?"
+
+msgid "howCanWeHelp"
+msgstr "How can we help?"
+
+msgid "howsYourStreakGoing"
+msgstr "How’s your Streak going?"
+
+msgid "idLoveToShareTodaysPrayerWithYou"
+msgstr "I'd love to share today's prayer with you!"
+
+msgid "IForgotMyPassword"
+msgstr "I forgot my password"
+
+msgid "ifYouWantToMemorize"
+msgstr "If you want to memorize this verse again, you’ll begin at level 1."
+
+msgid "images"
+msgstr "Images"
+
+msgid "imageSaved"
+msgstr "Image Saved"
+
+msgid "imageTitle"
+msgstr "Choose Image"
+
+msgid "iMemorizedThisVerseOn"
+msgstr "I memorized this verse on"
+
+msgid "imOnA"
+msgstr "I’m on a"
+
+msgid "improveYourMemorySkills"
+msgstr "Improve your memory skills!"
+
+msgid "incorrectEmailOrPassword"
+msgstr "Incorrect Email or Password"
+
+msgid "invalidEmailAddress"
+msgstr "The email address is invalid."
+
+msgid "invite"
+msgstr "Hey! I love using YouVersion, and I think you will, too. You can study God's Word, read and watch daily devotionals, pray with friends, and more! Get it here:"
+
+msgid "inWeaknessHeIsStrong"
+msgstr "In weakness, He is strong."
+
+msgid "itsBibleTime"
+msgstr "🕜 It’s Bible time!"
+
+msgid "itsTimeToShine"
+msgstr "It’s time to shine!"
+
+msgid "itsTimeToTakeTheChallenge"
+msgstr "It’s time to take the challenge!"
+
+msgid "jumpToMonth"
+msgstr "Jump to Month"
+
+msgid "keepAllYourHighlights"
+msgstr "Keep all your Highlights"
+
+msgid "keepAtIt"
+msgstr "KEEP AT IT!"
+
+msgid "keepGoing"
+msgstr "KEEP GOING!"
+
+msgid "keepGoingLower"
+msgstr "Keep going!"
+
+msgid "keepGoingYouveGotThis"
+msgstr "KEEP GOING—YOU’VE GOT THIS!"
+
+msgid "keepItUp"
+msgstr "Keep it up!"
+
+msgid "keepNote"
+msgstr "Keep Note"
+
+msgid "keepPlaying"
+msgstr "Keep Playing"
+
+msgid "keepStreaksOn"
+msgstr "Keep Streaks On"
+
+msgid "keepThisVerse"
+msgstr "Keep This Verse"
+
+msgid "keepTrying"
+msgstr "KEEP TRYING!"
+
+msgid "keepYourStreakGoing"
+msgstr "Keep your Streak going! Choose a Bible activity before midnight."
+
+msgid "keepYourStreakGoingToday"
+msgstr "Keep your Streak going today."
+
+msgid "language"
+msgstr "Language"
+
+msgid "language_x"
+msgstr "%1$s (%2$s)"
+
+msgid "lastLevel"
+msgstr "Last level!"
+
+msgid "learnMore"
+msgstr "Learn More"
+
+msgid "learnMoreUpper"
+msgstr "LEARN MORE"
+
+msgid "less"
+msgstr "LESS"
+
+msgid "letsGetStarted"
+msgstr "LET’S GET STARTED!"
+
+msgid "letsGo"
+msgstr "Let’s Go"
+
+msgid "letsGoReminder"
+msgstr "Let’s go!"
+
+msgid "letsGoUpper"
+msgstr "LET’S GO!"
+
+msgid "letsGoYoureBuildingAnAwesomeBibleHabit"
+msgstr "Let’s go! You’re building an awesome Bible habit."
+
+msgid "letsMixIt"
+msgstr "LET’S MIX IT!"
+
+msgid "letsSeeWhatYouGot"
+msgstr "Let’s see what you got!"
+
+msgid "letsTryAgain"
+msgstr "LET’S TRY AGAIN!"
+
+msgid "letter_spacing"
+msgstr "Letter Spacing"
+
+msgid "level1"
+msgstr "Level 1"
+
+msgid "level1Complete"
+msgstr "LEVEL 1 COMPLETE!"
+
+msgid "level2"
+msgstr "Level 2"
+
+msgid "level2Complete"
+msgstr "LEVEL 2 COMPLETE!"
+
+msgid "level3"
+msgstr "Level 3"
+
+msgid "level3Complete"
+msgstr "LEVEL 3 COMPLETE!"
+
+msgid "level4"
+msgstr "Level 4"
+
+msgid "levelOneThatWasSoTwoLevelsAgo"
+msgstr "Level 1? That was so two levels ago."
+
+msgid "levelUp"
+msgstr "Level Up"
+
+msgid "levelUpUpper"
+msgstr "LEVEL UP"
+
+msgid "like"
+msgstr "Like"
+
+msgid "liked"
+msgstr "Liked"
+
+msgid "line_height"
+msgstr "Line Height"
+
+msgid "listenInBible"
+msgstr "Listen in Bible"
+
+msgid "listenToBible"
+msgstr "You can listen to the Bible too! Tap the Audio icon to try it."
+
+msgid "loading"
+msgstr "Loading"
+
+msgid "login"
+msgstr "Login"
+
+msgid "longestStreakCount"
+msgstr "Longest: %1$s"
+
+msgid "lookAtYouBuildingAGreatBibleHabit"
+msgstr "Look at you, building a great Bible habit!"
+
+msgid "lookingGoodUppercase"
+msgstr "LOOKING GOOD!"
+
+msgid "lostNetworkNotificationMessage"
+msgstr "Some functionality will not be available until connection is established."
+
+msgid "loveBibleApp"
+msgstr "Do you love the Bible App?"
+
+msgid "makeBibleYours"
+msgstr "MAKE THE BIBLE YOURS"
+
+msgid "matchItMixItLoopIt"
+msgstr "MATCH IT. MIX IT. LOOP IT. ♾️"
+
+msgid "matchItMixItSayThatSuperFast"
+msgstr "MATCH AND MIX IT! (Say that super fast.)"
+
+msgid "maybeLater"
+msgstr "Maybe Later"
+
+msgid "memorize"
+msgstr "Memorize"
+
+msgid "memorizeABibleVerse"
+msgstr "Memorize a Bible verse"
+
+msgid "memorizeANewVerse"
+msgstr "Memorize a new verse"
+
+msgid "memorizedVerses"
+msgstr "Memorized Verses"
+
+msgid "memorizeScripture"
+msgstr "Memorize scripture"
+
+msgid "memorizeTodaysVerse"
+msgstr "Memorize Today's Verse"
+
+msgid "memorizeYourMemoryVerseToday"
+msgstr "Memorize your memory verse today."
+
+msgid "memorizeYourMemoryVerseTodayExclamation"
+msgstr "Memorize your memory verse today!"
+
+msgid "memory"
+msgstr "Memory"
+
+msgid "memoryMix"
+msgstr "Memory Mix"
+
+msgid "memoryVerse"
+msgstr "Memory Verse"
+
+msgid "memoryVerse2IsHere"
+msgstr "MEMORY VERSE 2.0 IS HERE!"
+
+msgid "memoryVerseAnnouncementDescription"
+msgstr "We’ve made some big changes to Memory Verse, including new levels of difficulty and the ability to memorize any verse you want!"
+
+msgid "memoryVerseHasBeenUpdated"
+msgstr "Memory Verse has been updated! Test your memory with the new experience today."
+
+msgid "memoryVerseUpper"
+msgstr "MEMORY VERSE"
+
+msgid "minutesAgo"
+msgstr "%1$sm"
+
+msgid "mixItAgain"
+msgstr "MIX IT AGAIN!"
+
+msgid "more"
+msgstr "More"
+
+msgid "moreFrom"
+msgstr "More from"
+
+msgid "myStreakIs"
+msgstr "My Streak is"
+
+msgid "myVerses"
+msgstr "My Verses"
+
+msgid "myVersesUpper"
+msgstr "MY VERSES"
+
+msgid "navigateBack"
+msgstr "Navigate Back"
+
+msgid "nCurrentStreak"
+msgid_plural "nCurrentStreak"
+msgstr[0] "%1$s day streak"
+msgstr[1] "%1$s day streak"
+
+msgid "nDaysInApp"
+msgid_plural "nDaysInApp"
+msgstr[0] "1 day in the app this year"
+msgstr[1] "%1$s days in the app this year"
+
+msgid "needAMomentWithGod"
+msgstr "Need a moment with God?"
+
+msgid "newToFaith"
+msgstr "New to Faith"
+
+msgid "nextMonth"
+msgstr "Next Month"
+
+msgid "nextVerse"
+msgstr "NEXT VERSE"
+
+msgid "nLifetimeDays"
+msgid_plural "nLifetimeDays"
+msgstr[0] "%1$s Day"
+msgstr[1] "%1$s Days"
+
+msgid "nobodysPerfect"
+msgstr "Nobody’s perfect! You’ll get three Streak Freezes each week. If you miss a day, we’ll save your Streak."
+
+msgid "noHighlightsYet"
+msgstr "No Highlights Yet"
+
+msgid "noImage"
+msgstr "No Image"
+
+msgid "noInternetConnection"
+msgstr "No Internet Connection"
+
+msgid "noNotesYet"
+msgstr "No Notes Yet"
+
+msgid "noRelatedContent"
+msgstr "No related content"
+
+msgid "note"
+msgstr "Note"
+
+msgid "notificationBenefits"
+msgstr "People who enable notifications are 74% more likely to meet their daily Bible goal."
+
+msgid "notificationPermissionsDisabledBody"
+msgstr "To get notifications, turn on notification permissions in your device settings."
+
+msgid "notificationPermissionsDisabledTitle"
+msgstr "Notification permissions are disabled"
+
+msgid "notifications"
+msgstr "Notifications"
+
+msgid "notNow"
+msgstr "Not now"
+
+msgid "notQuite"
+msgstr "NOT QUITE!"
+
+msgid "notRightNow"
+msgstr "Not Right Now"
+
+msgid "now"
+msgstr "Now"
+
+msgid "nowAgo"
+msgstr "Now"
+
+msgid "nPerfectWeeks"
+msgid_plural "nPerfectWeeks"
+msgstr[0] "1 Perfect Week"
+msgstr[1] "%1$s Perfect Weeks"
+
+msgid "nPerfectWeeksThisYear"
+msgid_plural "nPerfectWeeksThisYear"
+msgstr[0] "%1$s Perfect Week This Year"
+msgstr[1] "%1$s Perfect Weeks This Year"
+
+msgid "off"
+msgstr "Off"
+
+msgid "offlineBibleAgreementSingle"
+msgstr "Our agreement with the publisher of this Bible version requires us to share your name and the following information with them in order to offer this version for offline use. By proceeding you agree that %1$s may contact you via email and that you may unsubscribe at any time."
+
+msgid "ok"
+msgstr "OK"
+
+msgid "oneToTwo"
+msgstr "1-2"
+
+msgid "pageTitle"
+msgstr "Page Title"
+
+msgid "passwordRequired"
+msgstr "Password required"
+
+msgid "pause"
+msgstr "Pause"
+
+msgid "pending"
+msgstr "Pending"
+
+msgid "perfectWeeks"
+msgstr "Perfect Weeks"
+
+msgid "pickABibleActivityToKeepYourStreakGoing"
+msgstr "Pick a Bible activity to keep your Streak going."
+
+msgid "pickAnotherVerse"
+msgstr "Pick Another Verse"
+
+msgid "play"
+msgstr "Play"
+
+msgid "playADifferentVerse"
+msgstr "Play a Different Verse"
+
+msgid "playMemoryGame"
+msgstr "Play Memory Game"
+
+msgid "pleaseCheckYourConnectionMessage"
+msgstr "Looks like the level didn’t load correctly. Please check your connection and try again."
+
+msgid "plusX"
+msgstr "+%1$s"
+
+msgid "practice"
+msgstr "PRACTICE"
+
+msgid "pray"
+msgstr "Pray"
+
+msgid "prayed"
+msgstr "Prayed"
+
+msgid "prayer"
+msgstr "Prayer"
+
+msgid "prayerEmoji"
+msgstr "🙏 Prayer"
+
+msgid "preview"
+msgstr "Preview"
+
+msgid "previousMonth"
+msgstr "Previous Month"
+
+msgid "previousVerse"
+msgstr "PREVIOUS VERSE"
+
+msgid "privacypolicy"
+msgstr "Privacy Policy"
+
+msgid "productSupport"
+msgstr "Product Support"
+
+msgid "profile"
+msgstr "Profile"
+
+msgid "quit"
+msgstr "Quit"
+
+msgid "quitConfirmationMsg"
+msgstr "If you quit now, you will lose your progress on this level."
+
+msgid "rate"
+msgstr "Rate"
+
+msgid "rateBible"
+msgstr "Rate Bible"
+
+msgid "rateThisApp"
+msgstr "Rate This App"
+
+msgid "read"
+msgstr "Read"
+
+msgid "readBibleOnline"
+msgstr "Read the Bible Online"
+
+msgid "readInBible"
+msgstr "Read in Bible"
+
+msgid "readOfflineAnyTime"
+msgstr "Read it anytime, anywhere — even offline."
+
+msgid "readtheVerseOutLoud"
+msgstr "Read the verse out loud, then hide the verse and say it from memory."
+
+msgid "readySetGo"
+msgstr "READY, SET, GO!"
+
+msgid "readyToGo"
+msgstr "READY TO GO?"
+
+msgid "readyToKeepGoing"
+msgstr "Ready to keep going?"
+
+msgid "readyToTakeTheChallenge"
+msgstr "Ready to take the challenge?"
+
+msgid "rebuildIt"
+msgstr "Rebuild It"
+
+msgid "rebuildItInstructions"
+msgstr "Fill in the entire verse by selecting words from the bottom half of the screen."
+
+msgid "rebuildItUpper"
+msgstr "REBUILD IT"
+
+msgid "recommendations"
+msgstr "Recommendations"
+
+msgid "references"
+msgstr "References"
+
+msgid "refillsInDays"
+msgid_plural "refillsInDays"
+msgstr[0] "Refills in %1$s day"
+msgstr[1] "Refills in %1$s days"
+
+msgid "refillsWeekly"
+msgstr "Refills Weekly"
+
+msgid "relatedScripture"
+msgstr "Related Scripture"
+
+msgid "reminders"
+msgstr "Reminders"
+
+msgid "remove"
+msgstr "Remove"
+
+msgid "replay"
+msgstr "Replay"
+
+msgid "retry"
+msgstr "Retry"
+
+msgid "review"
+msgstr "Review"
+
+msgid "save"
+msgstr "Save"
+
+msgid "saved"
+msgstr "Saved"
+
+msgid "savedToProfile"
+msgstr "Saved to Profile"
+
+msgid "saveNote"
+msgstr "Save Note"
+
+msgid "saveToMemorize"
+msgstr "Save to Memorize"
+
+msgid "saveVersesOffline"
+msgstr "Save verses, read offline, watch teaching clips, and more!"
+
+msgid "score"
+msgstr "Score"
+
+msgid "scoreUpper"
+msgstr "SCORE"
+
+msgid "screenshot"
+msgstr "Screenshot"
+
+msgid "screenshotDescription"
+msgstr "Navigate anywhere in the app and then tap the “Screenshot” button."
+
+msgid "screenshotDrawDescription"
+msgstr "Draw on your screenshot to show us where the problem is."
+
+msgid "search"
+msgstr "Search"
+
+msgid "seekGodTitle"
+msgstr "Seek God Every Day"
+
+msgid "selectAVerse"
+msgstr "Select a Verse"
+
+msgid "selectBible"
+msgstr "Select Bible"
+
+msgid "selectFont"
+msgstr "Select Font Type"
+
+msgid "selectLanguage"
+msgstr "Select a Language"
+
+msgid "selectTheNextWordInTheVerse"
+msgstr "Select the next word in the verse"
+
+msgid "selectVerse"
+msgstr "Select Verse"
+
+msgid "sendEmail"
+msgstr "Send Email"
+
+msgid "settings"
+msgstr "Settings"
+
+msgid "share"
+msgstr "Share"
+
+msgid "shareApp"
+msgstr "Share the App"
+
+msgid "shareGodsWord"
+msgstr "Share God's Word"
+
+msgid "shareVideo"
+msgstr "Hey, have you seen this? Check out %1$s:"
+
+msgid "shareYourProgress"
+msgstr "Share Your Progress"
+
+msgid "shareYouVersion"
+msgstr "Share YouVersion"
+
+msgid "showOffYourMemorySkills"
+msgstr "Show off your memory skills!"
+
+msgid "showUsWhatYouGotInMemoryVerse"
+msgstr "Show us what you got in Memory Verse!"
+
+msgid "showVerse"
+msgstr "Show verse"
+
+msgid "signIn"
+msgstr "Sign In"
+
+msgid "signin"
+msgstr "Sign In"
+
+msgid "signInWithGoogle"
+msgstr "Sign in with Google"
+
+msgid "soCloseLetsTryItAgain"
+msgstr "SO CLOSE! LET’S TRY IT AGAIN."
+
+msgid "somethingWentWrong"
+msgstr "Something Went Wrong"
+
+msgid "sorryNeedBetterConnection"
+msgstr "Sorry, we need a better connection to play the video."
+
+msgid "sortAlphabetical"
+msgstr "Alphabetical"
+
+msgid "spendTimeWithGod"
+msgstr "Spend time with God"
+
+msgid "spendTimeWithGodToday"
+msgstr "Spend time with God today!"
+
+msgid "sponsorMessage"
+msgstr "%1$s brought to you by %2$s"
+
+msgid "square"
+msgstr "Square"
+
+msgid "squareIsBest"
+msgstr "Square is best for sharing on social media."
+
+msgid "start"
+msgstr "Start"
+
+msgid "startANewVerse"
+msgstr "Start a New Verse"
+
+msgid "startANewVerseUpper"
+msgstr "START A NEW VERSE"
+
+msgid "startingInThreeTwoOne"
+msgstr "Starting in 3… 2… 1…"
+
+msgid "startStrong"
+msgstr "Start strong!"
+
+msgid "startYourStreak"
+msgstr "Start Your Streak"
+
+msgid "startYourStreakWithOneOfTheseActivities"
+msgstr "Start your Streak with one of these activities!"
+
+msgid "stories"
+msgstr "Stories"
+
+msgid "storiesReminder1"
+msgstr "Open Bible Loop and watch the daily video!"
+
+msgid "storiesReminder2"
+msgstr "Get to know Him better with the daily video."
+
+msgid "storiesReminder3"
+msgstr "Check out the daily video made just for you!"
+
+msgid "storiesReminder4"
+msgstr "Time to be with God! Open Bible Loop and watch the daily video."
+
+msgid "storiesReminderTitle1"
+msgstr "❓ “What does God’s Word say?”"
+
+msgid "storiesReminderTitle2"
+msgstr "God wants to spend time with you!"
+
+msgid "storiesReminderTitle3"
+msgstr "👀 You’ll love this…"
+
+msgid "storiesReminderTitle4"
+msgstr "What time is it?"
+
+msgid "streak"
+msgstr "Streak"
+
+msgid "streakCalendar"
+msgstr "Streak Calendar"
+
+msgid "streakFreezes"
+msgstr "Streak Freezes"
+
+msgid "streakFreezesUpper"
+msgstr "STREAK FREEZES"
+
+msgid "streaksAreOff"
+msgstr "Streaks Are Off"
+
+msgid "streaksHelpBuildPrompt"
+msgstr "Streaks help you build your daily Bible habit."
+
+msgid "strengthenYourBibleHabitAndHaveFunDoingIt"
+msgstr "Strengthen your Bible habit and have fun doing it with an activity!"
+
+msgid "submit"
+msgstr "Submit"
+
+msgid "submitFeedback"
+msgstr "Submit Feedback"
+
+msgid "suggested"
+msgstr "Suggested"
+
+msgid "suggestionsAndIdeas"
+msgstr "Suggestions and ideas"
+
+msgid "supportWillContactYou"
+msgstr "Our support team will email you a response as soon as we can."
+
+msgid "surpriseMe"
+msgstr "Surprise Me"
+
+msgid "switchNarrator"
+msgstr "Switch Narrator"
+
+msgid "takeTimeWithGodToday"
+msgstr "Take time with God today."
+
+msgid "tapAVerse"
+msgstr "Tap on a verse in the Bible to highlight."
+
+msgid "tapBibleTabWriteYourThoughts"
+msgstr "Tap a verse in the Bible tab to write your thoughts."
+
+msgid "tapToKeepWorkingOnYourMemoryVerse"
+msgstr "Tap to keep working on your memory verse."
+
+msgid "tapToMemorizeABibleVerse"
+msgstr "Tap to memorize a Bible verse."
+
+msgid "tapToPlayUpper"
+msgstr "TAP TO PLAY"
+
+msgid "tapToViewImage"
+msgstr "Tap to View the Image"
+
+msgid "tapWordsToFillInTheBlanks"
+msgstr "Tap words to fill in the blanks"
+
+msgid "text"
+msgstr "Text"
+
+msgid "textControls"
+msgstr "Text Controls"
+
+msgid "textOpacity"
+msgstr "Text Opacity"
+
+msgid "thanksForFeedback"
+msgstr "Thanks for your feedback."
+
+msgid "thankYou"
+msgstr "Thank You"
+
+msgid "thatsNotTheRightWord"
+msgstr "That’s not the right word. Try again!"
+
+msgid "theJourneyBeginsNow"
+msgstr "The journey begins now..."
+
+msgid "theme"
+msgstr "Theme"
+
+msgid "themeDark"
+msgstr "Dark Mode"
+
+msgid "themeLight"
+msgstr "Light Mode"
+
+msgid "themeMatch"
+msgstr "Match Device Setting"
+
+msgid "thinkYouCanMemorizeAVerse"
+msgstr "Think you can memorize a verse?"
+
+msgid "thinkYouCanRememberThisVerse"
+msgstr "Think you can remember this verse?"
+
+msgid "thinkYouKnowThisVerse"
+msgstr "Think you know this verse?"
+
+msgid "thisIsntEasyKeepTrying"
+msgstr "THIS ISN’T EASY—KEEP TRYING!"
+
+msgid "thisIsWhereItAllStarts"
+msgstr "This is where it all starts..."
+
+msgid "thisWordStartsWith"
+msgstr "This word starts with %1$s"
+
+msgid "timer"
+msgstr "Timer Off"
+
+msgid "timeToMixIt"
+msgstr "TIME TO MIX IT!"
+
+msgid "title"
+msgstr "Title"
+
+msgid "title_dramatized"
+msgstr "%1$s (Dramatized)"
+
+msgid "today"
+msgstr "Today"
+
+msgid "todaysPrayer"
+msgstr "Today's Prayer"
+
+msgid "todaysPrayerUpper"
+msgstr "TODAY’S PRAYER"
+
+msgid "toPlayWifiOrCellular"
+msgstr "To play this level, connect to wifi or a cellular network."
+
+msgid "toRestartTurnThemBack"
+msgstr "To restart, turn them back on and do a Bible activity."
+
+msgid "transparency"
+msgstr "Transparency"
+
+msgid "tryAgain"
+msgstr "Try again"
+
+msgid "tryMemorizingABibleVerseToday"
+msgstr "Try memorizing a Bible verse today."
+
+msgid "tryMemorizingABibleVerseTodayExclamation"
+msgstr "Try memorizing a Bible verse today!"
+
+msgid "tryNow"
+msgstr "Try Now"
+
+msgid "turnOffStreaks"
+msgstr "Turn Off Streaks"
+
+msgid "turnOnStreaks"
+msgstr "Turn On Streaks"
+
+msgid "typeOrSpeakTheEntireVerseFromMemory"
+msgstr "Type or speak the entire verse from memory."
+
+msgid "updateAvailable"
+msgstr "Update available"
+
+msgid "upNext"
+msgstr "Up Next"
+
+msgid "upNextUpper"
+msgstr "UP NEXT"
+
+msgid "user"
+msgstr "User"
+
+msgid "useTheSlider"
+msgstr "Use the slider to find your general mood, and we’ll give you a personalized devo."
+
+msgid "useYourOwnImage"
+msgstr "Use your own image"
+
+msgid "verse"
+msgstr "Verse"
+
+msgid "verseArt"
+msgstr "Verse Art"
+
+msgid "verseArtLeaveDialogBody"
+msgstr "The image you’ve designed won’t be saved if you leave now."
+
+msgid "verseArtLeaveDialogDiscard"
+msgstr "Discard"
+
+msgid "verseArtLeaveDialogKeepEditing"
+msgstr "Keep Editing"
+
+msgid "verseArtLeaveDialogTitle"
+msgstr "Discard design?"
+
+msgid "verseImage"
+msgstr "VERSE IMAGE"
+
+msgid "verseImageDesignIndex"
+msgstr "Verse Image Design %1$s"
+
+msgid "verseImageFont"
+msgstr "Verse Image Fonts"
+
+msgid "verseOfTheDay"
+msgstr "Verse of the Day"
+
+msgid "verseSelectionNotAvailable"
+msgstr "Verse selection doesn't exist in this version."
+
+msgid "versesMemorized"
+msgstr "Verses Memorized"
+
+msgid "versionDownloadAgreement"
+msgstr "Our agreement with the publisher of this Bible version requires us to share your name and the following information with them in order to offer this version for offline use. By proceeding you agree to share this information and allow the publisher to email you."
+
+msgid "versions"
+msgstr "Versions"
+
+msgid "vertical"
+msgstr "Vertical"
+
+msgid "verticalIsBest"
+msgstr "Vertical is best for wallpaper."
+
+msgid "veryNiceUppercase"
+msgstr "VERY NICE!"
+
+msgid "video"
+msgstr "Video"
+
+msgid "videos"
+msgstr "Videos"
+
+msgid "view_all"
+msgstr "View All"
+
+msgid "viewDownload"
+msgstr "View Download"
+
+msgid "viewImage"
+msgstr "View Image"
+
+msgid "visitSupportWebsite"
+msgstr "Visit support website"
+
+msgid "votdShare"
+msgstr "I'd love to share the Verse of the Day with you!"
+
+msgid "votdWidget"
+msgstr "Verse of the Day Widget"
+
+msgid "wantToChallengeYourself"
+msgstr "Want to challenge yourself?"
+
+msgid "wantToDiscardSupportRequest"
+msgstr "Are you sure you want to discard your support request?"
+
+msgid "wantToTrySomethingNew"
+msgstr "Want to try something new?"
+
+msgid "weBelieveInYou"
+msgstr "We believe in you!"
+
+msgid "weDareYouToMemorizeAVerse"
+msgstr "We dare you to memorize a verse."
+
+msgid "weeksAgo"
+msgstr "%1$sw"
+
+msgid "weFrozeYourStreak"
+msgstr "🥶 We froze your Streak!"
+
+msgid "weFrozeYourStreakKeepItGoing"
+msgstr "We froze your Streak! Keep it going with a Bible activity."
+
+msgid "welcomeBack"
+msgstr "Welcome back!"
+
+msgid "welcomeToMemoryVerse"
+msgstr "Welcome to Memory Verse!"
+
+msgid "welcomeToMemoryVerseUpper"
+msgstr "WELCOME TO MEMORY VERSE!"
+
+msgid "wereSoGladYoureHere"
+msgstr "👋 We’re so glad you’re here!"
+
+msgid "weveAddedNewDevotionalContent"
+msgstr "We've added new devotional content to help you process your emotions with God's Word."
+
+msgid "whatDidYouThinkAboutThatExperience"
+msgstr "What did you think of that experience?"
+
+msgid "whatWouldYouLikeToMemorizeFirst"
+msgstr "What would you like to memorize first?"
+
+msgid "whatWouldYouLikeToMemorizeNext"
+msgstr "What would you like to memorize next?"
+
+msgid "whenYouMemorizeAVerse"
+msgstr "When you memorize a verse, it will show up here!"
+
+msgid "woohooYouveStartedYourStreak"
+msgstr "Woohoo! You’ve started your Streak."
+
+msgid "wordAppearsMultipleTimes"
+msgstr "'{word}' appears {count} times in positions: {positions}"
+
+msgid "wordNotInVerse"
+msgstr "'{word}' is not in the verse"
+
+msgid "wordShouldBeAtPosition"
+msgstr "'{word}' should be at position {position}"
+
+msgid "wowLookAtYou"
+msgstr "WOW, LOOK AT YOU!"
+
+msgid "wowYoureSoGoodAtThis"
+msgstr "Wow, you’re so good at this!"
+
+msgid "writeANoteForThisVerse"
+msgstr "Write a note for this verse"
+
+msgid "writeItOut"
+msgstr "Write It Out"
+
+msgid "writeItOutUpper"
+msgstr "WRITE IT OUT"
+
+msgid "x_hours"
+msgid_plural "x_hours"
+msgstr[0] "1 Hour"
+msgstr[1] "%1$s Hours"
+
+msgid "x_minutes"
+msgstr "%1$s Minutes"
+
+msgid "x_versions"
+msgstr "%1$s Versions (%2$s)"
+
+msgid "xAvailableLanguages"
+msgstr "%1$s Available Languages"
+
+msgid "xHours"
+msgid_plural "xHours"
+msgstr[0] "1 hour"
+msgstr[1] "%1$s hours"
+
+msgid "xMinutes"
+msgid_plural "xMinutes"
+msgstr[0] "1 minute"
+msgstr[1] "%1$s minutes"
+
+msgid "xMore"
+msgstr "+ %1$s more"
+
+msgid "xSeconds"
+msgid_plural "xSeconds"
+msgstr[0] "1 second"
+msgstr[1] "%1$s seconds"
+
+msgid "yes"
+msgstr "Yes"
+
+msgid "youCanDoIt"
+msgstr "YOU CAN DO IT!"
+
+msgid "youCanDoThis"
+msgstr "You can do this."
+
+msgid "youCanHaveAsManyAs"
+msgstr "You can have as many as %1$s"
+
+msgid "youDidIt"
+msgstr "YOU DID IT!"
+
+msgid "youGotThis"
+msgstr "You got this."
+
+msgid "youHaventMemorizedAnyVersesYet"
+msgstr "You haven’t memorized any verses yet"
+
+msgid "youKnowWhosAwesome"
+msgstr "YOU KNOW WHO’S AWESOME? YOU ARE."
+
+msgid "youllGetItNextTime"
+msgstr "YOU’LL GET IT NEXT TIME!"
+
+msgid "youMemorizedAllSurpriseMe"
+msgstr "You memorized all the Surprise Me verses!"
+
+msgid "youreAlmostThere"
+msgstr "YOU’RE ALMOST THERE!"
+
+msgid "youreAlmostThereLower"
+msgstr "You’re almost there!"
+
+msgid "youreAmazing"
+msgstr "YOU’RE AMAZING!"
+
+msgid "youreGreat"
+msgstr "YOU’RE GREAT!"
+
+msgid "youreOffline"
+msgstr "You’re Offline"
+
+msgid "youreSoCloseCompleteTheChallenge"
+msgstr "You’re so close! Complete the challenge."
+
+msgid "youreSoCloseContinueTheChallenge"
+msgstr "You’re so close! Continue the challenge."
+
+msgid "youreSoCloseToEarningACrown"
+msgstr "You’re so close to earning a crown..."
+
+msgid "youreTryingThatsAwesome"
+msgstr "YOU’RE TRYING—THAT’S AWESOME!"
+
+msgid "yourMindIsAmazing"
+msgstr "YOUR MIND IS AMAZING."
+
+msgid "yourMindIsAmazingEmoji"
+msgstr "Your mind is amazing! 🧠"
+
+msgid "youUsedYourLastStreakFreezeThisWeek"
+msgstr "You used your last Streak Freeze this week. Choose a Bible activity today."
+
+msgid "youveGotThis"
+msgstr "YOU’VE GOT THIS!"
+
+msgid "youveGotThisReminder"
+msgstr "You’ve got this!"
+
+msgid "youveMemorizedThisVerseUpper"
+msgstr "YOU’VE MEMORIZED THIS VERSE!"
+
+msgid "youveUnlockedTheNextLevel"
+msgstr "You’ve unlocked the next level!"
+
+msgid "youWillShare"
+msgstr "You will share"
