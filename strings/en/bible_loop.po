@@ -10,6 +10,24 @@ msgstr ""
 "X-Crowdin-SourceKey: msgstr\n"
 "X-Generator: Babel 2.0\n"
 
+msgid "searchLanguages"
+msgstr "Search languages"
+
+msgid "recommended"
+msgstr "Recommended"
+
+msgid "allLanguages"
+msgstr "All Languages"
+
+msgid "couldntLoadLanguages"
+msgstr "Couldn't load languages."
+
+msgid "noResultsFoundForQuery"
+msgstr "No results found for \"%1$s\""
+
+msgid "dontSeeYourLanguage"
+msgstr "Don't see your language?"
+
 msgid "yourFavoriteVerse"
 msgstr "Have a Favorite Verse?"
 
