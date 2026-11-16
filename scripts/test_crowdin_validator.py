@@ -83,6 +83,19 @@ class ParsingTests(unittest.TestCase):
     def test_no_duplicates_reported_for_a_clean_file(self):
         self.assertEqual(validator.duplicate_keys(po(entry("about", "About"))), [])
 
+    def test_dart_identifier_matches_the_generator(self):
+        self.assertEqual(validator.dart_identifier("x_hours"), "xHours")
+        self.assertEqual(validator.dart_identifier("xHours"), "xHours")
+        self.assertEqual(validator.dart_identifier("continue_"), "continue_")
+        self.assertEqual(validator.dart_identifier("highlightVerses "), "highlightVerses")
+
+    def test_identifier_collisions_are_found(self):
+        content = po(plural("xHours", "1 hour", "%1$s hours"), entry("x_hours", "Hours"))
+        self.assertEqual(validator.identifier_collisions(content), [("xHours", ["xHours", "x_hours"])])
+
+    def test_no_identifier_collisions_for_a_clean_file(self):
+        self.assertEqual(validator.identifier_collisions(po(entry("audio_x_hours", "Hours"), entry("xHours", "Hours"))), [])
+
     def test_malformed_detects_multi_line_continuation(self):
         content = po('msgid "blurb"\nmsgstr ""\n"a long line "\n"continued"')
         self.assertEqual(validator.malformed_keys(content), ["blurb"])
@@ -312,6 +325,14 @@ class ValidatorEndToEndTests(unittest.TestCase):
         stdout = self.assertFails(self.run_validator())
         self.assertIn("defined more than once", stdout)
         self.assertIn("bible", stdout)
+
+    def test_keys_generating_the_same_getter_fail(self):
+        self.commit_base(app=po(entry("xMinutes", "%1$s minutes")))
+        self.write("app.po", po(entry("xMinutes", "%1$s minutes"), entry("x_minutes", "%1$s Minutes")))
+        self.commit("clash")
+        stdout = self.assertFails(self.run_validator())
+        self.assertIn("generate the same Flutter getter", stdout)
+        self.assertIn("xMinutes, x_minutes -> xMinutes", stdout)
 
     def test_malformed_entry_fails(self):
         self.commit_base(app=po(entry("about", "About")))

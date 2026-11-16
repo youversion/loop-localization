@@ -1426,9 +1426,6 @@ msgstr "Check-In"
 msgid "checkItOut"
 msgstr "Check It Out"
 
-msgid "chooseABackgroundImage"
-msgstr "Choose a background image."
-
 msgid "chooseABibleActivityAndKeepYourStreakGoing"
 msgstr "Choose a Bible activity and keep your Streak going!"
 
@@ -1491,9 +1488,6 @@ msgstr "Continue"
 
 msgid "continueEditing"
 msgstr "Continue editing"
-
-msgid "continuePhrase"
-msgstr "Continue"
 
 msgid "continueYourStreakToday"
 msgstr "Continue your Streak today."
@@ -1891,9 +1885,6 @@ msgstr "I’m on a"
 msgid "improveYourMemorySkills"
 msgstr "Improve your memory skills!"
 
-msgid "incorrectEmailOrPassword"
-msgstr "Incorrect Email or Password"
-
 msgid "invalidEmailAddress"
 msgstr "The email address is invalid."
 
@@ -1929,9 +1920,6 @@ msgstr "Keep going!"
 
 msgid "keepGoingYouveGotThis"
 msgstr "KEEP GOING—YOU’VE GOT THIS!"
-
-msgid "keepItUp"
-msgstr "Keep it up!"
 
 msgid "keepNote"
 msgstr "Keep Note"
@@ -2218,9 +2206,6 @@ msgstr "Not Right Now"
 msgid "now"
 msgstr "Now"
 
-msgid "nowAgo"
-msgstr "Now"
-
 msgid "nPerfectWeeks"
 msgid_plural "nPerfectWeeks"
 msgstr[0] "1 Perfect Week"
@@ -2488,9 +2473,6 @@ msgstr "Show verse"
 msgid "signIn"
 msgstr "Sign In"
 
-msgid "signin"
-msgstr "Sign In"
-
 msgid "signInWithGoogle"
 msgstr "Sign in with Google"
 
@@ -2583,9 +2565,6 @@ msgstr "STREAK FREEZES"
 
 msgid "streaksAreOff"
 msgstr "Streaks Are Off"
-
-msgid "streaksHelpBuildPrompt"
-msgstr "Streaks help you build your daily Bible habit."
 
 msgid "strengthenYourBibleHabitAndHaveFunDoingIt"
 msgstr "Strengthen your Bible habit and have fun doing it with an activity!"
@@ -2764,9 +2743,6 @@ msgstr "Verse Art"
 msgid "verseArtLeaveDialogBody"
 msgstr "The image you’ve designed won’t be saved if you leave now."
 
-msgid "verseArtLeaveDialogDiscard"
-msgstr "Discard"
-
 msgid "verseArtLeaveDialogKeepEditing"
 msgstr "Keep Editing"
 
@@ -2908,14 +2884,6 @@ msgstr "Write It Out"
 msgid "writeItOutUpper"
 msgstr "WRITE IT OUT"
 
-msgid "x_hours"
-msgid_plural "x_hours"
-msgstr[0] "1 Hour"
-msgstr[1] "%1$s Hours"
-
-msgid "x_minutes"
-msgstr "%1$s Minutes"
-
 msgid "x_versions"
 msgstr "%1$s Versions (%2$s)"
 
@@ -2924,13 +2892,13 @@ msgstr "%1$s Available Languages"
 
 msgid "xHours"
 msgid_plural "xHours"
-msgstr[0] "1 hour"
-msgstr[1] "%1$s hours"
+msgstr[0] "1 Hour"
+msgstr[1] "%1$s Hours"
 
 msgid "xMinutes"
 msgid_plural "xMinutes"
-msgstr[0] "1 minute"
-msgstr[1] "%1$s minutes"
+msgstr[0] "1 Minute"
+msgstr[1] "%1$s Minutes"
 
 msgid "xMore"
 msgstr "+ %1$s more"

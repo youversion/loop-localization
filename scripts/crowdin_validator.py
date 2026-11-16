@@ -17,7 +17,8 @@ base branch, and splits what it finds in two:
       loses them outright).
 
   ERROR (fails the build)
-      A key defined twice in one file, an entry this script cannot parse, or
+      A key defined twice in one file, two keys in one file that generate the
+      same Flutter getter (`x_hours` and `xHours`), an entry this script cannot parse, or
       an entry with an empty value -- each of these is either ambiguous or
       invisible to the diff above, so it has to stop the build. Plus a new
       key that duplicates one in a different file: Crowdin scopes keys per
@@ -126,6 +127,31 @@ def duplicate_keys(content: str) -> list[tuple[str, int]]:
     """
     counts = Counter(all_keys(content))
     return sorted((key, count) for key, count in counts.items() if count > 1)
+
+
+def dart_identifier(key: str) -> str:
+    """The getter name the Flutter `babel` generator emits for a key."""
+    key = key.strip()
+    if key.endswith("_"):
+        return key
+    first, *rest = key.split("_")
+    return first + "".join(part[:1].upper() + part[1:] for part in rest)
+
+
+def identifier_collisions(content: str) -> list[tuple[str, list[str]]]:
+    """Distinct keys in one file that generate the same Dart getter.
+
+    `x_hours` and `xHours` both become `xHours`, so the generated Flutter
+    catalog declares it twice and does not compile.
+    """
+    keys_by_identifier: dict[str, set[str]] = {}
+    for key in all_keys(content):
+        keys_by_identifier.setdefault(dart_identifier(key), set()).add(key)
+    return sorted(
+        (identifier, sorted(keys))
+        for identifier, keys in keys_by_identifier.items()
+        if len(keys) > 1
+    )
 
 
 def malformed_keys(content: str) -> list[str]:
@@ -298,7 +324,7 @@ def validate() -> int:
     existing = find_existing_keys(EN_STRINGS_DIR)
     file_renames = renamed_po_files()
     added, edited, deleted, renamed = [], [], [], []
-    collisions, duplicates, malformed, empties = [], [], [], []
+    collisions, duplicates, clashes, malformed, empties = [], [], [], [], []
     moved, removed = [], []
 
     for path in changed:
@@ -316,6 +342,8 @@ def validate() -> int:
         unparseable = malformed_keys(content)
         for key, count in duplicate_keys(content):
             duplicates.append(f"{key} ({path}, defined {count}x)")
+        for identifier, keys in identifier_collisions(content):
+            clashes.append(f"{', '.join(keys)} -> {identifier} ({path})")
         for key in unparseable:
             malformed.append(f"{key} ({path})")
         # A continued entry also looks empty; report it once, as unparseable.
@@ -376,7 +404,7 @@ def validate() -> int:
         renamed,
     )
 
-    if not (moved or removed or collisions or duplicates or malformed or empties):
+    if not (moved or removed or collisions or duplicates or clashes or malformed or empties):
         return 0
 
     report(
@@ -395,6 +423,11 @@ def validate() -> int:
     )
     report("ERROR: new string(s) duplicate an existing key in another file:", collisions)
     report("ERROR: key(s) defined more than once in the same file:", duplicates)
+    report(
+        "ERROR: keys in the same file that generate the same Flutter getter "
+        "(snake_case -> camelCase), so the generated catalog will not compile:",
+        clashes,
+    )
     report(
         "ERROR: unparseable entry -- msgstr must be a single escaped line "
         "immediately after msgid (see update_strings.py's render_entries):",
