@@ -1426,9 +1426,6 @@ msgstr "Check-In"
 msgid "checkItOut"
 msgstr "Check It Out"
 
-msgid "chooseABackgroundImage"
-msgstr "Choose a background image."
-
 msgid "chooseABibleActivityAndKeepYourStreakGoing"
 msgstr "Choose a Bible activity and keep your Streak going!"
 
@@ -1890,9 +1887,6 @@ msgstr "I’m on a"
 
 msgid "improveYourMemorySkills"
 msgstr "Improve your memory skills!"
-
-msgid "incorrectEmailOrPassword"
-msgstr "Incorrect Email or Password"
 
 msgid "invalidEmailAddress"
 msgstr "The email address is invalid."
@@ -2488,9 +2482,6 @@ msgstr "Show verse"
 msgid "signIn"
 msgstr "Sign In"
 
-msgid "signin"
-msgstr "Sign In"
-
 msgid "signInWithGoogle"
 msgstr "Sign in with Google"
 
@@ -2583,9 +2574,6 @@ msgstr "STREAK FREEZES"
 
 msgid "streaksAreOff"
 msgstr "Streaks Are Off"
-
-msgid "streaksHelpBuildPrompt"
-msgstr "Streaks help you build your daily Bible habit."
 
 msgid "strengthenYourBibleHabitAndHaveFunDoingIt"
 msgstr "Strengthen your Bible habit and have fun doing it with an activity!"
