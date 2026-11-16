@@ -1489,9 +1489,6 @@ msgstr "Continue"
 msgid "continueEditing"
 msgstr "Continue editing"
 
-msgid "continuePhrase"
-msgstr "Continue"
-
 msgid "continueYourStreakToday"
 msgstr "Continue your Streak today."
 
@@ -1924,9 +1921,6 @@ msgstr "Keep going!"
 msgid "keepGoingYouveGotThis"
 msgstr "KEEP GOING—YOU’VE GOT THIS!"
 
-msgid "keepItUp"
-msgstr "Keep it up!"
-
 msgid "keepNote"
 msgstr "Keep Note"
 
@@ -2210,9 +2204,6 @@ msgid "notRightNow"
 msgstr "Not Right Now"
 
 msgid "now"
-msgstr "Now"
-
-msgid "nowAgo"
 msgstr "Now"
 
 msgid "nPerfectWeeks"
@@ -2751,9 +2742,6 @@ msgstr "Verse Art"
 
 msgid "verseArtLeaveDialogBody"
 msgstr "The image you’ve designed won’t be saved if you leave now."
-
-msgid "verseArtLeaveDialogDiscard"
-msgstr "Discard"
 
 msgid "verseArtLeaveDialogKeepEditing"
 msgstr "Keep Editing"
