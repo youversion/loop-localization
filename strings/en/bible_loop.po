@@ -2988,3 +2988,507 @@ msgstr "You’ve unlocked the next level!"
 
 msgid "youWillShare"
 msgstr "You will share"
+
+msgid "joyfulAffirmationOne"
+msgstr "God is always good, and He will never stop loving you."
+
+msgid "joyfulPrayerOne"
+msgstr "God, thank You for how You love me. Thank You for the day You’ve made. Help me notice the goodness in my life. I know it is all from You. Amen."
+
+msgid "joyfulAffirmationTwo"
+msgstr "You can always receive joy from God."
+
+msgid "joyfulPrayerTwo"
+msgstr "God, I receive Your joy today. I choose to rejoice in You no matter what happens. I trust You. Amen."
+
+msgid "joyfulAffirmationThree"
+msgstr "Praise God with everything you have because He cares for you."
+
+msgid "joyfulPrayerThree"
+msgstr "God, never let me forget how good You are, and how much You love me. I give You everything. Amen."
+
+msgid "joyfulAffirmationFour"
+msgstr "In God’s presence, you have all you need."
+
+msgid "joyfulPrayerFour"
+msgstr "God, thank You for Your presence. Help me always come to You not only in times of need, but every day of my life. You are all I need. Amen."
+
+msgid "joyfulAffirmationFive"
+msgstr "You were made to love God."
+
+msgid "joyfulPrayerFive"
+msgstr "God, thank You for teaching me to find joy in every circumstance. Help me to choose gratitude and love, even when it doesn’t make sense. As long as I have You, I have enough. Amen."
+
+msgid "joyfulAffirmationSix"
+msgstr "Today, join the world in praising God."
+
+msgid "joyfulPrayerSix"
+msgstr "God, Your goodness is too great to be kept hidden. I pray for everyone I know, and even those I don’t, to be met with Your love. Amen."
+
+msgid "joyfulAffirmationSeven"
+msgstr "Knowing and obeying God brings joy."
+
+msgid "joyfulPrayerSeven"
+msgstr "God, thank You for Your Word, and that Your guidance brings lasting joy. Help me to learn from You, and help me gain the strength to fight anything that’s not aligned with Scripture. Amen."
+
+msgid "joyfulAffirmationEight"
+msgstr "God’s Word is a source of lasting, true joy."
+
+msgid "joyfulPrayerEight"
+msgstr "God, thank You that Scripture is a lasting source of true joy. Nothing in this world can compare to the joy that Your truth brings. Help remind me of this, especially when life becomes challenging. I trust You completely. Amen."
+
+msgid "joyfulAffirmationNine"
+msgstr "God turns darkness into light and joy."
+
+msgid "joyfulPrayerNine"
+msgstr "God, thank You for turning my challenges into celebrations. You give me hope, and Your hope can never be taken away. Amen."
+
+msgid "joyfulAffirmationTen"
+msgstr "God’s joy is your strength."
+
+msgid "joyfulPrayerTen"
+msgstr "God, help me find joy when life isn’t easy. Remind me that Your Word gives me strength. You will never give up on me. Help me to never give up on You. Amen."
+
+msgid "joyfulAffirmationEleven"
+msgstr "The Holy Spirit brings joy."
+
+msgid "joyfulPrayerEleven"
+msgstr "Holy Spirit, I need Your presence today. I pray that everyone who sees my joy recognizes how You are the One who gives it to me. Amen."
+
+msgid "joyfulAffirmationTwelve"
+msgstr "Jesus’ joy meets you in your grief."
+
+msgid "joyfulPrayerTwelve"
+msgstr "Jesus, You alone are the reason I can have joy. You made it possible for me to live in relationship with God. Thank You. Help me receive Your joy today, and every day forward. Amen."
+
+msgid "peacefulAffirmationOne"
+msgstr "Jesus freely gives His peace to you."
+
+msgid "peacefulPrayerOne"
+msgstr "Jesus, thank You for giving me true peace that doesn’t depend on what’s happening around me. Help remind me that You will never fail me. Amen."
+
+msgid "peacefulAffirmationTwo"
+msgstr "God’s peace carries you through anxiety."
+
+msgid "peacefulPrayerTwo"
+msgstr "God, thank You for surrounding me with Your peace. Help calm my heart today. Keep me focused on You. Amen."
+
+msgid "peacefulAffirmationThree"
+msgstr "God’s peace brings safety."
+
+msgid "peacefulPrayerThree"
+msgstr "God, thank You for keeping me safe. I can rest today as I put my trust in You. Amen."
+
+msgid "peacefulAffirmationFour"
+msgstr "Trusting in God brings lasting peace."
+
+msgid "peacefulPrayerFour"
+msgstr "God, when I trust in You, I feel peace. Remind me that You are enough to bring true peace in times of anxiety. Amen."
+
+msgid "peacefulAffirmationFive"
+msgstr "In conflict, seek Jesus and find peace."
+
+msgid "peacefulPrayerFive"
+msgstr "Jesus, I pray that Your peace would lead my thoughts and actions. Help me show others the same grace that You have shown me. Amen."
+
+msgid "peacefulAffirmationSix"
+msgstr "Knowing Jesus brings peace."
+
+msgid "peacefulPrayerSix"
+msgstr "Jesus, I put all my confidence in You. Help bring peace in times of restlessness. You hold everything in Your hands. Amen."
+
+msgid "peacefulAffirmationSeven"
+msgstr "When you choose to trust God, He brings His peace and hope."
+
+msgid "peacefulPrayerSeven"
+msgstr "God, I choose to trust You. Please meet me with lasting peace and hope. I know that it can only come from You. Amen."
+
+msgid "peacefulAffirmationEight"
+msgstr "God gives lasting peace that the world cannot."
+
+msgid "peacefulPrayerEight"
+msgstr "God, I trust that You can give me peace in every circumstance. You are with me through it all. Meet me with Your peace today. Amen."
+
+msgid "peacefulAffirmationNine"
+msgstr "God has a good plan for your life."
+
+msgid "peacefulPrayerNine"
+msgstr "God, teach me how to be still. I trust that You are faithful, even when life is difficult. I need Your peace. Thank You for freely giving it to me. Amen."
+
+msgid "peacefulAffirmationTen"
+msgstr "God’s peace helps you give peace to others."
+
+msgid "peacefulPrayerTen"
+msgstr "God, help me live like Jesus. I let go of any bitterness I may be carrying. I pray that Your peace would transform all my relationships. Amen."
+
+msgid "peacefulAffirmationEleven"
+msgstr "God wants you to live in His peace."
+
+msgid "peacefulPrayerEleven"
+msgstr "God, thank You for Your kindness and Your peace. Wherever I go today, help me carry lasting peace that comes from You alone. Amen."
+
+msgid "peacefulAffirmationTwelve"
+msgstr "God gives strength and peace."
+
+msgid "peacefulPrayerTwelve"
+msgstr "God, there is nothing greater than You. Please give me strength. I can’t do it alone. I trust in You with everything. Amen."
+
+msgid "disconnectedAffirmationOne"
+msgstr "God hears your prayers."
+
+msgid "disconnectedPrayerOne"
+msgstr "God, thank You for hearing my prayers. Please free me from my fears and worries. I’m choosing to put my trust in You. Amen."
+
+msgid "disconnectedAffirmationTwo"
+msgstr "God wants you to seek Him."
+
+msgid "disconnectedPrayerTwo"
+msgstr "God, I want to truly seek You in my life. Help me see You in every moment. Thank You for always being there. Amen."
+
+msgid "disconnectedAffirmationThree"
+msgstr "God’s Word gives us wisdom."
+
+msgid "disconnectedPrayerThree"
+msgstr "God, I know Your Word brings wisdom. Help me when I feel hopeless, and encourage me with the truth of Scripture. Amen."
+
+msgid "disconnectedAffirmationFour"
+msgstr "You are never alone in God’s family."
+
+msgid "disconnectedPrayerFour"
+msgstr "God, thank You that I am Your child. Remind me that because of Your love, I am never alone. Amen."
+
+msgid "disconnectedAffirmationFive"
+msgstr "You can choose Jesus, even when life is difficult."
+
+msgid "disconnectedPrayerFive"
+msgstr "God, following You isn’t always easy. Give me new strength to continue. I put my trust in You. You are worth everything. Amen."
+
+msgid "disconnectedAffirmationSix"
+msgstr "God’s Spirit guides you."
+
+msgid "disconnectedPrayerSix"
+msgstr "Holy Spirit, I need Your guidance. Whenever I feel lost, meet me with Your presence. I need You. Amen."
+
+msgid "disconnectedAffirmationSeven"
+msgstr "Nothing can separate you from God’s love."
+
+msgid "disconnectedPrayerSeven"
+msgstr "God, thank You that nothing can separate me from You. Remind me that I am safe with You. Amen."
+
+msgid "disconnectedAffirmationEight"
+msgstr "Jesus cares about you, and He came to rescue you."
+
+msgid "disconnectedPrayerEight"
+msgstr "Jesus, thank You for Your sacrifice for me. You came to rescue me, and I am free. I pray that I will never forget this powerful truth. I love You. Amen."
+
+msgid "disconnectedAffirmationNine"
+msgstr "God’s Spirit makes you new."
+
+msgid "disconnectedPrayerNine"
+msgstr "God, I know Your Spirit makes me new. I ask Your Holy Spirit to transform my life. I want to be more like Jesus. Amen."
+
+msgid "disconnectedAffirmationTen"
+msgstr "God wants you to come to Him."
+
+msgid "disconnectedPrayerTen"
+msgstr "God, I want to always remain connected to You. I know that with You, I am strong. Thank You for giving me joy and peace as I come to You. Amen."
+
+msgid "disconnectedAffirmationEleven"
+msgstr "God is always good, even in chaos."
+
+msgid "disconnectedPrayerEleven"
+msgstr "God, Your goodness is constant. Thank You that You have never failed, and You never will. Help me hold onto this promise at all times in my life. Amen."
+
+msgid "disconnectedAffirmationTwelve"
+msgstr "You were made to reflect God’s goodness."
+
+msgid "disconnectedPrayerTwelve"
+msgstr "God, thank You for creating me for a purpose. Show me how I can make a difference today. I want to be more like You. Thank You for leading me. Amen."
+
+msgid "afraidAffirmationOne"
+msgstr "God’s presence protects you when you’re afraid."
+
+msgid "afraidPrayerOne"
+msgstr "God, thank You for always being here with me. Give me strength to face what’s ahead with courage. I trust You. Amen."
+
+msgid "afraidAffirmationTwo"
+msgstr "When you feel afraid, God is with you."
+
+msgid "afraidPrayerTwo"
+msgstr "God, help me choose trust in You over fear. Remind me that You are bigger than anything I face. You have never failed, and You never will. Amen."
+
+msgid "afraidAffirmationThree"
+msgstr "You can be strong because God is with you."
+
+msgid "afraidPrayerThree"
+msgstr "God, thank You for always being with me. Forgive me for the times I’ve forgotten this and given into fear. I trust You, and I pray that You would give me strength to face anything in my life. Amen."
+
+msgid "afraidAffirmationFour"
+msgstr "The Holy Spirit helps you be more like Jesus."
+
+msgid "afraidPrayerFour"
+msgstr "Holy Spirit, I want to receive Your power and love today. Give me strength and courage to share Jesus with others around me. Amen."
+
+msgid "afraidAffirmationFive"
+msgstr "God’s light shines brighter than darkness."
+
+msgid "afraidPrayerFive"
+msgstr "God, thank You for Your light. When darkness surrounds me, I pray that Your light would powerfully transform everything. I put all my trust in You. Amen."
+
+msgid "afraidAffirmationSix"
+msgstr "The Holy Spirit gives you courage."
+
+msgid "afraidPrayerSix"
+msgstr "Holy Spirit, I pray for lasting courage today. I pray that I would have strength in times of fear. Nothing of this world compares to You. I know that because of You, I am safe. Amen."
+
+msgid "afraidAffirmationSeven"
+msgstr "Because of Jesus, sin has no power over you."
+
+msgid "afraidPrayerSeven"
+msgstr "Jesus, thank You for Your sacrifice. Through You, I can live in my identity as an adopted child in God’s family. Help me live in the truth that I am fully loved and completely free. Amen."
+
+msgid "afraidAffirmationEight"
+msgstr "God hears your prayers, and brings freedom from fear."
+
+msgid "afraidPrayerEight"
+msgstr "God, thank You for hearing my prayers. Help me trust that You are in control of everything. As long as I have You, there is nothing to fear. Amen."
+
+msgid "afraidAffirmationNine"
+msgstr "God will never leave you."
+
+msgid "afraidPrayerNine"
+msgstr "God, thank You for always being with me. Give me courage to live with confidence knowing that You’re beside me. I trust that I can overcome anything with You. Amen."
+
+msgid "afraidAffirmationTen"
+msgstr "God’s love makes you new."
+
+msgid "afraidPrayerTen"
+msgstr "God, I pray that You would meet me with Your love today. I pray that Your love would get rid of any fear or doubt I may be carrying. I want to look more like Jesus. Amen."
+
+msgid "afraidAffirmationEleven"
+msgstr "God will never abandon you."
+
+msgid "afraidPrayerEleven"
+msgstr "God, thank You that You never leave me, especially in times of trouble. I pray that I would never try to do life on my own, but that I would always be reminded that I can do anything with Your strength. Amen."
+
+msgid "afraidAffirmationTwelve"
+msgstr "God rejoices over you."
+
+msgid "afraidPrayerTwelve"
+msgstr "God, thank You for loving me. I pray that I would never forget how much You love me. Your love brings strength, and I pray that I would be more like Jesus today. Amen."
+
+msgid "overwhelmedAffirmationOne"
+msgstr "God helps you when you feel overwhelmed."
+
+msgid "overwhelmedPrayerOne"
+msgstr "God, I know that You can take these burdens from me. I know that I’m not meant to carry them on my own. Please give me the strength to carry on. Amen."
+
+msgid "overwhelmedAffirmationTwo"
+msgstr "God brings comfort in the struggle."
+
+msgid "overwhelmedPrayerTwo"
+msgstr "God, You see my struggles and pain. I pray that You would give me peace and strength to carry forward. Please help me. I trust that You are in control. Amen."
+
+msgid "overwhelmedAffirmationThree"
+msgstr "Jesus provides rest."
+
+msgid "overwhelmedPrayerThree"
+msgstr "Jesus, I need rest. Please help me today to focus on You in the struggles I face. Thank You that I am never alone. Amen."
+
+msgid "overwhelmedAffirmationFour"
+msgstr "God gives hope and strength."
+
+msgid "overwhelmedPrayerFour"
+msgstr "God, I need You. I pray that You would give me strength when I feel worn out. Help me to be more like You, and give me hope when things seem hopeless. Amen."
+
+msgid "overwhelmedAffirmationFive"
+msgstr "God brings freedom."
+
+msgid "overwhelmedPrayerFive"
+msgstr "God, I trust that You can give me freedom today because of Jesus’ sacrifice. Thank You for the gift of relationship with You, and for hearing my prayers. Amen."
+
+msgid "overwhelmedAffirmationSix"
+msgstr "The Holy Spirit gives lasting peace."
+
+msgid "overwhelmedPrayerSix"
+msgstr "Holy Spirit, I pray that You would give me true, lasting peace. I trust that You are always here with me. Amen."
+
+msgid "overwhelmedAffirmationSeven"
+msgstr "You can rest in God’s presence."
+
+msgid "overwhelmedPrayerSeven"
+msgstr "God, thank You for Your presence. Remind me that You are stronger than any anxiety I face. Today, I choose to receive Your joy over my fears. Amen."
+
+msgid "overwhelmedAffirmationEight"
+msgstr "God brings strength in the struggles."
+
+msgid "overwhelmedPrayerEight"
+msgstr "God, You take what the enemy means for evil and turn it for Your good. I choose to give my weakness to You. Thank You for Your presence. Amen."
+
+msgid "overwhelmedAffirmationNine"
+msgstr "God has good plans for you."
+
+msgid "overwhelmedPrayerNine"
+msgstr "God, I don’t always understand what’s happening, but I trust You. Help me learn what it looks like to follow You. I want Your peace to lead me. Amen."
+
+msgid "overwhelmedAffirmationTen"
+msgstr "Wherever you go, the Holy Spirit is with you."
+
+msgid "overwhelmedPrayerTen"
+msgstr "Holy Spirit, help me become more aware of Your presence around me. Remind me that the struggles I face are temporary, and my home is eternity with You. In You, I find rest. Amen."
+
+msgid "overwhelmedAffirmationEleven"
+msgstr "You can find all you need in Jesus."
+
+msgid "overwhelmedPrayerEleven"
+msgstr "God, teach me how to rest in Your promises for my life. I know that with You, I have everything I need. Remind me that You are guiding every step I take. Amen."
+
+msgid "overwhelmedAffirmationTwelve"
+msgstr "God cares about your worries, and He brings healing."
+
+msgid "overwhelmedPrayerTwelve"
+msgstr "God, I’m giving You everything today. I wasn’t meant to carry it on my own. You can have it all. Thank You for caring about every detail of my life. I love You. Amen."
+
+msgid "angryAffirmationOne"
+msgstr "You can bring your frustrations to God."
+
+msgid "angryPrayerOne"
+msgstr "God, teach me how to slow down before I react. I want to be more like Jesus in how I respond. I trust You with what feels unfair. Amen."
+
+msgid "angryAffirmationTwo"
+msgstr "God heals anger."
+
+msgid "angryPrayerTwo"
+msgstr "God, help me face what is bothering me today with Your gentleness and strength. I pray for strength to let go of pride and receive humility. Amen."
+
+msgid "angryAffirmationThree"
+msgstr "The Holy Spirit helps you receive gentleness."
+
+msgid "angryPrayerThree"
+msgstr "God, calm my heart and remind me that You are in control. Help me learn what it means to completely trust You, whatever may happen. Amen."
+
+msgid "angryAffirmationFour"
+msgstr "You can give your anger to God."
+
+msgid "angryPrayerFour"
+msgstr "God, I am giving my anger to You. Please give me peace and gentleness towards those around me. Teach me what it means to live more like Jesus. Amen."
+
+msgid "angryAffirmationFive"
+msgstr "God teaches you what it means to forgive."
+
+msgid "angryPrayerFive"
+msgstr "God, forgiveness can be hard, but I know You’ve forgiven me. Teach me what it means to truly forgive others around me. Help me trust You with any outcome. Amen."
+
+msgid "angryAffirmationSix"
+msgstr "God gives patience."
+
+msgid "angryPrayerSix"
+msgstr "God, I pray that You would give me patience when I feel hurt. Help me choose Your peace and kindness. I know that You have a good plan for my life. I trust in You. Amen."
+
+msgid "angryAffirmationSeven"
+msgstr "God helps you choose compassion over anger."
+
+msgid "angryPrayerSeven"
+msgstr "God, thank You for being patient with me. Teach me how to reflect Your kindness to others, even when I feel angry. I want to live like Jesus. Amen."
+
+msgid "angryAffirmationEight"
+msgstr "God helps you live in peace."
+
+msgid "angryPrayerEight"
+msgstr "Jesus, help me choose peace when it’s difficult. Teach me how to show grace to everyone around me. Amen."
+
+msgid "angryAffirmationNine"
+msgstr "God comforts you when you feel brokenhearted."
+
+msgid "angryPrayerNine"
+msgstr "God, when I feel brokenhearted, I choose to give all I have to You. I trust that You can bring healing when it feels impossible. Thank You for always being there for me. Amen."
+
+msgid "angryAffirmationTen"
+msgstr "God gives us peace when we follow Him."
+
+msgid "angryPrayerTen"
+msgstr "God, show me what it means to follow You with everything I have. I pray that You would give me peace today, bringing healing where I feel hurt. Amen."
+
+msgid "angryAffirmationEleven"
+msgstr "God’s goodness is always there, even when things don’t make sense."
+
+msgid "angryPrayerEleven"
+msgstr "God, help me respond with Your goodness even when I am angry at something. Show me that Your love is stronger than anything in this world. I trust that You are in control. Amen."
+
+msgid "angryAffirmationTwelve"
+msgstr "God brings lasting healing in the hurt."
+
+msgid "angryPrayerTwelve"
+msgstr "God, I need Your healing today. Thank You for hearing my prayers. I pray to receive Your peace in times of confusion. Amen."
+
+msgid "sadAffirmationOne"
+msgstr "God comforts you in suffering."
+
+msgid "sadPrayerOne"
+msgstr "God, thank You for always being with me. Please comfort me right now, and remind me that what You have in store for me is greater than what I could ever ask. Amen."
+
+msgid "sadAffirmationTwo"
+msgstr "God has not forgotten about you, and He never will."
+
+msgid "sadPrayerTwo"
+msgstr "God, I trust that You are always with me. I pray that in times of sadness, that You would help me find peace in Your presence. Amen."
+
+msgid "sadAffirmationThree"
+msgstr "God cares for you."
+
+msgid "sadPrayerThree"
+msgstr "God, I need Your healing where I’ve been hurt. Thank You for comforting me, and for hearing all my prayers. Amen."
+
+msgid "sadAffirmationFour"
+msgstr "You can have hope in God’s promises."
+
+msgid "sadPrayerFour"
+msgstr "God, thank You for Your promise that one day all pain will be gone. Remind me that the things causing me pain are temporary. Give me joy in the hurt, and teach me how to have hope. Amen."
+
+msgid "sadAffirmationFive"
+msgstr "God brings hope."
+
+msgid "sadPrayerFive"
+msgstr "God, I am choosing to put my hope in You, even when life doesn’t make sense. Remind me that You are always good, and You are in control. Amen."
+
+msgid "sadAffirmationSix"
+msgstr "Jesus’ sacrifice for us allows us to have hope."
+
+msgid "sadPrayerSix"
+msgstr "Jesus, thank You that because of Your sacrifice for me, I can have lasting hope. Remind me that this world is not my home, and that You have defeated death forever. Amen."
+
+msgid "sadAffirmationSeven"
+msgstr "Jesus has already defeated darkness, and we can trust in Him."
+
+msgid "sadPrayerSeven"
+msgstr "Jesus, thank You for defeating all darkness through Your death and resurrection. I am choosing to trust in You today. Thank You for giving me strength and hope. Amen."
+
+msgid "sadAffirmationEight"
+msgstr "God brings strength."
+
+msgid "sadPrayerEight"
+msgstr "God, I trust that when life feels heavy, You give me strength. I pray that You would heal the hurt I’m feeling. I give all I have to You. Amen."
+
+msgid "sadAffirmationNine"
+msgstr "God is always good, and He is always faithful."
+
+msgid "sadPrayerNine"
+msgstr "God, thank You for always being good. I pray that I would be reminded of the ways You’ve been faithful to me. I put my trust in You. Amen."
+
+msgid "sadAffirmationTen"
+msgstr "God’s goodness always lasts."
+
+msgid "sadPrayerTen"
+msgstr "God, I trust that You’ll take the pain I’m experiencing and turn it to good. I have faith that You shine light even in the darkest moments. Please bring healing today. Amen."
+
+msgid "sadAffirmationEleven"
+msgstr "God brings comfort in darkness."
+
+msgid "sadPrayerEleven"
+msgstr "God, I trust that You are working, even in darkness. I pray that Your presence would be the light that gives me strength in dark times. Remind me of Your love for me. Amen."
+
+msgid "sadAffirmationTwelve"
+msgstr "God leads you in every moment."
+
+msgid "sadPrayerTwelve"
+msgstr "God, I believe that You are with me every day. I give everything to You. I want You to take the lead. Your ways are better than mine. Thank You for all You have done. Amen."
