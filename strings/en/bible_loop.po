@@ -10,6 +10,66 @@ msgstr ""
 "X-Crowdin-SourceKey: msgstr\n"
 "X-Generator: Babel 2.0\n"
 
+msgid "letsFigureOutTheBestPlaceToStart"
+msgstr "Let's figure out the best place for you to start."
+
+msgid "howWouldYouDescribeYourFaith"
+msgstr "How would you describe your faith?"
+
+msgid "whatAreYourGoalsForTheBible"
+msgstr "What are your goals when it comes to the Bible? Select all that apply."
+
+msgid "chooseYourFirstLoop"
+msgstr "Choose your first Loop"
+
+msgid "faithFollowerOfJesus"
+msgstr "I'm a follower of Jesus."
+
+msgid "faithHigherPower"
+msgstr "I believe there's a higher power."
+
+msgid "faithCurious"
+msgstr "I don't know, but I'm curious."
+
+msgid "faithDifferentReligion"
+msgstr "I follow a different religion."
+
+msgid "faithSkeptical"
+msgstr "I'm a bit skeptical about faith."
+
+msgid "faithNonBeliever"
+msgstr "I don't believe in God."
+
+msgid "learnAboutJesus"
+msgstr "Learn about Jesus"
+
+msgid "buildAHabit"
+msgstr "Build a habit"
+
+msgid "findPeace"
+msgstr "Find peace"
+
+msgid "getGuidance"
+msgstr "Get guidance"
+
+msgid "growCloserToGod"
+msgstr "Grow closer to God"
+
+msgid "prayMore"
+msgstr "Pray more"
+
+msgid "navigateChallenges"
+msgstr "Navigate challenges"
+
+msgid "justExplore"
+msgstr "Just explore"
+
+msgid "enjoyTheBible"
+msgstr "Enjoy the Bible"
+
+msgid "other"
+msgstr "Other"
+
 msgid "searchLanguages"
 msgstr "Search languages"
 
