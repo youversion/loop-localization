@@ -1043,7 +1043,7 @@ msgid "you"
 msgstr "You"
 
 msgid "youAreAChildOfGod"
-msgstr "You are a #child\n of God.#"
+msgstr "You are a child of God."
 
 msgid "youHaveUnsavedChangesThatWillBeLost"
 msgstr "You have unsaved changes that will be lost."
@@ -3552,3 +3552,96 @@ msgstr "God leads you in every moment."
 
 msgid "sadPrayerTwelve"
 msgstr "God, I believe that You are with me every day. I give everything to You. I want You to take the lead. Your ways are better than mine. Thank You for all You have done. Amen."
+
+msgid "riseAndShineUser"
+msgstr "Rise and shine, %1$s."
+
+msgid "welcomeBackUser"
+msgstr "Welcome back, %1$s."
+
+msgid "goodToSeeYouUser"
+msgstr "Good to see you, %1$s."
+
+msgid "itsANewDayUser"
+msgstr "It’s a new day, %1$s."
+
+msgid "happyMondayUser"
+msgstr "Happy Monday, %1$s."
+
+msgid "happyTuesdayUser"
+msgstr "Happy Tuesday, %1$s."
+
+msgid "happyWednesdayUser"
+msgstr "Happy Wednesday, %1$s."
+
+msgid "happyThursdayUser"
+msgstr "Happy Thursday, %1$s."
+
+msgid "happyFridayUser"
+msgstr "Happy Friday, %1$s."
+
+msgid "happySaturdayUser"
+msgstr "Happy Saturday, %1$s."
+
+msgid "happySundayUser"
+msgstr "Happy Sunday, %1$s."
+
+msgid "backAgainUser"
+msgstr "Back again, %1$s."
+
+msgid "missedYouUser"
+msgstr "Missed you, %1$s."
+
+msgid "hiAgainUser"
+msgstr "Hi again, %1$s."
+
+msgid "youreAwesomeUser"
+msgstr "You’re awesome, %1$s."
+
+msgid "heyThereUser"
+msgstr "Hey there, %1$s."
+
+msgid "windingDownUser"
+msgstr "Winding down, %1$s?"
+
+msgid "quietHoursUser"
+msgstr "Quiet hours, %1$s."
+
+msgid "heyNightOwlUser"
+msgstr "Hey night-owl, %1$s."
+
+msgid "bibleBeforeBedUser"
+msgstr "Bible before bed, %1$s?"
+
+msgid "letsDiveIntoGodsWordUser"
+msgstr "Let’s dive into God’s Word, %1$s."
+
+msgid "receiveGodsLoveToday"
+msgstr "Receive God’s love today."
+
+msgid "whenWeFeelWeakHeIsStrong"
+msgstr "When we feel weak, He is strong."
+
+msgid "godIsOurLightWhenItFeelsDark"
+msgstr "God is our light when it feels dark."
+
+msgid "prayerTransformsWorry"
+msgstr "Prayer transforms worry."
+
+msgid "godFreelyGivesHisPresenceToUs"
+msgstr "God freely gives His presence to us."
+
+msgid "jesusBringsLife"
+msgstr "Jesus brings life."
+
+msgid "thankGodForANewDay"
+msgstr "Thank God for a new day!"
+
+msgid "godCanBringYouPeace"
+msgstr "God can bring you peace."
+
+msgid "listenToGodsVoiceToday"
+msgstr "Listen to God’s voice today."
+
+msgid "godHelpsUsInTrouble"
+msgstr "God helps us in trouble."
