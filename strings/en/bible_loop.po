@@ -10,6 +10,9 @@ msgstr ""
 "X-Crowdin-SourceKey: msgstr\n"
 "X-Generator: Babel 2.0\n"
 
+msgid "pickABibleVersion"
+msgstr "Pick a Bible Version"
+
 msgid "getRemindedToSpendTimeInGodsWord"
 msgstr "Get reminded to spend time in God's Word every day."
 
