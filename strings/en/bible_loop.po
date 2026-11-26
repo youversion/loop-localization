@@ -13,6 +13,15 @@ msgstr ""
 msgid "pickABibleVersion"
 msgstr "Pick a Bible Version"
 
+msgid "seeAllVersions"
+msgstr "See All Versions"
+
+msgid "couldntLoadBibleVersions"
+msgstr "Couldn’t load Bible versions."
+
+msgid "pickABibleVersion"
+msgstr "Pick a Bible Version"
+
 msgid "getRemindedToSpendTimeInGodsWord"
 msgstr "Get reminded to spend time in God's Word every day."
 
